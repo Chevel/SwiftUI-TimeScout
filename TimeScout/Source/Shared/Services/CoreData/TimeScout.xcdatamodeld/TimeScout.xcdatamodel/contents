@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ProTimeActivity" representedClassName="ProTimeActivity" syncable="YES">
+        <attribute name="activityID" optional="YES" attributeType="String"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="durationSeconds" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="relationship" toMany="YES" deletionRule="Nullify" destinationEntity="ProTimeCategory" inverseName="relationship" inverseEntity="ProTimeCategory"/>
+    </entity>
+    <entity name="ProTimeCategory" representedClassName="ProTimeCategory" syncable="YES">
+        <attribute name="typeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProTimeActivity" inverseName="relationship" inverseEntity="ProTimeActivity"/>
+    </entity>
+    <entity name="ProTimeRunningActivity" representedClassName="ProTimeRunningActivity" syncable="YES">
+        <attribute name="creationDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="relationship" toMany="YES" deletionRule="Nullify" destinationEntity="ProTimeCategory"/>
+    </entity>
+    <entity name="TimeActivity" representedClassName="TimeActivity" syncable="YES">
+        <attribute name="activityID" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="relationship" maxCount="1" deletionRule="Nullify" destinationEntity="TimeCategory" inverseName="relationship" inverseEntity="TimeCategory"/>
+    </entity>
+    <entity name="TimeCategory" representedClassName="TimeCategory" syncable="YES">
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <relationship name="relationship" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TimeActivity" inverseName="relationship" inverseEntity="TimeActivity"/>
+    </entity>
+</model>
