@@ -3,7 +3,9 @@
 
 # TimeScout - SwiftUI
 
-An example SwiftUI project containing 2 apps.
+An example SwiftUI project containing 2 products:
+- TimeScout
+- TimeScoutLIFE
 
 ## Tech stack
 - ✅ SwiftUI
