@@ -127,13 +127,3 @@ private struct FramePreferenceKey: PreferenceKey {
         value = nextValue()
     }
 }
-
-private extension View {
-    @ViewBuilder func applyIf<T: View>(_ condition: @autoclosure () -> Bool, apply: (Self) -> T) -> some View {
-        if condition() {
-            apply(self)
-        } else {
-            self
-        }
-    }
-}
