@@ -20,7 +20,6 @@
 		D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
 		D21C74D22D0B97760004E957 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D21C74D32D0B97760004E957 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95182A01422600A7A0CE /* MainButton.swift */; };
-		D21C74D42D0B97760004E957 /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 		D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
@@ -131,7 +130,6 @@
 		D21C75582D0B97A20004E957 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
 		D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
-		D21C755B2D0B97A20004E957 /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 		D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
@@ -345,8 +343,6 @@
 		D2F6EF7A2A015AE000D7B4BE /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
 		D2F6EF7E2A0169BD00D7B4BE /* View+HideNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7D2A0169BD00D7B4BE /* View+HideNavigationView.swift */; };
-		D2F9BF532A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
-		D2F9BF542A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -443,7 +439,6 @@
 		D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionTitle.swift; sourceTree = "<group>"; };
 		D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsView.swift; sourceTree = "<group>"; };
 		D2F6EF7D2A0169BD00D7B4BE /* View+HideNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideNavigationView.swift"; sourceTree = "<group>"; };
-		D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+NumberOf.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -783,7 +778,6 @@
 			children = (
 				D2F6EF742A01513000D7B4BE /* View */,
 				D2AB94F22A011B6B00A7A0CE /* Color */,
-				D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
 				D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */,
 				D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */,
@@ -1266,7 +1260,6 @@
 				D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */,
 				D21C74D22D0B97760004E957 /* CTAButtonStyle.swift in Sources */,
 				D21C74D32D0B97760004E957 /* MainButton.swift in Sources */,
-				D21C74D42D0B97760004E957 /* Calendar+NumberOf.swift in Sources */,
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
@@ -1401,7 +1394,6 @@
 				D21C75582D0B97A20004E957 /* Tab.swift in Sources */,
 				D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */,
 				D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */,
-				D21C755B2D0B97A20004E957 /* Calendar+NumberOf.swift in Sources */,
 				D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */,
 				D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */,
 				D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */,
@@ -1488,7 +1480,6 @@
 				D235439C2A0E1880002DEF73 /* Tab.swift in Sources */,
 				D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */,
 				D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */,
-				D2F9BF542A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */,
 				D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */,
 				D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */,
 				D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */,
@@ -1526,7 +1517,6 @@
 				D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */,
 				D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */,
 				D2AB95192A01422600A7A0CE /* MainButton.swift in Sources */,
-				D2F9BF532A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */,
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
