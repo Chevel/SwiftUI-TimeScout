@@ -65,7 +65,6 @@
 		D21C74FE2D0B97760004E957 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
-		D21C75012D0B97760004E957 /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */; };
 		D21C75022D0B97760004E957 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
 		D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D21C75042D0B97760004E957 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
@@ -140,7 +139,6 @@
 		D21C755B2D0B97A20004E957 /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 		D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
-		D21C755E2D0B97A20004E957 /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */; };
 		D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D21C75602D0B97A20004E957 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
 		D21C75612D0B97A20004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
@@ -204,7 +202,6 @@
 		D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
-		D23543702A0E131C002DEF73 /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */; };
 		D23543712A0E131C002DEF73 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
 		D23543722A0E131C002DEF73 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D23543732A0E131C002DEF73 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
@@ -279,7 +276,6 @@
 		D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D2AB94E62A0114A700A7A0CE /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
-		D2AB94ED2A01167D00A7A0CE /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */; };
 		D2AB94F12A011B0A00A7A0CE /* Color+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */; };
 		D2AB94F42A011B7400A7A0CE /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */; };
 		D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
@@ -416,7 +412,6 @@
 		D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonStyle.swift; sourceTree = "<group>"; };
 		D2AB94E32A01146F00A7A0CE /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
 		D2AB94E52A0114A700A7A0CE /* Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namespace.swift; sourceTree = "<group>"; };
-		D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbols.swift"; sourceTree = "<group>"; };
 		D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pallete.swift"; sourceTree = "<group>"; };
 		D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		D2AB94F62A011CB400A7A0CE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
@@ -803,7 +798,6 @@
 			children = (
 				D2F6EF742A01513000D7B4BE /* View */,
 				D2AB94F22A011B6B00A7A0CE /* Color */,
-				D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */,
 				D2F6EF7F2A01885400D7B4BE /* CharacterSet+Locale.swift */,
 				D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */,
 				D283ECEC2A056CCF00C2718E /* Date+isToday.swift */,
@@ -1342,7 +1336,6 @@
 				D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */,
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
-				D21C75012D0B97760004E957 /* Image+SFSymbols.swift in Sources */,
 				D21C75022D0B97760004E957 /* Namespace.swift in Sources */,
 				D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */,
 				D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
@@ -1434,7 +1427,6 @@
 				D21C755B2D0B97A20004E957 /* Calendar+NumberOf.swift in Sources */,
 				D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */,
 				D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */,
-				D21C755E2D0B97A20004E957 /* Image+SFSymbols.swift in Sources */,
 				D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */,
 				D21C75602D0B97A20004E957 /* Namespace.swift in Sources */,
 				D21C75612D0B97A20004E957 /* ProHomeView.swift in Sources */,
@@ -1525,7 +1517,6 @@
 				D2F9BF542A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */,
 				D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */,
 				D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */,
-				D23543702A0E131C002DEF73 /* Image+SFSymbols.swift in Sources */,
 				D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */,
 				D23543712A0E131C002DEF73 /* Namespace.swift in Sources */,
 				D23543BB2A0E23F2002DEF73 /* ProHomeView.swift in Sources */,
@@ -1614,7 +1605,6 @@
 				D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08AF2A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
-				D2AB94ED2A01167D00A7A0CE /* Image+SFSymbols.swift in Sources */,
 				D2AB94E62A0114A700A7A0CE /* Namespace.swift in Sources */,
 				D2467E7E2A096347002B5572 /* ClearNavigationLinkStyle.swift in Sources */,
 				D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
