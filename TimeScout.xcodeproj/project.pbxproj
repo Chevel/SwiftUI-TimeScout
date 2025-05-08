@@ -59,7 +59,6 @@
 		D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
-		D21C74FA2D0B97760004E957 /* NSLocalized+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95152A013A0300A7A0CE /* NSLocalized+Extension.swift */; };
 		D21C74FB2D0B97760004E957 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C695C2A14BBCE00358EDD /* TimePicker.swift */; };
 		D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
@@ -132,7 +131,6 @@
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75512D0B97A20004E957 /* View+TextFieldPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF722A0150C600D7B4BE /* View+TextFieldPlaceholder.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
-		D21C75532D0B97A20004E957 /* NSLocalized+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95152A013A0300A7A0CE /* NSLocalized+Extension.swift */; };
 		D21C75542D0B97A20004E957 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D21C75552D0B97A20004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */; };
 		D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */; };
@@ -204,7 +202,6 @@
 		D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D23543692A0E131C002DEF73 /* View+TextFieldPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF722A0150C600D7B4BE /* View+TextFieldPlaceholder.swift */; };
 		D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
-		D235436B2A0E131C002DEF73 /* NSLocalized+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95152A013A0300A7A0CE /* NSLocalized+Extension.swift */; };
 		D235436C2A0E131C002DEF73 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
@@ -246,6 +243,8 @@
 		D25998962D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
 		D25998972D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
 		D25998982D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
+		D25B58542DCCB42900976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58532DCCB42900976E21 /* TimeScoutCore */; };
+		D25B58562DCCB42F00976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58552DCCB42F00976E21 /* TimeScoutCore */; };
 		D26E08A92A0EA77F0097608D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
 		D26E08AA2A0EA77F0097608D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
 		D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
@@ -296,7 +295,6 @@
 		D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D2AB950E2A01368000A7A0CE /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
-		D2AB95162A013A0300A7A0CE /* NSLocalized+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95152A013A0300A7A0CE /* NSLocalized+Extension.swift */; };
 		D2AB95192A01422600A7A0CE /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95182A01422600A7A0CE /* MainButton.swift */; };
 		D2AB951B2A01423000A7A0CE /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */; };
 		D2C12A8F2D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */; };
@@ -435,7 +433,6 @@
 		D2AB95082A0131A700A7A0CE /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityTextFieldStyle.swift; sourceTree = "<group>"; };
-		D2AB95152A013A0300A7A0CE /* NSLocalized+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLocalized+Extension.swift"; sourceTree = "<group>"; };
 		D2AB95182A01422600A7A0CE /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
 		D2C12A892D22C2790093FB3F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -479,6 +476,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25B58542DCCB42900976E21 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +484,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25B58562DCCB42F00976E21 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,7 +810,6 @@
 				D2AB94F22A011B6B00A7A0CE /* Color */,
 				D2AB94E12A01141000A7A0CE /* Font+Pallete.swift */,
 				D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */,
-				D2AB95152A013A0300A7A0CE /* NSLocalized+Extension.swift */,
 				D2F6EF7F2A01885400D7B4BE /* CharacterSet+Locale.swift */,
 				D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */,
 				D283ECEC2A056CCF00C2718E /* Date+isToday.swift */,
@@ -1109,6 +1107,7 @@
 			);
 			name = "TimeScout-DEV";
 			packageProductDependencies = (
+				D25B58532DCCB42900976E21 /* TimeScoutCore */,
 			);
 			productName = TimeScout;
 			productReference = D21C751A2D0B97760004E957 /* TimeScout-DEV.app */;
@@ -1128,6 +1127,7 @@
 			);
 			name = "TimeScoutPro-DEV";
 			packageProductDependencies = (
+				D25B58552DCCB42F00976E21 /* TimeScoutCore */,
 			);
 			productName = TimeScout;
 			productReference = D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */;
@@ -1340,7 +1340,6 @@
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D2C12A922D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
-				D21C74FA2D0B97760004E957 /* NSLocalized+Extension.swift in Sources */,
 				D25998952D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D21C74FB2D0B97760004E957 /* TimePicker.swift in Sources */,
 				D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */,
@@ -1431,7 +1430,6 @@
 				D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */,
 				D21C75512D0B97A20004E957 /* View+TextFieldPlaceholder.swift in Sources */,
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
-				D21C75532D0B97A20004E957 /* NSLocalized+Extension.swift in Sources */,
 				D21C75542D0B97A20004E957 /* ShareView.swift in Sources */,
 				D21C75552D0B97A20004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
@@ -1524,7 +1522,6 @@
 				D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */,
 				D23543692A0E131C002DEF73 /* View+TextFieldPlaceholder.swift in Sources */,
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
-				D235436B2A0E131C002DEF73 /* NSLocalized+Extension.swift in Sources */,
 				D235436C2A0E131C002DEF73 /* ShareView.swift in Sources */,
 				D26E08D62A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D26E08D82A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
@@ -1618,7 +1615,6 @@
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D2C12A8F2D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
-				D2AB95162A013A0300A7A0CE /* NSLocalized+Extension.swift in Sources */,
 				D25998982D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D29C695D2A14BBCE00358EDD /* TimePicker.swift in Sources */,
 				D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */,
@@ -2161,6 +2157,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D25B58532DCCB42900976E21 /* TimeScoutCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutCore;
+		};
+		D25B58552DCCB42F00976E21 /* TimeScoutCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */ = {
