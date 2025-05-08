@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-extension View {
+public extension View {
 
     func placeholder<Content: View>(
         when shouldShow: Bool,
@@ -20,5 +20,4 @@ extension View {
             self
         }
     }
-
 }

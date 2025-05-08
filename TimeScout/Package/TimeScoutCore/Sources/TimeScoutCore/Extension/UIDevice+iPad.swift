@@ -6,9 +6,9 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import UIKit
+import UIKit.UIDevice
 
-extension UIDevice {
+public extension UIDevice {
 
     var isIpad: Bool {
         userInterfaceIdiom == .pad
