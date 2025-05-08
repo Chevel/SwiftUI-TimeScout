@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutUI
 
 enum ProCategory: Int, CaseIterable {
 

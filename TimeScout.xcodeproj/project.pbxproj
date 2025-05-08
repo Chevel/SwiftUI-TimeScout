@@ -35,10 +35,8 @@
 		D21C74E42D0B97760004E957 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
 		D21C74E52D0B97760004E957 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D21C74E72D0B97760004E957 /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */; };
 		D21C74E82D0B97760004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
 		D21C74E92D0B97760004E957 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
-		D21C74EA2D0B97760004E957 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */; };
 		D21C74EB2D0B97760004E957 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
 		D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
@@ -62,7 +60,6 @@
 		D21C75022D0B97760004E957 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
 		D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D21C75042D0B97760004E957 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
-		D21C75052D0B97760004E957 /* Color+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */; };
 		D21C75082D0B97760004E957 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
 		D21C750B2D0B97760004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */; };
@@ -100,9 +97,7 @@
 		D21C753F2D0B97A20004E957 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
 		D21C75402D0B97A20004E957 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D21C75422D0B97A20004E957 /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */; };
 		D21C75432D0B97A20004E957 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
-		D21C75442D0B97A20004E957 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */; };
 		D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
@@ -131,7 +126,6 @@
 		D21C75622D0B97A20004E957 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D21C75632D0B97A20004E957 /* ProCategoryGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08BB2A0ECC0B0097608D /* ProCategoryGridItemView.swift */; };
 		D21C75642D0B97A20004E957 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
-		D21C75652D0B97A20004E957 /* Color+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */; };
 		D21C75662D0B97A20004E957 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69582A13FCEF00358EDD /* Presentable.swift */; };
 		D21C75692D0B97A20004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D21C756B2D0B97A20004E957 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
@@ -169,9 +163,7 @@
 		D235435F2A0E131C002DEF73 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
 		D23543602A0E131C002DEF73 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D23543622A0E131C002DEF73 /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */; };
 		D23543632A0E131C002DEF73 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
-		D23543642A0E131C002DEF73 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */; };
 		D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
 		D23543672A0E131C002DEF73 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
@@ -184,7 +176,6 @@
 		D23543712A0E131C002DEF73 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
 		D23543722A0E131C002DEF73 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D23543732A0E131C002DEF73 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
-		D23543742A0E131C002DEF73 /* Color+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */; };
 		D23543782A0E131C002DEF73 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D23543792A0E131C002DEF73 /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D235437D2A0E131C002DEF73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
@@ -205,8 +196,9 @@
 		D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
 		D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
+		D23870132DCCDF430050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870122DCCDF430050DEF4 /* TimeScoutUI */; };
+		D23870152DCCDF480050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870142DCCDF480050DEF4 /* TimeScoutUI */; };
 		D2467E7E2A096347002B5572 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
-		D2510FE02A0553D100ECEFAD /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */; };
 		D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
@@ -252,8 +244,6 @@
 		D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D2AB94E62A0114A700A7A0CE /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E52A0114A700A7A0CE /* Namespace.swift */; };
-		D2AB94F12A011B0A00A7A0CE /* Color+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */; };
-		D2AB94F42A011B7400A7A0CE /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */; };
 		D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
@@ -344,8 +334,8 @@
 		D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProHomeView.swift; sourceTree = "<group>"; };
 		D237B5832A128B160032BA02 /* ProTimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineRow.swift; sourceTree = "<group>"; };
 		D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeActivity+Relationship.swift"; sourceTree = "<group>"; };
+		D23870112DCCDF210050DEF4 /* TimeScoutUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutUI; sourceTree = "<group>"; };
 		D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearNavigationLinkStyle.swift; sourceTree = "<group>"; };
-		D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UIColor.swift"; sourceTree = "<group>"; };
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
 		D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsSectionView.swift; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
@@ -370,8 +360,6 @@
 		D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonStyle.swift; sourceTree = "<group>"; };
 		D2AB94E32A01146F00A7A0CE /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
 		D2AB94E52A0114A700A7A0CE /* Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namespace.swift; sourceTree = "<group>"; };
-		D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pallete.swift"; sourceTree = "<group>"; };
-		D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		D2AB94F62A011CB400A7A0CE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		D2AB94FA2A011DE400A7A0CE /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
@@ -416,6 +404,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23870132DCCDF430050DEF4 /* TimeScoutUI in Frameworks */,
 				D25B58542DCCB42900976E21 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +413,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23870152DCCDF480050DEF4 /* TimeScoutUI in Frameworks */,
 				D25B58562DCCB42F00976E21 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -697,6 +687,7 @@
 		D26F27B22DCCB02000C31B4B /* Package */ = {
 			isa = PBXGroup;
 			children = (
+				D23870112DCCDF210050DEF4 /* TimeScoutUI */,
 				D26F27B32DCCB06E00C31B4B /* TimeScoutCore */,
 			);
 			path = Package;
@@ -746,7 +737,6 @@
 		D2AB94E02A0113FC00A7A0CE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D2AB94F22A011B6B00A7A0CE /* Color */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
 			);
 			path = Extensions;
@@ -760,16 +750,6 @@
 				D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */,
 			);
 			path = Configuration;
-			sourceTree = "<group>";
-		};
-		D2AB94F22A011B6B00A7A0CE /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB94F02A011B0A00A7A0CE /* Color+Pallete.swift */,
-				D2AB94F32A011B7400A7A0CE /* Color+Hex.swift */,
-				D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */,
-			);
-			path = Color;
 			sourceTree = "<group>";
 		};
 		D2AB94F52A011CAB00A7A0CE /* System */ = {
@@ -1028,6 +1008,7 @@
 			name = "TimeScout-DEV";
 			packageProductDependencies = (
 				D25B58532DCCB42900976E21 /* TimeScoutCore */,
+				D23870122DCCDF430050DEF4 /* TimeScoutUI */,
 			);
 			productName = TimeScout;
 			productReference = D21C751A2D0B97760004E957 /* TimeScout-DEV.app */;
@@ -1048,6 +1029,7 @@
 			name = "TimeScoutPro-DEV";
 			packageProductDependencies = (
 				D25B58552DCCB42F00976E21 /* TimeScoutCore */,
+				D23870142DCCDF480050DEF4 /* TimeScoutUI */,
 			);
 			productName = TimeScout;
 			productReference = D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */;
@@ -1234,10 +1216,8 @@
 				D21C74E52D0B97760004E957 /* CTAButton.swift in Sources */,
 				D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
-				D21C74E72D0B97760004E957 /* Color+UIColor.swift in Sources */,
 				D21C74E82D0B97760004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D21C74E92D0B97760004E957 /* HorizontalSeparator.swift in Sources */,
-				D21C74EA2D0B97760004E957 /* Color+Hex.swift in Sources */,
 				D21C74EB2D0B97760004E957 /* AddActivityTextFieldStyle.swift in Sources */,
 				D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */,
 				D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */,
@@ -1265,7 +1245,6 @@
 				D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */,
 				D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D21C75042D0B97760004E957 /* TimeCategory+CoreDataProperties.swift in Sources */,
-				D21C75052D0B97760004E957 /* Color+Pallete.swift in Sources */,
 				D21C75082D0B97760004E957 /* NavigationBarView.swift in Sources */,
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
 				D21C750B2D0B97760004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
@@ -1315,9 +1294,7 @@
 				D21C753F2D0B97A20004E957 /* TimeActivity+CoreDataProperties.swift in Sources */,
 				D21C75402D0B97A20004E957 /* CTAButton.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
-				D21C75422D0B97A20004E957 /* Color+UIColor.swift in Sources */,
 				D21C75432D0B97A20004E957 /* HorizontalSeparator.swift in Sources */,
-				D21C75442D0B97A20004E957 /* Color+Hex.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */,
 				D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */,
@@ -1348,7 +1325,6 @@
 				D21C75632D0B97A20004E957 /* ProCategoryGridItemView.swift in Sources */,
 				D2C12A972D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D21C75642D0B97A20004E957 /* TimeCategory+CoreDataProperties.swift in Sources */,
-				D21C75652D0B97A20004E957 /* Color+Pallete.swift in Sources */,
 				D21C75662D0B97A20004E957 /* Presentable.swift in Sources */,
 				D21C75692D0B97A20004E957 /* ListView.swift in Sources */,
 				D21C756B2D0B97A20004E957 /* AddActivityView.swift in Sources */,
@@ -1395,9 +1371,7 @@
 				D235435F2A0E131C002DEF73 /* TimeActivity+CoreDataProperties.swift in Sources */,
 				D23543602A0E131C002DEF73 /* CTAButton.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
-				D23543622A0E131C002DEF73 /* Color+UIColor.swift in Sources */,
 				D23543632A0E131C002DEF73 /* HorizontalSeparator.swift in Sources */,
-				D23543642A0E131C002DEF73 /* Color+Hex.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */,
 				D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
@@ -1428,7 +1402,6 @@
 				D26E08BD2A0ECC0B0097608D /* ProCategoryGridItemView.swift in Sources */,
 				D2C12A962D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D23543732A0E131C002DEF73 /* TimeCategory+CoreDataProperties.swift in Sources */,
-				D23543742A0E131C002DEF73 /* Color+Pallete.swift in Sources */,
 				D29C695A2A13FCEF00358EDD /* Presentable.swift in Sources */,
 				D26E08AC2A0EBE6E0097608D /* ListView.swift in Sources */,
 				D23543782A0E131C002DEF73 /* AddActivityView.swift in Sources */,
@@ -1473,10 +1446,8 @@
 				D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */,
 				D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
-				D2510FE02A0553D100ECEFAD /* Color+UIColor.swift in Sources */,
 				D26E08C92A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D21EDD4A2A0300E700E4C54F /* HorizontalSeparator.swift in Sources */,
-				D2AB94F42A011B7400A7A0CE /* Color+Hex.swift in Sources */,
 				D2AB950E2A01368000A7A0CE /* AddActivityTextFieldStyle.swift in Sources */,
 				D26E08B52A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
 				D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */,
@@ -1504,7 +1475,6 @@
 				D2467E7E2A096347002B5572 /* ClearNavigationLinkStyle.swift in Sources */,
 				D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D283ECF52A0596C600C2718E /* TimeCategory+CoreDataProperties.swift in Sources */,
-				D2AB94F12A011B0A00A7A0CE /* Color+Pallete.swift in Sources */,
 				D23543AE2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */,
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
 				D26E08D52A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
@@ -2031,6 +2001,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D23870122DCCDF430050DEF4 /* TimeScoutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutUI;
+		};
+		D23870142DCCDF480050DEF4 /* TimeScoutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutUI;
+		};
 		D25B58532DCCB42900976E21 /* TimeScoutCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TimeScoutCore;
