@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D21C74C42D0B97760004E957 /* ProTimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C42A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift */; };
-		D21C74C52D0B97760004E957 /* Date+isToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECEC2A056CCF00C2718E /* Date+isToday.swift */; };
 		D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D21C74C72D0B97760004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C22A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift */; };
 		D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
@@ -78,7 +77,6 @@
 		D21C750F2D0B97760004E957 /* ProCategoryGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08BB2A0ECC0B0097608D /* ProCategoryGridItemView.swift */; };
 		D21C75132D0B97760004E957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
 		D21C75152D0B97760004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
-		D21C75202D0B97A20004E957 /* Date+isToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECEC2A056CCF00C2718E /* Date+isToday.swift */; };
 		D21C75212D0B97A20004E957 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D21C75222D0B97A20004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
@@ -167,7 +165,6 @@
 		D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D231AB0B2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
-		D235434D2A0E131C002DEF73 /* Date+isToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECEC2A056CCF00C2718E /* Date+isToday.swift */; };
 		D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D23543502A0E131C002DEF73 /* View+EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF752A01513800D7B4BE /* View+EndEditing.swift */; };
 		D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
@@ -257,7 +254,6 @@
 		D26E08D62A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */; };
 		D26E08D72A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */; };
 		D26E08D82A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */; };
-		D283ECED2A056CCF00C2718E /* Date+isToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECEC2A056CCF00C2718E /* Date+isToday.swift */; };
 		D283ECF52A0596C600C2718E /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
 		D294729D2A0427D5008A8602 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
@@ -394,7 +390,6 @@
 		D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeRunningActivity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeRunningActivity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D26F27B32DCCB06E00C31B4B /* TimeScoutCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutCore; sourceTree = "<group>"; };
-		D283ECEC2A056CCF00C2718E /* Date+isToday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+isToday.swift"; sourceTree = "<group>"; };
 		D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D294729C2A0427D5008A8602 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D29C69552A13EF5800358EDD /* ProActivityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityDetails.swift; sourceTree = "<group>"; };
@@ -788,7 +783,6 @@
 			children = (
 				D2F6EF742A01513000D7B4BE /* View */,
 				D2AB94F22A011B6B00A7A0CE /* Color */,
-				D283ECEC2A056CCF00C2718E /* Date+isToday.swift */,
 				D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
 				D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */,
@@ -1258,7 +1252,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21C74C42D0B97760004E957 /* ProTimeCategory+CoreDataProperties.swift in Sources */,
-				D21C74C52D0B97760004E957 /* Date+isToday.swift in Sources */,
 				D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */,
 				D21C74C72D0B97760004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */,
@@ -1344,7 +1337,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21C75202D0B97A20004E957 /* Date+isToday.swift in Sources */,
 				D2C12AA52D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D2C12AA62D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
@@ -1432,7 +1424,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D235434D2A0E131C002DEF73 /* Date+isToday.swift in Sources */,
 				D2C12AA22D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D2C12AA32D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D2C12AA42D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
@@ -1521,7 +1512,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26E08CB2A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift in Sources */,
-				D283ECED2A056CCF00C2718E /* Date+isToday.swift in Sources */,
 				D2F6EF7A2A015AE000D7B4BE /* ListSectionTitle.swift in Sources */,
 				D26E08C72A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */,
