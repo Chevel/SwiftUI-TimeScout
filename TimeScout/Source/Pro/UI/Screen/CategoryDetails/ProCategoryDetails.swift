@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutCore
 
 struct ProCategoryDetails: View {
     

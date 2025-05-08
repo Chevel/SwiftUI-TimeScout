@@ -25,7 +25,7 @@
 		D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
 		D21C74D92D0B97760004E957 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95062A012EE600A7A0CE /* AddButton.swift */; };
 		D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
-		D21C74DB2D0B97760004E957 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
+		D21C74DB2D0B97760004E957 /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
 		D21C74DE2D0B97760004E957 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D21C74DF2D0B97760004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
@@ -107,7 +107,7 @@
 		D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C22A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift */; };
 		D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
 		D21C754D2D0B97A20004E957 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
-		D21C754E2D0B97A20004E957 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
+		D21C754E2D0B97A20004E957 /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
@@ -208,8 +208,8 @@
 		D25998982D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
 		D25B58542DCCB42900976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58532DCCB42900976E21 /* TimeScoutCore */; };
 		D25B58562DCCB42F00976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58552DCCB42F00976E21 /* TimeScoutCore */; };
-		D26E08A92A0EA77F0097608D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
-		D26E08AA2A0EA77F0097608D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
+		D26E08A92A0EA77F0097608D /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
+		D26E08AA2A0EA77F0097608D /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D26E08AC2A0EBE6E0097608D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
@@ -340,7 +340,7 @@
 		D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsSectionView.swift; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
 		D25998942D23FF5F00559E93 /* UpsellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsellButton.swift; sourceTree = "<group>"; };
-		D26E08A82A0EA77F0097608D /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		D26E08A82A0EA77F0097608D /* Time+Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+Calculations.swift"; sourceTree = "<group>"; };
 		D26E08AE2A0EC0010097608D /* ProAddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAddActivity.swift; sourceTree = "<group>"; };
 		D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryChart.swift; sourceTree = "<group>"; };
 		D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryGrid.swift; sourceTree = "<group>"; };
@@ -679,7 +679,7 @@
 		D26E08BA2A0EC4020097608D /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				D26E08A82A0EA77F0097608D /* Time.swift */,
+				D26E08A82A0EA77F0097608D /* Time+Calculations.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -1203,7 +1203,7 @@
 				D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */,
 				D21C74D92D0B97760004E957 /* AddButton.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
-				D21C74DB2D0B97760004E957 /* Time.swift in Sources */,
+				D21C74DB2D0B97760004E957 /* Time+Calculations.swift in Sources */,
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */,
@@ -1305,7 +1305,7 @@
 				D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */,
 				D21C754D2D0B97A20004E957 /* CloseButton.swift in Sources */,
-				D21C754E2D0B97A20004E957 /* Time.swift in Sources */,
+				D21C754E2D0B97A20004E957 /* Time+Calculations.swift in Sources */,
 				D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */,
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
@@ -1382,7 +1382,7 @@
 				D26E08C82A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */,
 				D23543672A0E131C002DEF73 /* CloseButton.swift in Sources */,
-				D26E08AA2A0EA77F0097608D /* Time.swift in Sources */,
+				D26E08AA2A0EA77F0097608D /* Time+Calculations.swift in Sources */,
 				D26E08CA2A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */,
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
@@ -1433,7 +1433,7 @@
 				D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
 				D2AB95072A012EE600A7A0CE /* AddButton.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
-				D26E08A92A0EA77F0097608D /* Time.swift in Sources */,
+				D26E08A92A0EA77F0097608D /* Time+Calculations.swift in Sources */,
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21EDD3B2A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift in Sources */,

@@ -6,8 +6,9 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import SwiftUI
 import Charts
+import SwiftUI
+import TimeScoutCore
 
 struct ProCategoryChart: View {
 
