@@ -359,10 +359,6 @@
 		D2C43F4B2A010DBB005CC925 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D2EEB3652A154A9A003126FC /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB3642A154A9A003126FC /* View+CornerRadius.swift */; };
 		D2EEB3662A154A9A003126FC /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB3642A154A9A003126FC /* View+CornerRadius.swift */; };
-		D2F43FCC2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC82DA9D05F00F9ABD9 /* TimeScout-Info.plist */; };
-		D2F43FCE2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC82DA9D05F00F9ABD9 /* TimeScout-Info.plist */; };
-		D2F43FCF2DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC92DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist */; };
-		D2F43FD12DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC92DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist */; };
 		D2F6EF712A01507F00D7B4BE /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D2F6EF732A0150C600D7B4BE /* View+TextFieldPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF722A0150C600D7B4BE /* View+TextFieldPlaceholder.swift */; };
 		D2F6EF762A01513800D7B4BE /* View+EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF752A01513800D7B4BE /* View+EndEditing.swift */; };
@@ -1226,7 +1222,6 @@
 			files = (
 				D21C75132D0B97760004E957 /* Preview Assets.xcassets in Resources */,
 				D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */,
-				D2F43FCC2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */,
 				D2C12AD92D2358EB0093FB3F /* BasicAssets.xcassets in Resources */,
 				D2C12ACF2D2358A50093FB3F /* Assets.xcassets in Resources */,
 				D21C75152D0B97760004E957 /* Launch Screen.storyboard in Resources */,
@@ -1239,7 +1234,6 @@
 			files = (
 				D2C12AD22D2358C00093FB3F /* ProAssets.xcassets in Resources */,
 				D21C75702D0B97A20004E957 /* Preview Assets.xcassets in Resources */,
-				D2F43FCF2DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */,
 				D2C12ABA2D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2C12ACD2D2358490093FB3F /* Assets.xcassets in Resources */,
 				D21C75722D0B97A20004E957 /* Launch Screen.storyboard in Resources */,
@@ -1252,7 +1246,6 @@
 			files = (
 				D2C12AD32D2358C00093FB3F /* ProAssets.xcassets in Resources */,
 				D235437D2A0E131C002DEF73 /* Preview Assets.xcassets in Resources */,
-				D2F43FD12DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */,
 				D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2C12ACC2D2358490093FB3F /* Assets.xcassets in Resources */,
 				D235437F2A0E131C002DEF73 /* Launch Screen.storyboard in Resources */,
@@ -1265,7 +1258,6 @@
 			files = (
 				D2C43F352A010403005CC925 /* Preview Assets.xcassets in Resources */,
 				D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */,
-				D2F43FCE2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */,
 				D2C12AD72D2358EB0093FB3F /* BasicAssets.xcassets in Resources */,
 				D2C12ACE2D2358A50093FB3F /* Assets.xcassets in Resources */,
 				D294729D2A0427D5008A8602 /* Launch Screen.storyboard in Resources */,
