@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension DateFormatter {
+public extension DateFormatter {
 
     /// 3:00:12 PM
     static let timeOnlyDateFormatter: DateFormatter = {
@@ -25,6 +25,4 @@ extension DateFormatter {
         formatter.dateFormat = "EEEE, MMM dd, YYYY"
         return formatter
     }()
-
 }
-

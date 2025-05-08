@@ -15,7 +15,6 @@
 		D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
 		D21C74CA2D0B97760004E957 /* View+EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF752A01513800D7B4BE /* View+EndEditing.swift */; };
 		D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
-		D21C74CC2D0B97760004E957 /* DateFormatter+ActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */; };
 		D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C74CE2D0B97760004E957 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */; };
 		D21C74CF2D0B97760004E957 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
@@ -85,7 +84,6 @@
 		D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D21C75242D0B97A20004E957 /* View+EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF752A01513800D7B4BE /* View+EndEditing.swift */; };
 		D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
-		D21C75262D0B97A20004E957 /* DateFormatter+ActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */; };
 		D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
@@ -154,7 +152,6 @@
 		D21C75722D0B97A20004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D21EDD3B2A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
 		D21EDD3D2A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
-		D21EDD482A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */; };
 		D21EDD4A2A0300E700E4C54F /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
 		D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
@@ -173,7 +170,6 @@
 		D235434D2A0E131C002DEF73 /* Date+isToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECEC2A056CCF00C2718E /* Date+isToday.swift */; };
 		D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D23543502A0E131C002DEF73 /* View+EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF752A01513800D7B4BE /* View+EndEditing.swift */; };
-		D23543512A0E131C002DEF73 /* DateFormatter+ActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */; };
 		D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D23543532A0E131C002DEF73 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */; };
 		D23543542A0E131C002DEF73 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
@@ -362,7 +358,6 @@
 		D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeScoutPro-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeActivity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+ActivityDetails.swift"; sourceTree = "<group>"; };
 		D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSeparator.swift; sourceTree = "<group>"; };
 		D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategory.swift; sourceTree = "<group>"; };
 		D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityCard.swift; sourceTree = "<group>"; };
@@ -793,7 +788,6 @@
 			children = (
 				D2F6EF742A01513000D7B4BE /* View */,
 				D2AB94F22A011B6B00A7A0CE /* Color */,
-				D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */,
 				D283ECEC2A056CCF00C2718E /* Date+isToday.swift */,
 				D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
@@ -1271,7 +1265,6 @@
 				D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */,
 				D21C74CA2D0B97760004E957 /* View+EndEditing.swift in Sources */,
 				D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */,
-				D21C74CC2D0B97760004E957 /* DateFormatter+ActivityDetails.swift in Sources */,
 				D2C12AB42D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */,
 				D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */,
@@ -1360,7 +1353,6 @@
 				D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */,
 				D21C75242D0B97A20004E957 /* View+EndEditing.swift in Sources */,
 				D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */,
-				D21C75262D0B97A20004E957 /* DateFormatter+ActivityDetails.swift in Sources */,
 				D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
 				D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */,
@@ -1449,7 +1441,6 @@
 				D235439A2A0E1880002DEF73 /* TabBarButtonType.swift in Sources */,
 				D23543502A0E131C002DEF73 /* View+EndEditing.swift in Sources */,
 				D26E08B62A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
-				D23543512A0E131C002DEF73 /* DateFormatter+ActivityDetails.swift in Sources */,
 				D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
 				D224AEAA2A0EA19E0024B6D3 /* ProCategory.swift in Sources */,
@@ -1537,7 +1528,6 @@
 				D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */,
 				D2F6EF762A01513800D7B4BE /* View+EndEditing.swift in Sources */,
 				D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */,
-				D21EDD482A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift in Sources */,
 				D2C12AB32D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */,
 				D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */,
