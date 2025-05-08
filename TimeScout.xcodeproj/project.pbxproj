@@ -276,10 +276,6 @@
 		D2AB950E2A01368000A7A0CE /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D2AB95192A01422600A7A0CE /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95182A01422600A7A0CE /* MainButton.swift */; };
 		D2AB951B2A01423000A7A0CE /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */; };
-		D2C12A8F2D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */; };
-		D2C12A902D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */; };
-		D2C12A912D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */; };
-		D2C12A922D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */; };
 		D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A962D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A972D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
@@ -408,7 +404,6 @@
 		D2AB95182A01422600A7A0CE /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
 		D2C12A892D22C2790093FB3F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+iPad.swift"; sourceTree = "<group>"; };
 		D2C12A942D232E1E0093FB3F /* ProContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProContentView.swift; sourceTree = "<group>"; };
 		D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView_iOS.swift; sourceTree = "<group>"; };
 		D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page_iOS.swift; sourceTree = "<group>"; };
@@ -779,7 +774,6 @@
 				D2F6EF742A01513000D7B4BE /* View */,
 				D2AB94F22A011B6B00A7A0CE /* Color */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
-				D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */,
 				D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */,
 			);
 			path = Extensions;
@@ -1299,7 +1293,6 @@
 				D21C74F62D0B97760004E957 /* ProCategory.swift in Sources */,
 				D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
-				D2C12A922D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
 				D25998952D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D21C74FB2D0B97760004E957 /* TimePicker.swift in Sources */,
@@ -1376,7 +1369,6 @@
 				D2C12AB22D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D21C75482D0B97A20004E957 /* ProActivityDetails.swift in Sources */,
 				D21C75492D0B97A20004E957 /* TimePicker.swift in Sources */,
-				D2C12A902D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */,
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
 				D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */,
@@ -1462,7 +1454,6 @@
 				D2C12AB52D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D29C69572A13EF8B00358EDD /* ProActivityDetails.swift in Sources */,
 				D29C695E2A14BBCF00358EDD /* TimePicker.swift in Sources */,
-				D2C12A912D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */,
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
 				D26E08C82A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */,
@@ -1556,7 +1547,6 @@
 				D224AEA92A0EA19E0024B6D3 /* ProCategory.swift in Sources */,
 				D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */,
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
-				D2C12A8F2D22C41B0093FB3F /* UIDevice+iPad.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D25998982D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D29C695D2A14BBCE00358EDD /* TimePicker.swift in Sources */,
