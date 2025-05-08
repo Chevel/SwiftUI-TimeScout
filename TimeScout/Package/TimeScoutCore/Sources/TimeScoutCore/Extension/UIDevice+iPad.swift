@@ -6,7 +6,7 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import UIKit
+import UIKit.UIDevice
 
 public extension UIDevice {
 
