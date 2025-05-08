@@ -412,6 +412,7 @@
 		D26E08C42A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeRunningActivity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeRunningActivity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D26F27B32DCCB06E00C31B4B /* TimeScoutCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutCore; sourceTree = "<group>"; };
 		D283ECEC2A056CCF00C2718E /* Date+isToday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+isToday.swift"; sourceTree = "<group>"; };
 		D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D294729C2A0427D5008A8602 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -754,6 +755,14 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		D26F27B22DCCB02000C31B4B /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				D26F27B32DCCB06E00C31B4B /* TimeScoutCore */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
 		D294729B2A0427C9008A8602 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -955,6 +964,7 @@
 		D2C43F2C2A010402005CC925 /* TimeScout */ = {
 			isa = PBXGroup;
 			children = (
+				D26F27B22DCCB02000C31B4B /* Package */,
 				D2F43FCA2DA9D05F00F9ABD9 /* Configuration */,
 				D2C43F492A010699005CC925 /* Resources */,
 				D2C43F402A0105FA005CC925 /* Source */,
