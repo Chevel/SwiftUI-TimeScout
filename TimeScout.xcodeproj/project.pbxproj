@@ -290,10 +290,6 @@
 		D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
 		D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AAC2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */; };
-		D2C12AAD2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */; };
-		D2C12AAE2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */; };
-		D2C12AAF2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */; };
 		D2C12AB22D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
 		D2C12AB32D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
 		D2C12AB42D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
@@ -410,7 +406,6 @@
 		D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page.Data_iOS.swift; sourceTree = "<group>"; };
 		D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_iOS.swift; sourceTree = "<group>"; };
 		D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
-		D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Key.swift"; sourceTree = "<group>"; };
 		D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigActionButtonStyle.swift; sourceTree = "<group>"; };
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
@@ -774,7 +769,6 @@
 				D2F6EF742A01513000D7B4BE /* View */,
 				D2AB94F22A011B6B00A7A0CE /* Color */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
-				D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1312,7 +1306,6 @@
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
 				D21C750B2D0B97760004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */,
-				D2C12AAE2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */,
 				D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */,
 				D21C750E2D0B97760004E957 /* CategoryDetailsRowView.swift in Sources */,
 				D21C750F2D0B97760004E957 /* ProCategoryGridItemView.swift in Sources */,
@@ -1382,7 +1375,6 @@
 				D21C75552D0B97A20004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D21C75572D0B97A20004E957 /* SearchField.swift in Sources */,
-				D2C12AAD2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */,
 				D21C75582D0B97A20004E957 /* Tab.swift in Sources */,
 				D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */,
 				D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */,
@@ -1467,7 +1459,6 @@
 				D26E08D62A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D26E08D82A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */,
-				D2C12AAC2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */,
 				D235439C2A0E1880002DEF73 /* Tab.swift in Sources */,
 				D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */,
 				D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */,
@@ -1566,7 +1557,6 @@
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
 				D26E08D52A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */,
-				D2C12AAF2D232FA30093FB3F /* UserDefaults+Key.swift in Sources */,
 				D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */,
 				D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */,
 				D26E08BC2A0ECC0B0097608D /* ProCategoryGridItemView.swift in Sources */,

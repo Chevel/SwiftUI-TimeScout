@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UserDefaults {
+public extension UserDefaults {
     
     enum TimeScoutProKey: String {
         case workspace
