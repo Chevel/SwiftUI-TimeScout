@@ -29,17 +29,31 @@ struct ProMainView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                contentView
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("TIMESCOUTPRO")
-                                .font(Font.Pallete.headerDetails)
-                                .foregroundStyle(Color.Pallete.Foreground.primary)
+                if #available(iOS 17.0, *) {
+                    contentView
+                        .toolbar {
+                            ToolbarItem(placement: .principal) {
+                                Text("TIMESCOUTPRO")
+                                    .font(Font.Pallete.headerDetails)
+                                    .foregroundStyle(Color.Pallete.Foreground.primary)
+                            }
                         }
-                    }
-                    .toolbarBackground(Color.Pallete.primary, for: .navigationBar)
-                    .toolbarBackground(.visible, for: .navigationBar)
-                    .toolbarTitleDisplayMode(.inline)
+                        .toolbarBackground(Color.Pallete.primary, for: .navigationBar)
+                        .toolbarBackground(.visible, for: .navigationBar)
+                        .toolbarTitleDisplayMode(.inline)
+                } else {
+                    // No toolbarTitleDisplayMode(.inline)
+                    contentView
+                        .toolbar {
+                            ToolbarItem(placement: .principal) {
+                                Text("TIMESCOUTPRO")
+                                    .font(Font.Pallete.headerDetails)
+                                    .foregroundStyle(Color.Pallete.Foreground.primary)
+                            }
+                        }
+                        .toolbarBackground(Color.Pallete.primary, for: .navigationBar)
+                        .toolbarBackground(.visible, for: .navigationBar)
+                }
                 VStack {
                     Spacer()
                     TabBarView() {
