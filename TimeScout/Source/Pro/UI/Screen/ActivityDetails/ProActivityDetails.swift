@@ -7,18 +7,19 @@
 //
 
 import SwiftUI
+import TimeScoutUI
+import TimeScoutCore
+import TimeScoutData
 
-struct ProActivityDetails: Presentable {
+struct ProActivityDetails: View {
 
     // MARK: - Presentable
-    
-    var screenType: ProAppStateManager.MainScreenType { .activityDetails }
+
     @EnvironmentObject var appStateManager: ProAppStateManager
 
     // MARK: - Properties
 
     @ObservedObject var item: ProTimeActivity
-    @EnvironmentObject private var navigationBar: NavigationBarView.NavigationBarAccessible
 
     @State private var updatedCategorySelection = [ProCategory: Bool]()
     @State private var editableDate = Date.now
@@ -29,7 +30,6 @@ struct ProActivityDetails: Presentable {
     @State private var existingNavTitle = ""
     
     @Environment(\.managedObjectContext) private var managedObjectContext
-    @Environment(\.presentationMode) private var presentationMode
     @Environment(\.dismiss) private var dismiss
 
     // MARK: - View
@@ -40,26 +40,27 @@ struct ProActivityDetails: Presentable {
             HorizontalSeparator()
             content
         }
-        .overlay {
-            backArrowButton.padding(16)
-        }
         .background(Color.Pallete.primary.edgesIgnoringSafeArea(.all))
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                backArrowButton
+            }
+            ToolbarItem(placement: .principal) {
+                Text(item.name)
+                    .font(Font.Pallete.headerDetails)
+                    .foregroundStyle(Color.Pallete.Foreground.primary)
+            }
+        }
         .onAppear {
             hours = Time(seconds: item.durationSeconds).displayHours
             minutes = Time(seconds: item.durationSeconds).displayMinutes
             seconds = Time(seconds: item.durationSeconds).displaySeconds
-            
-            notifyScreenChanged()
-            navigationBar.view.leftButtonAction = {
-                dismiss()
-            }
+
             editableDate = item.creationDate ?? .now
-            
-            existingNavTitle = navigationBar.view.title ?? ""
-            navigationBar.view.title = item.name
         }
         .onDisappear {
-            navigationBar.view.title = existingNavTitle
             save()
         }
     }
@@ -102,7 +103,6 @@ struct ProActivityDetails: Presentable {
             .padding(.top, 16)
             .padding(.bottom, TabBarView.height + TabBarView.offset + 60)
         }
-        .hideNavigationView()
         .padding(.horizontal, 8)
     }
     
@@ -120,22 +120,15 @@ struct ProActivityDetails: Presentable {
                 .lineLimit(1)
                 .multilineTextAlignment(.center)
         }
-        .frame(height: 160)
     }
-    
+
     private var backArrowButton: some View {
-        VStack {
-            HStack {
-                Image.SFSymbols.backArrow
-                    .font(Font.Pallete.icon)
-                    .foregroundColor(.white)
-                    .frame(width: 25, height: 25)
-                    .onTapGesture {
-                        self.presentationMode.wrappedValue.dismiss()
-                }
-                Spacer()
-            }
-            Spacer()
+        Image.SFSymbols.backArrow
+            .font(Font.Pallete.icon)
+            .foregroundColor(.white)
+            .frame(width: 25, height: 25)
+            .onTapGesture {
+                dismiss()
         }
     }
     
@@ -197,9 +190,7 @@ struct ProActivityDetails_Previews: PreviewProvider {
     static var previews: some View {
         return ProActivityDetails(item: ProTimeActivity.init(context: NSManagedObjectContext(.mainQueue)))
             .environmentObject(ProAppStateManager())
-            .environmentObject(NavigationBarView.NavigationBarAccessible())
             .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
-
     }
 }
 

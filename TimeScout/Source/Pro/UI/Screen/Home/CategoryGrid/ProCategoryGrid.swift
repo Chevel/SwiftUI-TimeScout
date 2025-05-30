@@ -7,6 +7,8 @@
 //
 
 import SwiftUI
+import TimeScoutCore
+import TimeScoutData
 
 struct ProCategoryGrid: View {
     

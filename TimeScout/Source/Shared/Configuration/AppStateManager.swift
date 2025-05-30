@@ -6,8 +6,10 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
+import Foundation
+import TimeScoutCore
+import TimeScoutData
 
 class AppStateManager: NSObject, ObservableObject {
     

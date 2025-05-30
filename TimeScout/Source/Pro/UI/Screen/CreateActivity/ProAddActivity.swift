@@ -7,6 +7,8 @@
 //
 
 import SwiftUI
+import TimeScoutUI
+import TimeScoutData
 
 struct ProAddActivity: View {
     

@@ -6,8 +6,9 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
+import Foundation
+import TimeScoutData
 
 class ProAppStateManager: NSObject, ObservableObject {
     
@@ -33,15 +34,6 @@ class ProAppStateManager: NSObject, ObservableObject {
         timer.upstream.connect().cancel()
     }
 
-    // MARK: - Navigation bar
-    
-    @Published var screen = MainScreenType.home
-    var isDetailsPushed: Bool {
-        switch screen {
-        case .home, .timeline, .activityDetails: return false
-        case .timelineDetails: return true
-        }
-    }
     // MARK: - UI
     
     @Published var isItemSelectionShown = false

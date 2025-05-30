@@ -7,15 +7,6 @@
     "%lld" : {
       "shouldTranslate" : false
     },
-    "%lld h" : {
-      "shouldTranslate" : false
-    },
-    "%lld m" : {
-      "shouldTranslate" : false
-    },
-    "%lld s" : {
-      "shouldTranslate" : false
-    },
     "activity_card_subtitle_empty" : {
       "extractionState" : "migrated",
       "localizations" : {
@@ -554,7 +545,7 @@
       }
     },
     "category_brain_power" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1304,7 +1295,7 @@
       }
     },
     "category_emotion" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1411,7 +1402,7 @@
       }
     },
     "category_family" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1518,7 +1509,7 @@
       }
     },
     "category_friends" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1625,7 +1616,7 @@
       }
     },
     "category_fun" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1733,7 +1724,7 @@
     },
     "category_health" : {
       "comment" : "MARK: - Categories",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1840,7 +1831,7 @@
       }
     },
     "category_money" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1947,7 +1938,7 @@
       }
     },
     "category_spouse" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2054,7 +2045,7 @@
       }
     },
     "category_work" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4612,7 +4603,7 @@
       }
     },
     "snackbar_event_saved" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4717,6 +4708,9 @@
           }
         }
       }
+    },
+    "TIMESCOUTPRO" : {
+
     }
   },
   "version" : "1.0"

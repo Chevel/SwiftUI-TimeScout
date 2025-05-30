@@ -7,8 +7,10 @@
 //
 
 import SwiftUI
+import TimeScoutCore
+import TimeScoutData
 
-struct ProTimelineView: Presentable {
+struct ProTimelineView: View {
     
     // MARK: - Presentable
 
@@ -35,13 +37,10 @@ struct ProTimelineView: Presentable {
 
     var body: some View {
         content
-            .onAppear {
-                notifyScreenChanged()
-            }
             .background(.white)
             .navigationDestination(isPresented: $isActivityDetailsOpen) {
                 if let selectedItem {
-                    ProActivityDetails(item: selectedItem).hideNavigationView()
+                    ProActivityDetails(item: selectedItem)
                 }
             }
     }
@@ -178,7 +177,7 @@ private extension ProTimelineView {
                 creationDate: creationDate,
                 categories: rowItem.categories,
                 swipeActionHandler: {
-                    withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeet.medium.rawValue)) {
+                    withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeed.medium.rawValue)) {
                         delete(rowItem: rowItem)
                     }
                 }
@@ -218,7 +217,6 @@ struct ProTimelineView_Previews: PreviewProvider {
     static var previews: some View {
         ProTimelineView()
             .environmentObject(ProAppStateManager())
-            .environmentObject( NavigationBarView.NavigationBarAccessible())
             .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
 
     }

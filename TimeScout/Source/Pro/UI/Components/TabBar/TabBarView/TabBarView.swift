@@ -8,6 +8,7 @@
 
 import SwiftUI
 import EventKitUI
+import TimeScoutCore
 
 struct TabBarView: View {
     

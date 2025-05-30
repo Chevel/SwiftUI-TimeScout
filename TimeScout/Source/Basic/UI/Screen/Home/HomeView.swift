@@ -7,8 +7,11 @@
 //
 
 import SwiftUI
-import UIKit.UIImpactFeedbackGenerator
 import CoreData
+import TimeScoutUI
+import TimeScoutCore
+import TimeScoutData
+import UIKit.UIImpactFeedbackGenerator
 
 struct HomeView: View {
     @Environment(\.managedObjectContext)

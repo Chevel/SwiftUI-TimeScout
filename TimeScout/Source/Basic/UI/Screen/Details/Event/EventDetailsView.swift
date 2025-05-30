@@ -7,6 +7,9 @@
 //
 
 import SwiftUI
+import TimeScoutUI
+import TimeScoutCore
+import TimeScoutData
 
 struct EventDetailsView: View {
     
