@@ -14,6 +14,7 @@ An example SwiftUI project containing 2 products:
 - ✅ MVVM
 - ✅ SwiftCharts
 - ✅ String catalog
+- ✅ Swift packages
 
 ## Products
 ### TimeScout
