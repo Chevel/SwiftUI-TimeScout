@@ -179,7 +179,7 @@ struct CategoryDetailsView: View {
                 displayText: DateFormatter.timeOnlyDateFormatter.string(from: timestamp),
                 isSeparatorHidden: isSeparatorHidden,
                 swipeActionHandler: {
-                    withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeet.medium.rawValue)) {
+                    withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeed.medium.rawValue)) {
                         delete(rowItem: rowItem)
                     }
                 }, tapActionHandler: {

@@ -68,7 +68,7 @@ public enum AppSettings {
         public static let activityCountLimit: Int = 1
         public static let sectionCountLimit: Int = 3
         
-        public enum AnimationSpeet: CGFloat {
+        public enum AnimationSpeed: CGFloat {
             case slow = 1
             case medium = 0.2
             case fast = 0.1

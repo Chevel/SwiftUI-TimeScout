@@ -173,7 +173,7 @@ private extension ListView {
                                 .swipeActions() {
                                     if !isLocked(for: rowIndex, in: sectionIndex) {
                                         Button {
-                                            withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeet.medium.rawValue)) {
+                                            withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeed.medium.rawValue)) {
                                                 delete(rowItem: rowItem)
                                             }
                                         } label: {

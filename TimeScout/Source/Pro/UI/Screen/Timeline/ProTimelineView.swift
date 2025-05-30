@@ -179,7 +179,7 @@ private extension ProTimelineView {
                 creationDate: creationDate,
                 categories: rowItem.categories,
                 swipeActionHandler: {
-                    withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeet.medium.rawValue)) {
+                    withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeed.medium.rawValue)) {
                         delete(rowItem: rowItem)
                     }
                 }
