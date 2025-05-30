@@ -10,7 +10,7 @@ import SwiftUI
 import TimeScoutUI
 import TimeScoutData
 
-struct ProHomeView: Presentable {
+struct ProHomeView: View {
     
     // MARK: - Presentable
 
@@ -35,9 +35,6 @@ struct ProHomeView: Presentable {
         }
         .padding(.horizontal, 8)
         .background(Color.white)
-        .onAppear {
-            notifyScreenChanged()
-        }
     }
 }
 

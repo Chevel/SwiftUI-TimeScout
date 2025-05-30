@@ -34,15 +34,6 @@ class ProAppStateManager: NSObject, ObservableObject {
         timer.upstream.connect().cancel()
     }
 
-    // MARK: - Navigation bar
-    
-    @Published var screen = MainScreenType.home
-    var isDetailsPushed: Bool {
-        switch screen {
-        case .home, .timeline, .activityDetails: return false
-        case .timelineDetails: return true
-        }
-    }
     // MARK: - UI
     
     @Published var isItemSelectionShown = false

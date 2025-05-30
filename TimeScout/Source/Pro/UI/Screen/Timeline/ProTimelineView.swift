@@ -10,7 +10,7 @@ import SwiftUI
 import TimeScoutCore
 import TimeScoutData
 
-struct ProTimelineView: Presentable {
+struct ProTimelineView: View {
     
     // MARK: - Presentable
 
@@ -37,9 +37,6 @@ struct ProTimelineView: Presentable {
 
     var body: some View {
         content
-            .onAppear {
-                notifyScreenChanged()
-            }
             .background(.white)
             .navigationDestination(isPresented: $isActivityDetailsOpen) {
                 if let selectedItem {

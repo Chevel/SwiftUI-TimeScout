@@ -78,10 +78,11 @@ struct ProMainView: View {
     
     // MARK: - UI
     
+    @ViewBuilder
     private var contentView: some View {
         switch appStateManager.selectedTab {
-        case .home: return AnyView(ProHomeView() { selectedCategory = $0 })
-        case .list: return AnyView(ProTimelineView())
+        case .home: ProHomeView() { selectedCategory = $0 }
+        case .list: ProTimelineView()
         }
     }
 }

@@ -11,11 +11,10 @@ import TimeScoutUI
 import TimeScoutCore
 import TimeScoutData
 
-struct ProActivityDetails: Presentable {
+struct ProActivityDetails: View {
 
     // MARK: - Presentable
-    
-    var screenType: ProAppStateManager.MainScreenType { .activityDetails }
+
     @EnvironmentObject var appStateManager: ProAppStateManager
 
     // MARK: - Properties
@@ -58,8 +57,6 @@ struct ProActivityDetails: Presentable {
             hours = Time(seconds: item.durationSeconds).displayHours
             minutes = Time(seconds: item.durationSeconds).displayMinutes
             seconds = Time(seconds: item.durationSeconds).displaySeconds
-
-            notifyScreenChanged()
 
             editableDate = item.creationDate ?? .now
         }
