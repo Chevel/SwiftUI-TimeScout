@@ -23,7 +23,6 @@
 		D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
-		D21C74D92D0B97760004E957 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95062A012EE600A7A0CE /* AddButton.swift */; };
 		D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D21C74DB2D0B97760004E957 /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
@@ -81,7 +80,6 @@
 		D21C752E2D0B97A20004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C12A10E0740097608D /* ProTimeActivity+CoreDataClass.swift */; };
 		D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D21C75302D0B97A20004E957 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95182A01422600A7A0CE /* MainButton.swift */; };
-		D21C75312D0B97A20004E957 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95062A012EE600A7A0CE /* AddButton.swift */; };
 		D21C75322D0B97A20004E957 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
 		D21C75332D0B97A20004E957 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
@@ -151,7 +149,6 @@
 		D23543542A0E131C002DEF73 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
 		D23543552A0E131C002DEF73 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D23543562A0E131C002DEF73 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95182A01422600A7A0CE /* MainButton.swift */; };
-		D23543572A0E131C002DEF73 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95062A012EE600A7A0CE /* AddButton.swift */; };
 		D23543592A0E131C002DEF73 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
 		D235435A2A0E131C002DEF73 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
@@ -237,7 +234,6 @@
 		D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D2AB95042A012E3600A7A0CE /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
-		D2AB95072A012EE600A7A0CE /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95062A012EE600A7A0CE /* AddButton.swift */; };
 		D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D2AB950E2A01368000A7A0CE /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
@@ -257,10 +253,6 @@
 		D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
 		D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AB22D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
-		D2C12AB32D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
-		D2C12AB42D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
-		D2C12AB52D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */; };
 		D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
@@ -350,7 +342,6 @@
 		D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
 		D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarStyle.swift; sourceTree = "<group>"; };
 		D2AB95032A012E3600A7A0CE /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
-		D2AB95062A012EE600A7A0CE /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 		D2AB95082A0131A700A7A0CE /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityTextFieldStyle.swift; sourceTree = "<group>"; };
@@ -363,7 +354,6 @@
 		D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page.Data_iOS.swift; sourceTree = "<group>"; };
 		D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_iOS.swift; sourceTree = "<group>"; };
 		D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
-		D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigActionButtonStyle.swift; sourceTree = "<group>"; };
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProAssets.xcassets; sourceTree = "<group>"; };
@@ -762,14 +752,6 @@
 			path = CloseButton;
 			sourceTree = "<group>";
 		};
-		D2AB95052A012EDB00A7A0CE /* AddButton */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB95062A012EE600A7A0CE /* AddButton.swift */,
-			);
-			path = AddButton;
-			sourceTree = "<group>";
-		};
 		D2AB950C2A01366900A7A0CE /* TextFieldStyle */ = {
 			isa = PBXGroup;
 			children = (
@@ -818,8 +800,6 @@
 		D2C12AB02D2330CF0093FB3F /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */,
-				D2AB95052A012EDB00A7A0CE /* AddButton */,
 				D2AB95022A012E2D00A7A0CE /* CloseButton */,
 			);
 			path = Button;
@@ -1163,7 +1143,6 @@
 				D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */,
 				D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */,
 				D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */,
-				D2C12AB42D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */,
 				D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C74CE2D0B97760004E957 /* MainButtonStyle.swift in Sources */,
@@ -1175,7 +1154,6 @@
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
 				D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */,
-				D21C74D92D0B97760004E957 /* AddButton.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
 				D21C74DB2D0B97760004E957 /* Time+Calculations.swift in Sources */,
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
@@ -1248,7 +1226,6 @@
 				D21C752E2D0B97A20004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
 				D21C75302D0B97A20004E957 /* MainButton.swift in Sources */,
-				D21C75312D0B97A20004E957 /* AddButton.swift in Sources */,
 				D21C75322D0B97A20004E957 /* TimeActivity+CoreDataClass.swift in Sources */,
 				D21C75332D0B97A20004E957 /* SnackbarStyle.swift in Sources */,
 				D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */,
@@ -1268,7 +1245,6 @@
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */,
 				D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */,
-				D2C12AB22D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D21C75482D0B97A20004E957 /* ProActivityDetails.swift in Sources */,
 				D21C75492D0B97A20004E957 /* TimePicker.swift in Sources */,
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
@@ -1322,7 +1298,6 @@
 				D26E08C62A10E0740097608D /* ProTimeActivity+CoreDataClass.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D23543562A0E131C002DEF73 /* MainButton.swift in Sources */,
-				D23543572A0E131C002DEF73 /* AddButton.swift in Sources */,
 				D23543592A0E131C002DEF73 /* TimeActivity+CoreDataClass.swift in Sources */,
 				D235435A2A0E131C002DEF73 /* SnackbarStyle.swift in Sources */,
 				D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */,
@@ -1342,7 +1317,6 @@
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */,
 				D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
-				D2C12AB52D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D29C69572A13EF8B00358EDD /* ProActivityDetails.swift in Sources */,
 				D29C695E2A14BBCF00358EDD /* TimePicker.swift in Sources */,
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
@@ -1384,7 +1358,6 @@
 				D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */,
 				D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */,
 				D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */,
-				D2C12AB32D2330D80093FB3F /* BigActionButtonStyle.swift in Sources */,
 				D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */,
 				D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D2AB951B2A01423000A7A0CE /* MainButtonStyle.swift in Sources */,
@@ -1396,7 +1369,6 @@
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
 				D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
-				D2AB95072A012EE600A7A0CE /* AddButton.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
 				D26E08A92A0EA77F0097608D /* Time+Calculations.swift in Sources */,
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,

@@ -8,13 +8,15 @@
 
 import SwiftUI
 
-struct AddButton: View {
+public struct AddButton: View {
     
-    static let size = CGSize(width: 60, height: 60)
+    private let size = CGSize(width: 60, height: 60)
     
-    var body: some View {
+    public init() {}
+    
+    public var body: some View {
         Circle()
-            .frame(width: Self.size.width, height: Self.size.height)
+            .frame(width: size.width, height: size.height)
             .foregroundColor(Color.Pallete.secondary)
             .overlay {
                 Image.SFSymbols.plus
@@ -28,6 +30,7 @@ struct AddButton: View {
 // MARK: - Preview
 
 struct AddButton_Previews: PreviewProvider {
+
     static var previews: some View {
         AddButton()
     }
