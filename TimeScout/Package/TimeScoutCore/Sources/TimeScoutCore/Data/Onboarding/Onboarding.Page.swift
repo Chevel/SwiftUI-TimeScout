@@ -8,13 +8,12 @@
 
 import SwiftUI
 
-extension OnboardingView {
+public extension Onboarding {
     
     enum Page {
         case info(Data)
         
         var data: Data {
-
             switch self {
             case .info(let data): return data
             }

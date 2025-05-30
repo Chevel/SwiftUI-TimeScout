@@ -138,14 +138,8 @@
 		D2C12A962D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A972D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
-		D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12AA22D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AA32D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AA42D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AA52D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AA62D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
+		D2C12A9A2D232EC00093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
+		D2C12A9C2D232EC00093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
@@ -156,14 +150,8 @@
 		D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
 		D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
 		D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AC42D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AC52D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
+		D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
+		D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12ACC2D2358490093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
@@ -218,10 +206,7 @@
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		D2C12A892D22C2790093FB3F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D2C12A942D232E1E0093FB3F /* ProContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProContentView.swift; sourceTree = "<group>"; };
-		D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView_iOS.swift; sourceTree = "<group>"; };
-		D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page_iOS.swift; sourceTree = "<group>"; };
-		D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page.Data_iOS.swift; sourceTree = "<group>"; };
-		D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_iOS.swift; sourceTree = "<group>"; };
+		D2C12A992D232EC00093FB3F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
@@ -332,6 +317,7 @@
 		D23543892A0E145A002DEF73 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D23C25AB2DE9F91100A24E7D /* UI */,
 				D2C43F452A010625005CC925 /* Services */,
 				D2AB94E72A0114B600A7A0CE /* Configuration */,
 			);
@@ -441,6 +427,23 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
+		D23C25AB2DE9F91100A24E7D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D23C25AC2DE9F91F00A24E7D /* Onboarding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D23C25AC2DE9F91F00A24E7D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D2C12A992D232EC00093FB3F /* OnboardingView.swift */,
+				D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		D255C0D72A09465900713C0A /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,26 +504,6 @@
 				D2C12A892D22C2790093FB3F /* StoreKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2C12A932D232DC10093FB3F /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */,
-				D2C12AA12D232EF80093FB3F /* Page */,
-				D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		D2C12AA12D232EF80093FB3F /* Page */ = {
-			isa = PBXGroup;
-			children = (
-				D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */,
-				D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */,
-				D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */,
-			);
-			path = Page;
 			sourceTree = "<group>";
 		};
 		D2C43F212A010402005CC925 = {
@@ -627,7 +610,6 @@
 				D2C43F422A01060A005CC925 /* List */,
 				D2C43F442A01061A005CC925 /* Add */,
 				D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */,
-				D2C12A932D232DC10093FB3F /* Onboarding */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -867,10 +849,8 @@
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
-				D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21C74DF2D0B97760004E957 /* ListView.swift in Sources */,
 				D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */,
-				D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
 				D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */,
 				D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */,
@@ -878,7 +858,6 @@
 				D2410F112DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
 				D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */,
 				D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */,
-				D2C12AC52D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
@@ -886,7 +865,7 @@
 				D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */,
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
-				D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */,
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
 				D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */,
 				D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */,
@@ -899,14 +878,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C12AA52D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
-				D2C12AA62D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
-				D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D21C75212D0B97A20004E957 /* ProAppStateManager.swift in Sources */,
 				D21C75222D0B97A20004E957 /* ListSectionTitle.swift in Sources */,
 				D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */,
 				D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */,
-				D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12A9C2D232EC00093FB3F /* OnboardingView.swift in Sources */,
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
@@ -944,14 +920,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C12AA22D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
-				D2C12AA32D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
-				D2C12AA42D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */,
 				D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */,
 				D235439A2A0E1880002DEF73 /* TabBarButtonType.swift in Sources */,
 				D26E08B62A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
-				D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12A9A2D232EC00093FB3F /* OnboardingView.swift in Sources */,
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
@@ -1001,10 +974,8 @@
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,
-				D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D2C43F4B2A010DBB005CC925 /* ListView.swift in Sources */,
 				D2C43F2E2A010402005CC925 /* TimeScoutApp.swift in Sources */,
-				D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
 				D26E08B52A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
 				D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */,
@@ -1012,7 +983,6 @@
 				D2410F102DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
 				D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */,
 				D2F6EF782A01530500D7B4BE /* ListRowView.swift in Sources */,
-				D2C12AC42D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */,
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
@@ -1020,7 +990,7 @@
 				D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08AF2A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
-				D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */,
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
 				D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */,
 				D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */,

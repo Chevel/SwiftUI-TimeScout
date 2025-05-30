@@ -7,11 +7,13 @@
 //
 
 import SwiftUI
+import TimeScoutCore
 
 struct BasicContentView: View {
 
     @EnvironmentObject private var appStateManager: AppStateManager
-    private let pages: [OnboardingView.Page] = [
+
+    private let pages: [Onboarding.Page] = [
         .info(.init(
             image: Image("onboarding-1"),
             title: NSLocalizedString("onboarding_basic_page_1_title", comment: ""),

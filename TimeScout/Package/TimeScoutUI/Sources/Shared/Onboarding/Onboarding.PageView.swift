@@ -7,13 +7,18 @@
 //
 
 import SwiftUI
+import TimeScoutCore
 
-extension OnboardingView {
+public enum Onboarding {
 
-    struct PageView: View {
-        let page: OnboardingView.Page.Data
+    public struct PageView: View {
+        private let page: TimeScoutCore.Onboarding.Page.Data
+        
+        public init(page: TimeScoutCore.Onboarding.Page.Data) {
+            self.page = page
+        }
 
-        var body: some View {
+        public var body: some View {
             VStack(alignment: .center, spacing: 0) {
                 header
                 title
@@ -27,7 +32,7 @@ extension OnboardingView {
 
 // MARK: - UI
 
-private extension OnboardingView.PageView {
+private extension Onboarding.PageView {
     
     var header: some View {
         page.image

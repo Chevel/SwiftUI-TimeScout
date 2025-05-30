@@ -7,11 +7,12 @@
 //
 
 import SwiftUI
+import TimeScoutCore
 
 struct ProContentView: View {
 
     @EnvironmentObject private var appStateManager: ProAppStateManager
-    private let pages: [OnboardingView.Page] = [
+    private let pages: [Onboarding.Page] = [
         .info(.init(
             image: Image("onboarding-1"),
             title: NSLocalizedString("onboarding_page_1_title", comment: ""),

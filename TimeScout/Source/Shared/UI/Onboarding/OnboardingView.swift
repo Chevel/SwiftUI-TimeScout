@@ -19,7 +19,7 @@ struct OnboardingView: View {
 #endif
     @State private var currentIndex = 0
 
-    let pages: [OnboardingView.Page]
+    let pages: [TimeScoutCore.Onboarding.Page]
 
     // MARK: - UI
 
@@ -38,7 +38,7 @@ private extension OnboardingView {
             ForEach(0 ..< pages.count, id: \.self) { index in
                 switch pages[index] {
                 case .info(let data):
-                    PageView(page: data)
+                    TimeScoutUI.Onboarding.PageView(page: data)
                         .ignoresSafeArea(.all)
                         .tag(index)
                 }
