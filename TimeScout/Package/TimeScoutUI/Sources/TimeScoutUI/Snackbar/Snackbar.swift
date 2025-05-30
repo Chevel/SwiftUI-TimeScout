@@ -9,25 +9,34 @@
 import SwiftUI
 import TimeScoutCore
 
-struct SnackbarSuccess: View {
+public struct SnackbarSuccess: View {
 
-    let handler: EmptyClosure
-    var body: some View {
+    private let handler: EmptyClosure
+    
+    public init(handler: @escaping EmptyClosure) {
+        self.handler = handler
+    }
+    
+    public var body: some View {
         CTAButton(configuration: .text(content: "snackbar_event_saved".translated(), font: Font.Pallete.snackbar), buttonPressedAction: handler)
             .buttonStyle(SnackbarStyleInfo())
     }
-
 }
 
-struct SnackbarAlert: View {
+public struct SnackbarAlert: View {
     
-    let title: String
-    let handler: EmptyClosure
-    var body: some View {
+    private let title: String
+    private let handler: EmptyClosure
+    
+    public init(title: String, handler: @escaping EmptyClosure) {
+        self.title = title
+        self.handler = handler
+    }
+    
+    public var body: some View {
         CTAButton(configuration: .text(content: title, font: Font.Pallete.snackbar), buttonPressedAction: handler)
             .buttonStyle(SnackbarStyleAlert())
     }
-
 }
 
 // MARK: - Preview
@@ -50,20 +59,21 @@ struct SnackbarAlert_Previews: PreviewProvider {
 
 // MARK: -
 
-struct Popup<T: View>: ViewModifier {
+public struct Popup<T: View>: ViewModifier {
+
     let popup: T
     let alignment: Alignment
     let direction: Direction
     var isPresented: Binding<Bool>
 
-    init(isPresented: Binding<Bool>, alignment: Alignment, direction: Direction, content: T) {
+    public init(isPresented: Binding<Bool>, alignment: Alignment, direction: Direction, content: T) {
         self.isPresented = isPresented
         self.alignment = alignment
         self.direction = direction
         self.popup = content
     }
 
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         content
             .overlay(popupContent())
     }
@@ -80,11 +90,12 @@ struct Popup<T: View>: ViewModifier {
     }
 }
 
-extension Popup {
+public extension Popup {
+
     enum Direction {
         case top, bottom
 
-        func offset(popupFrame: CGRect) -> CGFloat {
+        @MainActor func offset(popupFrame: CGRect) -> CGFloat {
             switch self {
             case .top:
                 let aboveScreenEdge = -popupFrame.maxY
@@ -97,7 +108,8 @@ extension Popup {
     }
 }
 
-extension View {
+public extension View {
+
     func popup<T: View>(
         isPresented: Binding<Bool>,
         alignment: Alignment = .center,
@@ -108,7 +120,8 @@ extension View {
     }
 }
 
-private extension View {
+public extension View {
+
     func onGlobalFrameChange(_ onChange: @escaping (CGRect) -> Void) -> some View {
         background(GeometryReader { geometry in
             Color.clear.preference(key: FramePreferenceKey.self, value: geometry.frame(in: .global))
@@ -122,9 +135,10 @@ private extension View {
     }
 }
 
-private struct FramePreferenceKey: PreferenceKey {
-    static let defaultValue = CGRect.zero
-    static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
+public struct FramePreferenceKey: PreferenceKey {
+
+    public static let defaultValue = CGRect.zero
+    public static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
         value = nextValue()
     }
 }

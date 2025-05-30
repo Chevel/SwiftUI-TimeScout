@@ -8,9 +8,11 @@
 
 import SwiftUI
 
-struct CTAButtonStyle: ButtonStyle {
+public struct CTAButtonStyle: ButtonStyle {
     
-    func makeBody(configuration: Self.Configuration) -> some View {
+    public init() {}
+    
+    public func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .frame(width: 240, height: 50)
             .font(Font.Pallete.infoText)
@@ -18,5 +20,4 @@ struct CTAButtonStyle: ButtonStyle {
             .background(Color.Pallete.secondary)
             .clipShape(Capsule(style: .circular))
     }
-    
 }

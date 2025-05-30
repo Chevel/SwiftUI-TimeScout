@@ -9,12 +9,17 @@
 import SwiftUI
 import TimeScoutCore
 
-struct CTAButton: View {
+public struct CTAButton: View {
     
-    var configuration: Configuration
-    var buttonPressedAction: EmptyClosure
+    private var configuration: Configuration
+    private var buttonPressedAction: EmptyClosure
     
-    var body: some View {
+    public init(configuration: Configuration, buttonPressedAction: @escaping EmptyClosure) {
+        self.configuration = configuration
+        self.buttonPressedAction = buttonPressedAction
+    }
+    
+    public var body: some View {
         Button(action: buttonPressedAction, label: {
             HStack {
                 Spacer()
@@ -27,7 +32,7 @@ struct CTAButton: View {
 
 // MARK: - Title
 
-extension CTAButton {
+public extension CTAButton {
 
     enum Configuration {
         case text(content: String, font: Font)
