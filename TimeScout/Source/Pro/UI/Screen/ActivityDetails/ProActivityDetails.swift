@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutUI
 import TimeScoutCore
 
 struct ProActivityDetails: Presentable {

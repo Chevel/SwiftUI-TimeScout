@@ -7,15 +7,6 @@
     "%lld" : {
       "shouldTranslate" : false
     },
-    "%lld h" : {
-      "shouldTranslate" : false
-    },
-    "%lld m" : {
-      "shouldTranslate" : false
-    },
-    "%lld s" : {
-      "shouldTranslate" : false
-    },
     "activity_card_subtitle_empty" : {
       "extractionState" : "migrated",
       "localizations" : {

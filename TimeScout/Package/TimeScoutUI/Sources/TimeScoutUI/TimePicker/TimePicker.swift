@@ -8,22 +8,30 @@
 
 import SwiftUI
 
-struct TimePicker: View {
-    @Binding var hourSelection: Int
-    @Binding var minuteSelection: Int
-    @Binding var secondsSelection: Int
+public struct TimePicker: View {
+
+    public let hourSelection: Binding<Int>
+    public let minuteSelection: Binding<Int>
+    public let secondsSelection: Binding<Int>
     
-    static private let maxHours = 23
-    static private let maxMinutes = 59
-    static private let maxSeconds = 59
+    private static let maxHours = 23
+    private static let maxMinutes = 59
+    private static let maxSeconds = 59
+
     private let hours = [Int](0...Self.maxHours)
     private let minutes = [Int](0...Self.maxMinutes)
     private let seconds = [Int](0...Self.maxSeconds)
     
-    var body: some View {
+    public init(hourSelection: Binding<Int>, minuteSelection: Binding<Int>, secondsSelection: Binding<Int>) {
+        self.hourSelection = hourSelection
+        self.minuteSelection = minuteSelection
+        self.secondsSelection = secondsSelection
+    }
+
+    public var body: some View {
         GeometryReader { geometry in
             HStack(spacing: .zero) {
-                Picker(selection: $hourSelection, label: Text("")) {
+                Picker(selection: hourSelection, label: Text("")) {
                     ForEach(hours, id: \.self) { value in
                         Text("\(value) h")
                             .tag(value)
@@ -34,7 +42,7 @@ struct TimePicker: View {
                 .pickerStyle(.wheel)
                 .frame(width: geometry.size.width / 3, alignment: .center)
                 
-                Picker(selection: $minuteSelection, label: Text("")) {
+                Picker(selection: minuteSelection, label: Text("")) {
                     ForEach(minutes, id: \.self) { value in
                         Text("\(value) m")
                             .tag(value)
@@ -46,7 +54,7 @@ struct TimePicker: View {
                 .pickerStyle(.wheel)
                 .frame(width: geometry.size.width / 3, alignment: .center)
                 
-                Picker(selection: $secondsSelection, label: Text("")) {
+                Picker(selection: secondsSelection, label: Text("")) {
                     ForEach(seconds, id: \.self) { value in
                         Text("\(value) s")
                             .tag(value)
@@ -65,6 +73,7 @@ struct TimePicker: View {
 // MARK: - Preview
 
 struct TimePicker_Previews: PreviewProvider {
+
     static var previews: some View {
         TimePicker(hourSelection: .constant(3),
                    minuteSelection: .constant(1),
