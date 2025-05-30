@@ -196,10 +196,6 @@
 		D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D25998952D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
-		D25998962D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
-		D25998972D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
-		D25998982D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
 		D25B58542DCCB42900976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58532DCCB42900976E21 /* TimeScoutCore */; };
 		D25B58562DCCB42F00976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58552DCCB42F00976E21 /* TimeScoutCore */; };
 		D26E08A92A0EA77F0097608D /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
@@ -331,7 +327,6 @@
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
 		D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsSectionView.swift; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
-		D25998942D23FF5F00559E93 /* UpsellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsellButton.swift; sourceTree = "<group>"; };
 		D26E08A82A0EA77F0097608D /* Time+Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+Calculations.swift"; sourceTree = "<group>"; };
 		D26E08AE2A0EC0010097608D /* ProAddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAddActivity.swift; sourceTree = "<group>"; };
 		D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryChart.swift; sourceTree = "<group>"; };
@@ -823,7 +818,6 @@
 		D2C12AB02D2330CF0093FB3F /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				D25998942D23FF5F00559E93 /* UpsellButton.swift */,
 				D2C12AB12D2330D80093FB3F /* BigActionButtonStyle.swift */,
 				D2AB95052A012EDB00A7A0CE /* AddButton */,
 				D2AB95022A012E2D00A7A0CE /* CloseButton */,
@@ -1213,7 +1207,6 @@
 				D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
-				D25998952D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D21C74FB2D0B97760004E957 /* TimePicker.swift in Sources */,
 				D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */,
 				D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */,
@@ -1255,7 +1248,6 @@
 				D21C752E2D0B97A20004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
 				D21C75302D0B97A20004E957 /* MainButton.swift in Sources */,
-				D25998972D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D21C75312D0B97A20004E957 /* AddButton.swift in Sources */,
 				D21C75322D0B97A20004E957 /* TimeActivity+CoreDataClass.swift in Sources */,
 				D21C75332D0B97A20004E957 /* SnackbarStyle.swift in Sources */,
@@ -1330,7 +1322,6 @@
 				D26E08C62A10E0740097608D /* ProTimeActivity+CoreDataClass.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D23543562A0E131C002DEF73 /* MainButton.swift in Sources */,
-				D25998962D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D23543572A0E131C002DEF73 /* AddButton.swift in Sources */,
 				D23543592A0E131C002DEF73 /* TimeActivity+CoreDataClass.swift in Sources */,
 				D235435A2A0E131C002DEF73 /* SnackbarStyle.swift in Sources */,
@@ -1437,7 +1428,6 @@
 				D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */,
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
-				D25998982D23FF5F00559E93 /* UpsellButton.swift in Sources */,
 				D29C695D2A14BBCE00358EDD /* TimePicker.swift in Sources */,
 				D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */,
 				D2F6EF712A01507F00D7B4BE /* SearchField.swift in Sources */,
