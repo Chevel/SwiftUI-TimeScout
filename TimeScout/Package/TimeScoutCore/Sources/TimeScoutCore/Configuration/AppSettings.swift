@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum AppSettings {
+public enum AppSettings {
     
     static var environment: Environment {
         #if DEV
@@ -17,15 +17,16 @@ enum AppSettings {
         return .prod
         #endif
     }
-    enum Environment {
+
+    public enum Environment {
         case dev, prod
         
-        static var isDev: Bool {
+        public static var isDev: Bool {
             return environment == .dev
         }
     }
     
-    static var target: Version {
+    public static var target: Version {
         #if PRO
         return .pro
         #else
@@ -33,20 +34,20 @@ enum AppSettings {
         #endif
     }
 
-    enum Version {
+    public enum Version {
         case basic, pro
     }
 
-    enum Constants {
+    public enum Constants {
         
-        static var appStoreURL: URL {
+        public static var appStoreURL: URL {
             switch AppSettings.target {
             case .basic: return URL(string: "https://apps.apple.com/us/app/timescout/id1584949806")!
             case .pro: return URL(string: "https://apps.apple.com/us/app/timescoutpro/id1584951815")!
             }
         }
 
-        static var alphabetCharacters: [String] {
+        public static var alphabetCharacters: [String] {
             guard let alphabetCharacterSet = Locale.current.exemplarCharacterSet?.intersection(CharacterSet.lowercaseLetters) else {
                 return []
             }
@@ -64,10 +65,10 @@ enum AppSettings {
             return characters
         }
         
-        static let activityCountLimit: Int = 1
-        static let sectionCountLimit: Int = 3
+        public static let activityCountLimit: Int = 1
+        public static let sectionCountLimit: Int = 3
         
-        enum AnimationSpeet: CGFloat {
+        public enum AnimationSpeet: CGFloat {
             case slow = 1
             case medium = 0.2
             case fast = 0.1

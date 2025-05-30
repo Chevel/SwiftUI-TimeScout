@@ -54,7 +54,6 @@
 		D21C74FB2D0B97760004E957 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C695C2A14BBCE00358EDD /* TimePicker.swift */; };
 		D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
-		D21C74FE2D0B97760004E957 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
@@ -115,7 +114,6 @@
 		D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */; };
 		D21C75572D0B97A20004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D21C75582D0B97A20004E957 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
-		D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
@@ -169,7 +167,6 @@
 		D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D235436C2A0E131C002DEF73 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
-		D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D23543722A0E131C002DEF73 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D23543732A0E131C002DEF73 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
@@ -240,7 +237,6 @@
 		D29C695E2A14BBCF00358EDD /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C695C2A14BBCE00358EDD /* TimePicker.swift */; };
 		D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
-		D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
@@ -355,7 +351,6 @@
 		D29C695C2A14BBCE00358EDD /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 		D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonStyle.swift; sourceTree = "<group>"; };
 		D2AB94E32A01146F00A7A0CE /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
-		D2AB94F62A011CB400A7A0CE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		D2AB94FA2A011DE400A7A0CE /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
 		D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarStyle.swift; sourceTree = "<group>"; };
@@ -746,14 +741,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		D2AB94F52A011CAB00A7A0CE /* System */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB94F62A011CB400A7A0CE /* AppSettings.swift */,
-			);
-			path = System;
-			sourceTree = "<group>";
-		};
 		D2AB94FC2A0124B100A7A0CE /* CTA */ = {
 			isa = PBXGroup;
 			children = (
@@ -934,7 +921,6 @@
 		D2C43F452A010625005CC925 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				D2AB94F52A011CAB00A7A0CE /* System */,
 				D2C43F472A01068D005CC925 /* CoreData */,
 			);
 			path = Services;
@@ -1231,7 +1217,6 @@
 				D21C74FB2D0B97760004E957 /* TimePicker.swift in Sources */,
 				D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */,
 				D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */,
-				D21C74FE2D0B97760004E957 /* AppSettings.swift in Sources */,
 				D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */,
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
@@ -1307,7 +1292,6 @@
 				D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D21C75572D0B97A20004E957 /* SearchField.swift in Sources */,
 				D21C75582D0B97A20004E957 /* Tab.swift in Sources */,
-				D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */,
 				D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */,
 				D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */,
 				D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */,
@@ -1383,7 +1367,6 @@
 				D26E08D82A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */,
 				D235439C2A0E1880002DEF73 /* Tab.swift in Sources */,
-				D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */,
 				D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */,
 				D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */,
 				D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */,
@@ -1458,7 +1441,6 @@
 				D29C695D2A14BBCE00358EDD /* TimePicker.swift in Sources */,
 				D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */,
 				D2F6EF712A01507F00D7B4BE /* SearchField.swift in Sources */,
-				D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */,
 				D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08AF2A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
