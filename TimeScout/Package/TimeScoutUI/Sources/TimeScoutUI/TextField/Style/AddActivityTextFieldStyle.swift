@@ -8,10 +8,12 @@
 
 import SwiftUI
 
-struct AddActivityTextFieldStyle: TextFieldStyle {
+public struct AddActivityTextFieldStyle: TextFieldStyle {
     
+    public init(){}
+
     // Hidden function to conform to this protocol
-    func _body(configuration: TextField<Self._Label>) -> some View {
+    public func _body(configuration: TextField<Self._Label>) -> some View {
         ZStack {
             RoundedRectangle(cornerRadius: 5.0)
                 .stroke(Color.white)
