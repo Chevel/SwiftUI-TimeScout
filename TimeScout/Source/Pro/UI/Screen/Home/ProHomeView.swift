@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutUI
 import TimeScoutData
 
 struct ProHomeView: Presentable {
@@ -30,7 +31,7 @@ struct ProHomeView: Presentable {
                 }).frame(minHeight: 450)
             }
             .padding(.top, 8)
-            .padding(.bottom, TabBarView.height + TabBarView.offset + NavigationBarView.height)
+            .padding(.bottom, TabBarView.height + TabBarView.offset)
         }
         .padding(.horizontal, 8)
         .background(Color.white)

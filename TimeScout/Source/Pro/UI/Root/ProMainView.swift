@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutUI
 import TimeScoutData
 
 struct ProMainView: View {
@@ -21,7 +22,6 @@ struct ProMainView: View {
             }
         }
     }
-    @EnvironmentObject var navigationBar: NavigationBarView.NavigationBarAccessible
     @State private var firstTimePaywallAppear = false
 
     // MARK: - View
@@ -30,15 +30,24 @@ struct ProMainView: View {
         NavigationStack {
             ZStack {
                 contentView
-                    .offset(y: NavigationBarView.height)
-                    .clipped()
+                    .toolbar {
+                        ToolbarItem(placement: .principal) {
+                            Text("TIMESCOUTPRO")
+                                .font(Font.Pallete.headerDetails)
+                                .foregroundStyle(Color.Pallete.Foreground.primary)
+                        }
+                    }
+                    .toolbarBackground(Color.Pallete.primary, for: .navigationBar)
+                    .toolbarBackground(.visible, for: .navigationBar)
+                    .toolbarTitleDisplayMode(.inline)
                 VStack {
-                    navigationBar.view
                     Spacer()
                     TabBarView() {
                         appStateManager.isAddActivityShown = true
-                    }.shadow(color: .black.opacity(0.3), radius: 3, y: -5)
-                }.hideNavigationView()
+                    }
+                    .shadow(color: .black.opacity(0.3), radius: 3, y: -5)
+                }
+                .ignoresSafeArea(.all, edges: .bottom)
             }
             .ignoresSafeArea(.keyboard)
             .background(Color.Pallete.primary.edgesIgnoringSafeArea(.all))
@@ -70,6 +79,5 @@ struct ProMainView_Previews: PreviewProvider {
     static var previews: some View {
         ProMainView()
             .environmentObject(ProAppStateManager())
-            .environmentObject(NavigationBarView.NavigationBarAccessible())
     }
 }

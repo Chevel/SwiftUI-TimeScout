@@ -43,7 +43,7 @@ struct ProTimelineView: Presentable {
             .background(.white)
             .navigationDestination(isPresented: $isActivityDetailsOpen) {
                 if let selectedItem {
-                    ProActivityDetails(item: selectedItem).hideNavigationView()
+                    ProActivityDetails(item: selectedItem)
                 }
             }
     }
@@ -220,7 +220,6 @@ struct ProTimelineView_Previews: PreviewProvider {
     static var previews: some View {
         ProTimelineView()
             .environmentObject(ProAppStateManager())
-            .environmentObject( NavigationBarView.NavigationBarAccessible())
             .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
 
     }

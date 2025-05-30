@@ -34,7 +34,7 @@ struct ShareView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.blue
-            ShareView(linkURL: AppSettings.Constants.appStoreURL)
+            ShareView(linkURL: URL("")!)
         }
     }
 }

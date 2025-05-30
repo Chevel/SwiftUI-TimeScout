@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutUI
 import TimeScoutCore
 import TimeScoutData
 
@@ -17,7 +18,6 @@ struct TimeScoutApp: App {
 
     @StateObject private var appStateManager = AppStateManager()
     @StateObject private var proAppStateManager = ProAppStateManager()
-    @StateObject private var navigationBar = NavigationBarView.NavigationBarAccessible()
     
     // MARK: - Core data
 
@@ -47,7 +47,6 @@ struct TimeScoutApp: App {
             ProContentView()
                 .environmentObject(proAppStateManager)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                .environmentObject(navigationBar)
         }
     }
 }

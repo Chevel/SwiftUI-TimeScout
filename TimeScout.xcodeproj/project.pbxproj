@@ -32,7 +32,6 @@
 		D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
-		D21C75082D0B97760004E957 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
 		D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
@@ -46,7 +45,6 @@
 		D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
 		D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
-		D21C752A2D0B97A20004E957 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
@@ -104,8 +102,6 @@
 		D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
-		D23543AE2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
-		D23543AF2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D23543BB2A0E23F2002DEF73 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
@@ -205,7 +201,6 @@
 		D23543982A0E1880002DEF73 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		D23543992A0E1880002DEF73 /* TabBarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 		D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryDetails.swift; sourceTree = "<group>"; };
-		D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineView.swift; sourceTree = "<group>"; };
 		D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAppStateManager.swift; sourceTree = "<group>"; };
 		D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProHomeView.swift; sourceTree = "<group>"; };
@@ -435,7 +430,6 @@
 			isa = PBXGroup;
 			children = (
 				D29C69582A13FCEF00358EDD /* Presentable.swift */,
-				D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */,
 			);
 			path = NavigationBar;
 			sourceTree = "<group>";
@@ -916,7 +910,6 @@
 				D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */,
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
 				D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
-				D21C75082D0B97760004E957 /* NavigationBarView.swift in Sources */,
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
 				D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */,
 				D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */,
@@ -939,7 +932,6 @@
 				D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
-				D21C752A2D0B97A20004E957 /* NavigationBarView.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
 				D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */,
 				D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */,
@@ -986,7 +978,6 @@
 				D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
-				D23543AF2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */,
 				D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */,
@@ -1056,7 +1047,6 @@
 				D26E08AF2A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
 				D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
-				D23543AE2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */,
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
 				D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */,
 				D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */,
