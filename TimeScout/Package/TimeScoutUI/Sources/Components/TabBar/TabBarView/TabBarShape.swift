@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TabBarShape: Shape {
+public struct TabBarShape: Shape {
 
     private enum Constants {
         static let cornerRadius: CGFloat = 20
@@ -16,7 +16,7 @@ struct TabBarShape: Shape {
         static let buttonPadding: CGFloat = 5
     }
 
-    func path(in rect: CGRect) -> Path {
+    public func path(in rect: CGRect) -> Path {
         let path = UIBezierPath()
 
         path.move(to: .init(x: 0, y: rect.height))
@@ -38,5 +38,4 @@ struct TabBarShape: Shape {
 
         return Path(path.cgPath)
     }
-    
 }

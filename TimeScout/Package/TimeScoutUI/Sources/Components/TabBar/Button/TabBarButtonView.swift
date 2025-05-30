@@ -7,30 +7,40 @@
 //
 
 import SwiftUI
+import TimeScoutCore
 
-struct TabBarButtonView: View {
+public struct TabBarButtonView: View {
 
     // MARK: - Properties
 
-    var type: TabBarButtonType
-    @EnvironmentObject var appStateManager: ProAppStateManager
-
-    private var isSelected: Bool {
-        appStateManager.selectedTab == type
+    private var type: TabBarButtonType
+    private var selectedTab: Binding<TabBarButtonType>
+    
+    public init(type: TabBarButtonType, selectedTab: Binding<TabBarButtonType>) {
+        self.type = type
+        self.selectedTab = selectedTab
     }
 
     // MARK: - View
 
-    var body: some View {
+    public var body: some View {
         Button(action: {
-            appStateManager.selectedTab = type
+            selectedTab.wrappedValue = type
         }, label: {
             type.image.resizable()
                 .aspectRatio(contentMode: .fit)
                 .foregroundColor(isSelected ? Color.Pallete.secondary : Color.white)
         }).frame(width: 40, height: 40)
     }
+}
 
+// MARK: - Computed
+
+private extension TabBarButtonView {
+    
+    var isSelected: Bool {
+        selectedTab.wrappedValue == type
+    }
 }
 
 // MARK: - Preview
@@ -38,9 +48,7 @@ struct TabBarButtonView: View {
 struct TabBarButtonView_Previews: PreviewProvider {
 
     static var previews: some View {
-        TabBarButtonView(type: TabBarButtonType.home)
-            .environmentObject(ProAppStateManager())
+        TabBarButtonView(type: TabBarButtonType.home, selectedTab: .constant(.home))
             .background(Color.Pallete.primary)
     }
-
 }

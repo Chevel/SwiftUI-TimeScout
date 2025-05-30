@@ -10,7 +10,6 @@
 		D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
-		D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
 		D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
@@ -21,8 +20,6 @@
 		D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
-		D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
-		D21C74EE2D0B97760004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
@@ -32,7 +29,6 @@
 		D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
-		D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D21C750E2D0B97760004E957 /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D21C750F2D0B97760004E957 /* ProCategoryGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08BB2A0ECC0B0097608D /* ProCategoryGridItemView.swift */; };
@@ -40,7 +36,6 @@
 		D21C75152D0B97760004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D21C75212D0B97A20004E957 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D21C75222D0B97A20004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
-		D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
 		D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
@@ -48,7 +43,6 @@
 		D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75362D0B97A20004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
-		D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
@@ -58,11 +52,8 @@
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D21C75572D0B97A20004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
-		D21C75582D0B97A20004E957 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
 		D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
-		D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
-		D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D21C75612D0B97A20004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
 		D21C75632D0B97A20004E957 /* ProCategoryGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08BB2A0ECC0B0097608D /* ProCategoryGridItemView.swift */; };
 		D21C75692D0B97A20004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
@@ -71,14 +62,10 @@
 		D21C75702D0B97A20004E957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
 		D21C75722D0B97A20004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
-		D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
-		D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
-		D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
-		D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
@@ -94,11 +81,6 @@
 		D235437D2A0E131C002DEF73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
 		D235437F2A0E131C002DEF73 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
-		D235439A2A0E1880002DEF73 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
-		D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
-		D235439C2A0E1880002DEF73 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
-		D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
-		D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
@@ -175,11 +157,6 @@
 		D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityCard.swift; sourceTree = "<group>"; };
 		D23543842A0E131C002DEF73 /* TimeScoutLIFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScoutLIFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23543902A0E17EB002DEF73 /* ProMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProMainView.swift; sourceTree = "<group>"; };
-		D23543942A0E1880002DEF73 /* TabBarButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButtonType.swift; sourceTree = "<group>"; };
-		D23543952A0E1880002DEF73 /* TabBarButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
-		D23543962A0E1880002DEF73 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
-		D23543982A0E1880002DEF73 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		D23543992A0E1880002DEF73 /* TabBarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 		D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryDetails.swift; sourceTree = "<group>"; };
 		D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineView.swift; sourceTree = "<group>"; };
 		D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAppStateManager.swift; sourceTree = "<group>"; };
@@ -356,50 +333,13 @@
 			path = ActivityDetails;
 			sourceTree = "<group>";
 		};
-		D23543922A0E184D002DEF73 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				D23543962A0E1880002DEF73 /* Tab.swift */,
-				D23543932A0E1880002DEF73 /* Button */,
-				D23543972A0E1880002DEF73 /* TabBarView */,
-			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
-		D23543932A0E1880002DEF73 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				D23543942A0E1880002DEF73 /* TabBarButtonType.swift */,
-				D23543952A0E1880002DEF73 /* TabBarButtonView.swift */,
-			);
-			path = Button;
-			sourceTree = "<group>";
-		};
-		D23543972A0E1880002DEF73 /* TabBarView */ = {
-			isa = PBXGroup;
-			children = (
-				D23543982A0E1880002DEF73 /* TabBarView.swift */,
-				D23543992A0E1880002DEF73 /* TabBarShape.swift */,
-			);
-			path = TabBarView;
-			sourceTree = "<group>";
-		};
 		D23543A72A0E1ADB002DEF73 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				D23543B72A0E23BE002DEF73 /* Root */,
 				D23543B62A0E1F3F002DEF73 /* Screen */,
-				D23543B42A0E1F33002DEF73 /* Components */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		D23543B42A0E1F33002DEF73 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				D23543922A0E184D002DEF73 /* TabBar */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		D23543B62A0E1F3F002DEF73 /* Screen */ = {
@@ -834,7 +774,6 @@
 				D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */,
 				D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */,
 				D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */,
-				D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */,
 				D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */,
 				D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */,
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
@@ -847,8 +786,6 @@
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
 				D23C25AF2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */,
-				D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */,
-				D21C74EE2D0B97760004E957 /* TabBarButtonType.swift in Sources */,
 				D2410F112DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
 				D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */,
 				D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */,
@@ -860,7 +797,6 @@
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
 				D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */,
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
-				D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */,
 				D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */,
 				D21C750E2D0B97760004E957 /* CategoryDetailsRowView.swift in Sources */,
 				D21C750F2D0B97760004E957 /* ProCategoryGridItemView.swift in Sources */,
@@ -873,7 +809,6 @@
 			files = (
 				D21C75212D0B97A20004E957 /* ProAppStateManager.swift in Sources */,
 				D21C75222D0B97A20004E957 /* ListSectionTitle.swift in Sources */,
-				D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */,
 				D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */,
 				D2C12A9C2D232EC00093FB3F /* OnboardingView.swift in Sources */,
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
@@ -882,7 +817,6 @@
 				D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */,
 				D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */,
 				D21C75362D0B97A20004E957 /* HomeView.swift in Sources */,
-				D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */,
 				D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */,
 				D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
@@ -894,11 +828,8 @@
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C75572D0B97A20004E957 /* SearchField.swift in Sources */,
 				D2410F0F2DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
-				D21C75582D0B97A20004E957 /* Tab.swift in Sources */,
 				D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */,
-				D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */,
 				D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */,
-				D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */,
 				D21C75612D0B97A20004E957 /* ProHomeView.swift in Sources */,
 				D21C75632D0B97A20004E957 /* ProCategoryGridItemView.swift in Sources */,
 				D2C12A972D232E1E0093FB3F /* ProContentView.swift in Sources */,
@@ -914,7 +845,6 @@
 			files = (
 				D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */,
 				D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */,
-				D235439A2A0E1880002DEF73 /* TabBarButtonType.swift in Sources */,
 				D26E08B62A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
 				D2C12A9A2D232EC00093FB3F /* OnboardingView.swift in Sources */,
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
@@ -923,7 +853,6 @@
 				D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */,
 				D26E08B02A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */,
-				D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */,
 				D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
 				D26E08B32A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
@@ -935,11 +864,8 @@
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
 				D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */,
 				D2410F122DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
-				D235439C2A0E1880002DEF73 /* Tab.swift in Sources */,
 				D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */,
-				D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */,
 				D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */,
-				D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */,
 				D23543BB2A0E23F2002DEF73 /* ProHomeView.swift in Sources */,
 				D26E08BD2A0ECC0B0097608D /* ProCategoryGridItemView.swift in Sources */,
 				D2C12A962D232E1E0093FB3F /* ProContentView.swift in Sources */,
@@ -956,7 +882,6 @@
 				D2F6EF7A2A015AE000D7B4BE /* ListSectionTitle.swift in Sources */,
 				D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */,
 				D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */,
-				D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */,
 				D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */,
 				D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */,
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
@@ -969,8 +894,6 @@
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
 				D23C25B02DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D26E08B52A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
-				D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */,
-				D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */,
 				D2410F102DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
 				D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */,
 				D2F6EF782A01530500D7B4BE /* ListRowView.swift in Sources */,
@@ -982,7 +905,6 @@
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
 				D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */,
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
-				D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */,
 				D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */,
 				D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */,
 				D26E08BC2A0ECC0B0097608D /* ProCategoryGridItemView.swift in Sources */,
