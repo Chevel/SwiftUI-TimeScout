@@ -140,8 +140,6 @@
 		D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A9A2D232EC00093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12A9C2D232EC00093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
-		D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
@@ -152,8 +150,6 @@
 		D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
 		D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
-		D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12ACC2D2358490093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
 		D2C12ACD2D2358490093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
 		D2C12ACE2D2358A50093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
@@ -207,7 +203,6 @@
 		D2C12A892D22C2790093FB3F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D2C12A942D232E1E0093FB3F /* ProContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProContentView.swift; sourceTree = "<group>"; };
 		D2C12A992D232EC00093FB3F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProAssets.xcassets; sourceTree = "<group>"; };
@@ -439,7 +434,6 @@
 			isa = PBXGroup;
 			children = (
 				D2C12A992D232EC00093FB3F /* OnboardingView.swift */,
-				D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -862,7 +856,6 @@
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
 				D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */,
-				D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */,
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
 				D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */,
@@ -892,7 +885,6 @@
 				D21C75362D0B97A20004E957 /* HomeView.swift in Sources */,
 				D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */,
 				D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */,
-				D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
@@ -934,7 +926,6 @@
 				D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */,
 				D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */,
 				D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
-				D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08B32A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
@@ -987,7 +978,6 @@
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D2F6EF712A01507F00D7B4BE /* SearchField.swift in Sources */,
-				D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08AF2A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
 				D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */,

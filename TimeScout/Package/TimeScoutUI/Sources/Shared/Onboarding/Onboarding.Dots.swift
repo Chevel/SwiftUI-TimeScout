@@ -8,13 +8,8 @@
 
 import SwiftUI
 
-struct Fancy3DotsIndexView: View {
+public struct Fancy3DotsIndexView: View {
     
-    // MARK: - Public Properties
-    
-    let numberOfPages: Int
-    let currentIndex: Int
-
     // MARK: - Drawing Constants
     
     private let circleSize: CGFloat = 16
@@ -24,10 +19,20 @@ struct Fancy3DotsIndexView: View {
     private let secondaryColor = Color.white.opacity(0.6)
     
     private let smallScale: CGFloat = 0.6
+
+    // MARK: - Properties
     
+    private let numberOfPages: Int
+    private let currentIndex: Int
+    
+    public init(numberOfPages: Int, currentIndex: Int) {
+        self.numberOfPages = numberOfPages
+        self.currentIndex = currentIndex
+    }
+
     // MARK: - Body
     
-    var body: some View {
+    public var body: some View {
         HStack(spacing: circleSpacing) {
             ForEach(0..<numberOfPages) { index in
                 if shouldShowIndex(index) {
@@ -41,9 +46,9 @@ struct Fancy3DotsIndexView: View {
             }
         }
     }
-    
-    
-    // MARK: - Private Methods
+}
+
+private extension Fancy3DotsIndexView {
     
     func shouldShowIndex(_ index: Int) -> Bool {
         ((currentIndex - 1)...(currentIndex + 1)).contains(index)
