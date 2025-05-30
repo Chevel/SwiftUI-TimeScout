@@ -107,6 +107,10 @@
 		D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D23870132DCCDF430050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870122DCCDF430050DEF4 /* TimeScoutUI */; };
 		D23870152DCCDF480050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870142DCCDF480050DEF4 /* TimeScoutUI */; };
+		D23C25AE2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
+		D23C25AF2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
+		D23C25B02DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
+		D23C25B12DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
 		D2410F0B2DE9BEB000B16F84 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D2410F0A2DE9BEB000B16F84 /* TimeScoutData */; };
 		D2410F0D2DE9BEB600B16F84 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D2410F0C2DE9BEB600B16F84 /* TimeScoutData */; };
 		D2410F0F2DE9D3BC00B16F84 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */; };
@@ -144,10 +148,6 @@
 		D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12ABA2D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
-		D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
 		D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12ACC2D2358490093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
@@ -186,6 +186,7 @@
 		D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProHomeView.swift; sourceTree = "<group>"; };
 		D237B5832A128B160032BA02 /* ProTimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineRow.swift; sourceTree = "<group>"; };
 		D23870112DCCDF210050DEF4 /* TimeScoutUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutUI; sourceTree = "<group>"; };
+		D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2410F092DE9BE3D00B16F84 /* TimeScoutData */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutData; sourceTree = "<group>"; };
 		D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
@@ -204,7 +205,6 @@
 		D2C12A942D232E1E0093FB3F /* ProContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProContentView.swift; sourceTree = "<group>"; };
 		D2C12A992D232EC00093FB3F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProAssets.xcassets; sourceTree = "<group>"; };
 		D2C12AD52D2358EB0093FB3F /* BasicAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BasicAssets.xcassets; sourceTree = "<group>"; };
 		D2C43F2A2A010402005CC925 /* TimeScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -289,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C43F462A01062B005CC925 /* Screen */,
+				D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -603,7 +604,6 @@
 				D2C43F432A010611005CC925 /* Details */,
 				D2C43F422A01060A005CC925 /* List */,
 				D2C43F442A01061A005CC925 /* Add */,
-				D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -836,7 +836,6 @@
 				D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */,
 				D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */,
 				D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */,
-				D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */,
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
@@ -846,6 +845,7 @@
 				D21C74DF2D0B97760004E957 /* ListView.swift in Sources */,
 				D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */,
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
+				D23C25AF2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */,
 				D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */,
 				D21C74EE2D0B97760004E957 /* TabBarButtonType.swift in Sources */,
@@ -880,13 +880,13 @@
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
 				D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */,
-				D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */,
 				D21C75362D0B97A20004E957 /* HomeView.swift in Sources */,
 				D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */,
 				D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */,
 				D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
+				D23C25B12DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75482D0B97A20004E957 /* ProActivityDetails.swift in Sources */,
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
@@ -921,13 +921,13 @@
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */,
-				D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D26E08B02A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */,
 				D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */,
 				D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
 				D26E08B32A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
+				D23C25AE2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D29C69572A13EF8B00358EDD /* ProActivityDetails.swift in Sources */,
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
@@ -958,7 +958,6 @@
 				D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */,
 				D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */,
 				D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */,
-				D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */,
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
@@ -968,6 +967,7 @@
 				D2C43F4B2A010DBB005CC925 /* ListView.swift in Sources */,
 				D2C43F2E2A010402005CC925 /* TimeScoutApp.swift in Sources */,
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
+				D23C25B02DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D26E08B52A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
 				D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */,
 				D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */,

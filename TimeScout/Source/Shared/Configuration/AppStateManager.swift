@@ -15,7 +15,7 @@ class AppStateManager: NSObject, ObservableObject {
     
     // MARK: - Onboarding
     
-    @Published var currentScreen: ProAppStateManager.ScreenType = {
+    @Published var currentScreen: ScreenType = {
         let wasOnboardingShown = switch AppSettings.target {
         case .basic: UserDefaults.standard.bool(forKey: UserDefaults.TimeScoutKey.wasOnboardingShown.rawValue)
         case .pro: UserDefaults.standard.bool(forKey: UserDefaults.TimeScoutProKey.wasOnboardingShown.rawValue)
