@@ -332,7 +332,6 @@
 		D23543892A0E145A002DEF73 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D23543A82A0E1AEB002DEF73 /* UI-elements */,
 				D2C43F452A010625005CC925 /* Services */,
 				D2AB94E72A0114B600A7A0CE /* Configuration */,
 			);
@@ -411,13 +410,6 @@
 				D23543B42A0E1F33002DEF73 /* Components */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		D23543A82A0E1AEB002DEF73 /* UI-elements */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "UI-elements";
 			sourceTree = "<group>";
 		};
 		D23543B42A0E1F33002DEF73 /* Components */ = {
