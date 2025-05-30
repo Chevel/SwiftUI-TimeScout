@@ -9,10 +9,9 @@
 import SwiftUI
 
 // Disables the highlight on NavigationLink when tapped.
-struct ClearNavigationLinkStyle: ButtonStyle {
+public struct ClearNavigationLinkStyle: ButtonStyle {
 
-    func makeBody(configuration: Self.Configuration) -> some View {
+    public func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label.background(Color.clear)
     }
-
 }

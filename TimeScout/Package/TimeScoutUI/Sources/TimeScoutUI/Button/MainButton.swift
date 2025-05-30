@@ -9,12 +9,17 @@
 import SwiftUI
 import TimeScoutCore
 
-struct MainButton: View {
+public struct MainButton: View {
     
-    var configuration: Configuration
-    var handler: EmptyClosure
+    public let configuration: Configuration
+    public let handler: EmptyClosure
     
-    var body: some View {
+    public init(configuration: Configuration, handler: @escaping EmptyClosure) {
+        self.configuration = configuration
+        self.handler = handler
+    }
+    
+    public var body: some View {
         Button(
             action: handler,
             label: {
@@ -41,7 +46,7 @@ struct MainButton: View {
     }
 }
 
-extension MainButton {
+public extension MainButton {
     
     enum Configuration {
         case add
@@ -52,6 +57,7 @@ extension MainButton {
 // MARK: - Preview
 
 struct MainButton_Previews: PreviewProvider {
+
     static var previews: some View {
         ZStack {
             Color.Pallete.primary

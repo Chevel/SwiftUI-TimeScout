@@ -8,12 +8,11 @@
 
 import SwiftUI
 
-struct MainButtonStyle: ButtonStyle {
+public struct MainButtonStyle: ButtonStyle {
 
-    func makeBody(configuration: Self.Configuration) -> some View {
+    public func makeBody(configuration: Self.Configuration) -> some View {
         configuration
             .label
             .scaleEffect(configuration.isPressed ? 1.2 : 1)
     }
-
 }
