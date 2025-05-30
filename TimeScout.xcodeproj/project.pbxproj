@@ -43,7 +43,6 @@
 		D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C74F02D0B97760004E957 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69582A13FCEF00358EDD /* Presentable.swift */; };
 		D21C74F12D0B97760004E957 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
-		D21C74F22D0B97760004E957 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
 		D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C74F42D0B97760004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C12A10E0740097608D /* ProTimeActivity+CoreDataClass.swift */; };
 		D21C74F62D0B97760004E957 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
@@ -102,7 +101,6 @@
 		D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
 		D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C22A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift */; };
 		D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
-		D21C754D2D0B97A20004E957 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
 		D21C754E2D0B97A20004E957 /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
@@ -159,7 +157,6 @@
 		D23543632A0E131C002DEF73 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
 		D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
-		D23543672A0E131C002DEF73 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
 		D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D235436C2A0E131C002DEF73 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
@@ -233,7 +230,6 @@
 		D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
-		D2AB95042A012E3600A7A0CE /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95032A012E3600A7A0CE /* CloseButton.swift */; };
 		D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D2AB950E2A01368000A7A0CE /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
@@ -341,7 +337,6 @@
 		D2AB94FA2A011DE400A7A0CE /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
 		D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarStyle.swift; sourceTree = "<group>"; };
-		D2AB95032A012E3600A7A0CE /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		D2AB95082A0131A700A7A0CE /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityTextFieldStyle.swift; sourceTree = "<group>"; };
@@ -744,14 +739,6 @@
 			path = Snackbar;
 			sourceTree = "<group>";
 		};
-		D2AB95022A012E2D00A7A0CE /* CloseButton */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB95032A012E3600A7A0CE /* CloseButton.swift */,
-			);
-			path = CloseButton;
-			sourceTree = "<group>";
-		};
 		D2AB950C2A01366900A7A0CE /* TextFieldStyle */ = {
 			isa = PBXGroup;
 			children = (
@@ -800,7 +787,6 @@
 		D2C12AB02D2330CF0093FB3F /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				D2AB95022A012E2D00A7A0CE /* CloseButton */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -1177,7 +1163,6 @@
 				D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */,
 				D21C74F02D0B97760004E957 /* Presentable.swift in Sources */,
 				D21C74F12D0B97760004E957 /* TimeCategory+CoreDataClass.swift in Sources */,
-				D21C74F22D0B97760004E957 /* CloseButton.swift in Sources */,
 				D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */,
 				D2C12AC52D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D21C74F42D0B97760004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */,
@@ -1250,7 +1235,6 @@
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
 				D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */,
-				D21C754D2D0B97A20004E957 /* CloseButton.swift in Sources */,
 				D21C754E2D0B97A20004E957 /* Time+Calculations.swift in Sources */,
 				D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */,
@@ -1322,7 +1306,6 @@
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
 				D26E08C82A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */,
-				D23543672A0E131C002DEF73 /* CloseButton.swift in Sources */,
 				D26E08AA2A0EA77F0097608D /* Time+Calculations.swift in Sources */,
 				D26E08CA2A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */,
@@ -1392,7 +1375,6 @@
 				D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */,
 				D29C69592A13FCEF00358EDD /* Presentable.swift in Sources */,
 				D21EDD3D2A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift in Sources */,
-				D2AB95042A012E3600A7A0CE /* CloseButton.swift in Sources */,
 				D2F6EF782A01530500D7B4BE /* ListRowView.swift in Sources */,
 				D2C12AC42D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D26E08C52A10E0740097608D /* ProTimeActivity+CoreDataClass.swift in Sources */,
