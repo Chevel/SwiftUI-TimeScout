@@ -7,10 +7,9 @@
 //
 
 import SwiftUI
+import TimeScoutCore
 
-enum TabBarButtonType: String {
-    case home
-    case list
+public extension TabBarButtonType {
 
     var image: Image {
         switch self {
