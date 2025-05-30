@@ -8,6 +8,7 @@
 
 import SwiftUI
 import TimeScoutCore
+import TimeScoutData
 
 struct ProTimelineView: Presentable {
     

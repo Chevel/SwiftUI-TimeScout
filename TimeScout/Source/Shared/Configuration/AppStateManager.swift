@@ -9,6 +9,7 @@
 import SwiftUI
 import Foundation
 import TimeScoutCore
+import TimeScoutData
 
 class AppStateManager: NSObject, ObservableObject {
     

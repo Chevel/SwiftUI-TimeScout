@@ -8,32 +8,17 @@
 
 import CoreData
 
-struct PersistenceController {
+public actor PersistenceController {
 
     // MARK: - Properties
+    
+    public let container: NSPersistentContainer
 
-    static let shared = PersistenceController()
-    static var preview: PersistenceController = {
-        let result = PersistenceController(inMemory: true)
-        let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = TimeActivity(context: viewContext)
-            newItem.timestamp = Date()
-        }
-        do {
-            try viewContext.save()
-        } catch {
-            // Replace this implementation with code to handle the error appropriately.
-            // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-            let nsError = error as NSError
-            assertionFailure("Unresolved error \(nsError), \(nsError.userInfo)")
-        }
-        return result
-    }()
+    // MARK: - Init
 
-    let container: NSPersistentContainer
+    public static let shared = PersistenceController()
 
-    init(inMemory: Bool = false) {
+    private init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "TimeScout")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
@@ -59,7 +44,7 @@ struct PersistenceController {
     
     // MARK: - Operations
 
-    func save() {
+    public func save() {
         let context = container.viewContext
 
         if context.hasChanges {
@@ -70,5 +55,4 @@ struct PersistenceController {
             }
         }
     }
-
 }

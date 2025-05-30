@@ -9,6 +9,7 @@
 import Charts
 import SwiftUI
 import TimeScoutCore
+import TimeScoutData
 
 struct ProCategoryChart: View {
 

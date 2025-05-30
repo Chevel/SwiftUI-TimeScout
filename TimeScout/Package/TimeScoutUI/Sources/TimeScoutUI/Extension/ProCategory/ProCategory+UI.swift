@@ -1,42 +1,15 @@
 //
-//  ProCategory.swift
-//  TimeScout
+//  File.swift
+//  TimeScoutUI
 //
-//  Created by Matej on 12/05/2023.
-//  Copyright © 2022 Matej Kokosinek. All rights reserved.
+//  Created by Matej on 30. 5. 25.
 //
 
 import SwiftUI
-import TimeScoutUI
+import Foundation
+import TimeScoutData
 
-enum ProCategory: Int, CaseIterable {
-
-    case health
-    case emotion
-    case brainPower
-    case friends
-    case family
-    case spouse
-    case money
-    case fun
-    case work
-
-    var isLocked: Bool {
-        switch self {
-        case .family, .spouse, .money, .fun, .work: true
-        default: false
-        }
-    }
-}
-
-// MARK: - Identifiable
-
-extension ProCategory: Identifiable {
-    
-    var id: Self { self }
-}
-
-extension ProCategory {
+public extension ProCategory {
     
     var icon: Image {
         switch self {
@@ -79,5 +52,4 @@ extension ProCategory {
         case .work: return "category_work".translated()
         }
     }
-    
 }

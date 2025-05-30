@@ -19,9 +19,7 @@
 		D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
-		D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
 		D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
-		D21C74DB2D0B97760004E957 /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D21C74DE2D0B97760004E957 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D21C74DF2D0B97760004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
@@ -35,7 +33,6 @@
 		D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C74F02D0B97760004E957 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69582A13FCEF00358EDD /* Presentable.swift */; };
 		D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
-		D21C74F62D0B97760004E957 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
 		D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
@@ -56,7 +53,6 @@
 		D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
 		D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
-		D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D21C752A2D0B97A20004E957 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D21C752B2D0B97A20004E957 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */; };
@@ -75,10 +71,8 @@
 		D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
-		D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
 		D21C75482D0B97A20004E957 /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
 		D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
-		D21C754E2D0B97A20004E957 /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D21C75572D0B97A20004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
@@ -105,8 +99,6 @@
 		D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
-		D224AEA92A0EA19E0024B6D3 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
-		D224AEAA2A0EA19E0024B6D3 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
 		D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
@@ -143,8 +135,6 @@
 		D23543BB2A0E23F2002DEF73 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
 		D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
-		D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
-		D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
 		D23870132DCCDF430050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870122DCCDF430050DEF4 /* TimeScoutUI */; };
 		D23870152DCCDF480050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870142DCCDF480050DEF4 /* TimeScoutUI */; };
 		D2410F0B2DE9BEB000B16F84 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D2410F0A2DE9BEB000B16F84 /* TimeScoutData */; };
@@ -155,8 +145,6 @@
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D25B58542DCCB42900976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58532DCCB42900976E21 /* TimeScoutCore */; };
 		D25B58562DCCB42F00976E21 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D25B58552DCCB42F00976E21 /* TimeScoutCore */; };
-		D26E08A92A0EA77F0097608D /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
-		D26E08AA2A0EA77F0097608D /* Time+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time+Calculations.swift */; };
 		D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D26E08AC2A0EBE6E0097608D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
@@ -236,7 +224,6 @@
 /* Begin PBXFileReference section */
 		D21C751A2D0B97760004E957 /* TimeScout-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeScout-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeScoutPro-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategory.swift; sourceTree = "<group>"; };
 		D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityCard.swift; sourceTree = "<group>"; };
 		D23543842A0E131C002DEF73 /* TimeScoutLIFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScoutLIFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23543902A0E17EB002DEF73 /* ProMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProMainView.swift; sourceTree = "<group>"; };
@@ -251,14 +238,12 @@
 		D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAppStateManager.swift; sourceTree = "<group>"; };
 		D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProHomeView.swift; sourceTree = "<group>"; };
 		D237B5832A128B160032BA02 /* ProTimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineRow.swift; sourceTree = "<group>"; };
-		D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeActivity+Relationship.swift"; sourceTree = "<group>"; };
 		D23870112DCCDF210050DEF4 /* TimeScoutUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutUI; sourceTree = "<group>"; };
 		D2410F092DE9BE3D00B16F84 /* TimeScoutData */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutData; sourceTree = "<group>"; };
 		D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearNavigationLinkStyle.swift; sourceTree = "<group>"; };
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
 		D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsSectionView.swift; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
-		D26E08A82A0EA77F0097608D /* Time+Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+Calculations.swift"; sourceTree = "<group>"; };
 		D26E08AE2A0EC0010097608D /* ProAddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAddActivity.swift; sourceTree = "<group>"; };
 		D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryChart.swift; sourceTree = "<group>"; };
 		D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryGrid.swift; sourceTree = "<group>"; };
@@ -385,7 +370,6 @@
 			isa = PBXGroup;
 			children = (
 				D23543A72A0E1ADB002DEF73 /* UI */,
-				D23543A92A0E1B0B002DEF73 /* Data */,
 			);
 			path = Pro;
 			sourceTree = "<group>";
@@ -393,9 +377,7 @@
 		D23543892A0E145A002DEF73 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D26E08BA2A0EC4020097608D /* Data */,
 				D23543A82A0E1AEB002DEF73 /* UI-elements */,
-				D2AB94E02A0113FC00A7A0CE /* Extensions */,
 				D2C43F452A010625005CC925 /* Services */,
 				D2AB94E72A0114B600A7A0CE /* Configuration */,
 			);
@@ -489,14 +471,6 @@
 			path = "UI-elements";
 			sourceTree = "<group>";
 		};
-		D23543A92A0E1B0B002DEF73 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		D23543AA2A0E1B79002DEF73 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,14 +535,6 @@
 			path = Event;
 			sourceTree = "<group>";
 		};
-		D26E08BA2A0EC4020097608D /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				D26E08A82A0EA77F0097608D /* Time+Calculations.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		D26F27B22DCCB02000C31B4B /* Package */ = {
 			isa = PBXGroup;
 			children = (
@@ -593,14 +559,6 @@
 				D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */,
 			);
 			path = CategoryDetails;
-			sourceTree = "<group>";
-		};
-		D2AB94E02A0113FC00A7A0CE /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D2AB94E72A0114B600A7A0CE /* Configuration */ = {
@@ -1020,9 +978,7 @@
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
-				D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
-				D21C74DB2D0B97760004E957 /* Time+Calculations.swift in Sources */,
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21C74DE2D0B97760004E957 /* SnackbarStyle.swift in Sources */,
@@ -1040,7 +996,6 @@
 				D21C74F02D0B97760004E957 /* Presentable.swift in Sources */,
 				D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */,
 				D2C12AC52D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
-				D21C74F62D0B97760004E957 /* ProCategory.swift in Sources */,
 				D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
@@ -1072,7 +1027,6 @@
 				D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */,
 				D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
-				D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */,
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C752A2D0B97A20004E957 /* NavigationBarView.swift in Sources */,
 				D21C752B2D0B97A20004E957 /* MainButtonStyle.swift in Sources */,
@@ -1093,10 +1047,8 @@
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */,
-				D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */,
 				D21C75482D0B97A20004E957 /* ProActivityDetails.swift in Sources */,
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
-				D21C754E2D0B97A20004E957 /* Time+Calculations.swift in Sources */,
 				D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */,
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C75572D0B97A20004E957 /* SearchField.swift in Sources */,
@@ -1129,7 +1081,6 @@
 				D26E08B62A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
 				D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
-				D224AEAA2A0EA19E0024B6D3 /* ProCategory.swift in Sources */,
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
 				D23543AF2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */,
 				D23543532A0E131C002DEF73 /* MainButtonStyle.swift in Sources */,
@@ -1150,10 +1101,8 @@
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */,
-				D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
 				D29C69572A13EF8B00358EDD /* ProActivityDetails.swift in Sources */,
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
-				D26E08AA2A0EA77F0097608D /* Time+Calculations.swift in Sources */,
 				D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */,
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
 				D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */,
@@ -1190,9 +1139,7 @@
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
-				D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
-				D26E08A92A0EA77F0097608D /* Time+Calculations.swift in Sources */,
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */,
@@ -1210,7 +1157,6 @@
 				D29C69592A13FCEF00358EDD /* Presentable.swift in Sources */,
 				D2F6EF782A01530500D7B4BE /* ListRowView.swift in Sources */,
 				D2C12AC42D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
-				D224AEA92A0EA19E0024B6D3 /* ProCategory.swift in Sources */,
 				D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */,
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,

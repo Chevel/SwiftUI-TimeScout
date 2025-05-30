@@ -13,14 +13,18 @@ let package = Package(
             targets: ["TimeScoutUI"]),
     ],
     dependencies: [
-        .package(path: "TimeScoutCore")
+        .package(path: "TimeScoutCore"),
+        .package(path: "TimeScoutData")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "TimeScoutUI",
-            dependencies: [.product(name: "TimeScoutCore", package: "TimeScoutCore")]
+            dependencies: [
+                .product(name: "TimeScoutCore", package: "TimeScoutCore"),
+                .product(name: "TimeScoutData", package: "TimeScoutData")
+            ]
         ),
         .testTarget(
             name: "TimeScoutUITests",

@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import TimeScoutCore
 
-extension ProTimeActivity {
+public extension ProTimeActivity {
     
     var categories: [ProCategory] {
         self.relationship?
@@ -18,5 +19,4 @@ extension ProTimeActivity {
                 return ProCategory(rawValue: Int(type))
             }) ?? []
     }
-    
 }

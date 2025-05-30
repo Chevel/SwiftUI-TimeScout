@@ -8,6 +8,7 @@
 
 import SwiftUI
 import TimeScoutCore
+import TimeScoutData
 
 @main
 struct TimeScoutApp: App {

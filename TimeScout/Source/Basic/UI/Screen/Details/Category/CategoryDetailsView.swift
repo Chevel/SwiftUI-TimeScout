@@ -9,6 +9,7 @@
 import SwiftUI
 import TimeScoutUI
 import TimeScoutCore
+import TimeScoutData
 
 struct CategoryDetailsView: View {
     

@@ -8,6 +8,7 @@
 
 import SwiftUI
 import TimeScoutUI
+import TimeScoutData
 
 struct AddActivityView: View {
     

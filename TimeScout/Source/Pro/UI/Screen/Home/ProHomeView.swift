@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutData
 
 struct ProHomeView: Presentable {
     

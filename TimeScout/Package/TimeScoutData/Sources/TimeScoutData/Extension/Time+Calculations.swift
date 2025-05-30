@@ -9,7 +9,7 @@
 import Foundation
 import TimeScoutCore
 
-extension Time {
+public extension Time {
     
     // MARK: - UI
 
