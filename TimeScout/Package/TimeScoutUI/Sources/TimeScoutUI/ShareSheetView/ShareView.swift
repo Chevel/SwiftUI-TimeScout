@@ -9,11 +9,15 @@
 import SwiftUI
 import TimeScoutCore
 
-struct ShareView: View {
+public struct ShareView: View {
     
-    let linkURL: URL
+    private let linkURL: URL
+    
+    public init(linkURL: URL) {
+        self.linkURL = linkURL
+    }
 
-    var body: some View {
+    public var body: some View {
         ShareLink(item: linkURL) {
             Image.SFSymbols.share
                 .scaledToFit()
@@ -26,6 +30,7 @@ struct ShareView: View {
 // MARK: - Preview
 
 struct ShareView_Previews: PreviewProvider {
+
     static var previews: some View {
         ZStack {
             Color.blue
@@ -36,7 +41,7 @@ struct ShareView_Previews: PreviewProvider {
 
 // MARK: - iOS15 system share sheet
 
-struct ActivityViewController: UIViewControllerRepresentable {
+private struct ActivityViewController: UIViewControllerRepresentable {
 
     @Binding var activityItems: [Any]
     var excludedActivityTypes: [UIActivity.ActivityType]? = nil
@@ -53,7 +58,7 @@ struct ActivityViewController: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: UIViewControllerRepresentableContext<ActivityViewController>) {}
 }
 
-struct ShareSheetModifer: ViewModifier {
+private struct ShareSheetModifer: ViewModifier {
     @State private var showShareSheet: Bool
     @State private var shareSheetItems: [Any]
     
@@ -78,6 +83,7 @@ struct ShareSheetModifer: ViewModifier {
 }
 
 extension View {
+
     func shareSheet(items: [Any], excludedActivityTypes: [UIActivity.ActivityType]? = nil) -> some View {
         self.modifier(ShareSheetModifer(shareSheetItems: items))
     }

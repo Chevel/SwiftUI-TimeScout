@@ -8,6 +8,7 @@
 
 import SwiftUI
 import CoreData
+import TimeScoutUI
 import TimeScoutCore
 import UIKit.UIImpactFeedbackGenerator
 
