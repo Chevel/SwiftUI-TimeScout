@@ -35,7 +35,6 @@
 		D21C74E52D0B97760004E957 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D21C74E82D0B97760004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
-		D21C74E92D0B97760004E957 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
 		D21C74EB2D0B97760004E957 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
 		D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
@@ -90,7 +89,6 @@
 		D21C753F2D0B97A20004E957 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
 		D21C75402D0B97A20004E957 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D21C75432D0B97A20004E957 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
 		D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
@@ -122,7 +120,6 @@
 		D21C75722D0B97A20004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D21EDD3B2A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
 		D21EDD3D2A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
-		D21EDD4A2A0300E700E4C54F /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
 		D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
@@ -150,7 +147,6 @@
 		D235435F2A0E131C002DEF73 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
 		D23543602A0E131C002DEF73 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D23543632A0E131C002DEF73 /* HorizontalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */; };
 		D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950D2A01368000A7A0CE /* AddActivityTextFieldStyle.swift */; };
 		D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
 		D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
@@ -284,7 +280,6 @@
 		D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeScoutPro-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeActivity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSeparator.swift; sourceTree = "<group>"; };
 		D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategory.swift; sourceTree = "<group>"; };
 		D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityCard.swift; sourceTree = "<group>"; };
 		D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeActivity+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -534,7 +529,6 @@
 		D23543A82A0E1AEB002DEF73 /* UI-elements */ = {
 			isa = PBXGroup;
 			children = (
-				D23543AB2A0E1B81002DEF73 /* Separator */,
 				D23543AA2A0E1B79002DEF73 /* NavigationBar */,
 				D2467E7C2A09633B002B5572 /* NoStyle */,
 				D2AB95172A01421D00A7A0CE /* MainButton */,
@@ -560,14 +554,6 @@
 				D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */,
 			);
 			path = NavigationBar;
-			sourceTree = "<group>";
-		};
-		D23543AB2A0E1B81002DEF73 /* Separator */ = {
-			isa = PBXGroup;
-			children = (
-				D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */,
-			);
-			path = Separator;
 			sourceTree = "<group>";
 		};
 		D23543B42A0E1F33002DEF73 /* Components */ = {
@@ -1119,7 +1105,6 @@
 				D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
 				D21C74E82D0B97760004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
-				D21C74E92D0B97760004E957 /* HorizontalSeparator.swift in Sources */,
 				D21C74EB2D0B97760004E957 /* AddActivityTextFieldStyle.swift in Sources */,
 				D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */,
 				D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */,
@@ -1188,7 +1173,6 @@
 				D21C753F2D0B97A20004E957 /* TimeActivity+CoreDataProperties.swift in Sources */,
 				D21C75402D0B97A20004E957 /* CTAButton.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
-				D21C75432D0B97A20004E957 /* HorizontalSeparator.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75462D0B97A20004E957 /* AddActivityTextFieldStyle.swift in Sources */,
 				D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */,
@@ -1257,7 +1241,6 @@
 				D235435F2A0E131C002DEF73 /* TimeActivity+CoreDataProperties.swift in Sources */,
 				D23543602A0E131C002DEF73 /* CTAButton.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
-				D23543632A0E131C002DEF73 /* HorizontalSeparator.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D23543652A0E131C002DEF73 /* AddActivityTextFieldStyle.swift in Sources */,
 				D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
@@ -1325,7 +1308,6 @@
 				D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
 				D26E08C92A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,
-				D21EDD4A2A0300E700E4C54F /* HorizontalSeparator.swift in Sources */,
 				D2AB950E2A01368000A7A0CE /* AddActivityTextFieldStyle.swift in Sources */,
 				D26E08B52A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
 				D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */,
