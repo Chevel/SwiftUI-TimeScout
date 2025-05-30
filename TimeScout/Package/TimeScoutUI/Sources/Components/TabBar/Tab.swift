@@ -6,9 +6,7 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import Foundation
-
-enum Tab {
+public enum Tab {
     case home
     case alerts
 }

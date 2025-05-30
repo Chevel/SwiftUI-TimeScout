@@ -10,15 +10,20 @@ import SwiftUI
 import EventKitUI
 import TimeScoutCore
 
-struct TabBarView: View {
+public struct TabBarView: View {
     
-    static let height: CGFloat = 100
-    static let offset: CGFloat = 45
+    public static let height: CGFloat = 100
+    public static let offset: CGFloat = 45
     
-    @EnvironmentObject var appStateManager: ProAppStateManager
-    var mainButtonPressedHandler: EmptyClosure
+    private var wasMainButtonPressed: Binding<Bool>
+    private var selectedTab: Binding<TabBarButtonType>
+    
+    public init(wasMainButtonPressed: Binding<Bool>, selectedTab: Binding<TabBarButtonType>) {
+        self.wasMainButtonPressed = wasMainButtonPressed
+        self.selectedTab = selectedTab
+    }
 
-    var body: some View {
+    public var body: some View {
         VStack {
             ZStack {
                 TabBarShape()
@@ -26,7 +31,7 @@ struct TabBarView: View {
                     .frame(height: Self.height)
                     .overlay(
                         Button {
-                            appStateManager.isAddActivityShown = true
+                            wasMainButtonPressed.wrappedValue = true
                         } label: {
                             ZStack {
                                 Circle()
@@ -40,39 +45,14 @@ struct TabBarView: View {
                         }.offset(x: 0, y: -45)
                     ).overlay(
                         HStack {
-                            TabBarButtonView(type: TabBarButtonType.home)
+                            TabBarButtonView(type: TabBarButtonType.home, selectedTab: selectedTab)
                                 .frame(maxWidth: .infinity, alignment: .center)
                             Spacer(minLength: 90)
-                            TabBarButtonView(type: TabBarButtonType.list)
+                            TabBarButtonView(type: TabBarButtonType.list, selectedTab: selectedTab)
                                 .frame(maxWidth: .infinity, alignment: .center)
                         }
                     )
             }
         }
-    }
-
-}
-
-// MARK: - Preview
-
-struct TabBar_Previews: PreviewProvider {
-    static var previews: some View {
-        VStack {
-            Spacer()
-            TabBarView() {
-                print("")
-            }
-        }
-        .previewDevice("iPhone 12")
-        .environmentObject(ProAppStateManager())
-        
-        VStack {
-            Spacer()
-            TabBarView() {
-                print("")
-            }
-        }
-        .previewDevice("iPhone SE (2nd generation)")
-        .environmentObject(ProAppStateManager())
     }
 }

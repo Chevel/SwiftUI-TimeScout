@@ -9,12 +9,13 @@
 import SwiftUI
 import Foundation
 import TimeScoutData
+import TimeScoutCore
 
 class ProAppStateManager: NSObject, ObservableObject {
     
     // MARK: - Onboarding
     
-    @Published var currentScreen: ProAppStateManager.ScreenType = {
+    @Published var currentScreen: ScreenType = {
         return if UserDefaults.standard.bool(forKey: UserDefaults.TimeScoutProKey.wasOnboardingShown.rawValue) {
             .main
         } else {
@@ -56,25 +57,5 @@ extension ProAppStateManager {
         case timeline
         case timelineDetails
         case activityDetails
-    }
-}
-
-extension ProAppStateManager {
-
-    enum ScreenType: Identifiable, Hashable {
-        case onboarding
-        case main
-    }
-}
-
-// MARK: - Identifiable
-
-extension ProAppStateManager.ScreenType {
-
-    var id: String {
-        switch self {
-        case .onboarding: return "onboarding"
-        case .main: return "main"
-        }
     }
 }

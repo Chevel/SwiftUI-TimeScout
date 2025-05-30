@@ -10,7 +10,6 @@
 		D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
-		D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
 		D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
@@ -21,8 +20,6 @@
 		D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
-		D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
-		D21C74EE2D0B97760004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
@@ -32,7 +29,6 @@
 		D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
-		D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D21C750E2D0B97760004E957 /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D21C750F2D0B97760004E957 /* ProCategoryGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08BB2A0ECC0B0097608D /* ProCategoryGridItemView.swift */; };
@@ -40,7 +36,6 @@
 		D21C75152D0B97760004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D21C75212D0B97A20004E957 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D21C75222D0B97A20004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
-		D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
 		D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
@@ -48,7 +43,6 @@
 		D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75362D0B97A20004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
-		D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
@@ -58,11 +52,8 @@
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D21C75572D0B97A20004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
-		D21C75582D0B97A20004E957 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
 		D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
-		D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
-		D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D21C75612D0B97A20004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
 		D21C75632D0B97A20004E957 /* ProCategoryGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08BB2A0ECC0B0097608D /* ProCategoryGridItemView.swift */; };
 		D21C75692D0B97A20004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
@@ -71,14 +62,10 @@
 		D21C75702D0B97A20004E957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
 		D21C75722D0B97A20004E957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
-		D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
 		D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
-		D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
-		D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
-		D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
@@ -94,11 +81,6 @@
 		D235437D2A0E131C002DEF73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
 		D235437F2A0E131C002DEF73 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294729C2A0427D5008A8602 /* Launch Screen.storyboard */; };
 		D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
-		D235439A2A0E1880002DEF73 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543942A0E1880002DEF73 /* TabBarButtonType.swift */; };
-		D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
-		D235439C2A0E1880002DEF73 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
-		D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
-		D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
@@ -107,6 +89,10 @@
 		D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D23870132DCCDF430050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870122DCCDF430050DEF4 /* TimeScoutUI */; };
 		D23870152DCCDF480050DEF4 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D23870142DCCDF480050DEF4 /* TimeScoutUI */; };
+		D23C25AE2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
+		D23C25AF2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
+		D23C25B02DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
+		D23C25B12DE9FF5E00A24E7D /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */; };
 		D2410F0B2DE9BEB000B16F84 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D2410F0A2DE9BEB000B16F84 /* TimeScoutData */; };
 		D2410F0D2DE9BEB600B16F84 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D2410F0C2DE9BEB600B16F84 /* TimeScoutData */; };
 		D2410F0F2DE9D3BC00B16F84 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */; };
@@ -138,34 +124,14 @@
 		D2C12A962D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A972D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
 		D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
-		D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12AA22D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AA32D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AA42D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AA52D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AA62D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
+		D2C12A9A2D232EC00093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
+		D2C12A9C2D232EC00093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12ABA2D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
-		D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
-		D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */; };
-		D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */; };
-		D2C12AC42D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AC52D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
-		D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */; };
-		D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
+		D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
+		D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A992D232EC00093FB3F /* OnboardingView.swift */; };
 		D2C12ACC2D2358490093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
 		D2C12ACD2D2358490093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
 		D2C12ACE2D2358A50093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
@@ -191,17 +157,13 @@
 		D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityCard.swift; sourceTree = "<group>"; };
 		D23543842A0E131C002DEF73 /* TimeScoutLIFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScoutLIFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23543902A0E17EB002DEF73 /* ProMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProMainView.swift; sourceTree = "<group>"; };
-		D23543942A0E1880002DEF73 /* TabBarButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButtonType.swift; sourceTree = "<group>"; };
-		D23543952A0E1880002DEF73 /* TabBarButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
-		D23543962A0E1880002DEF73 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
-		D23543982A0E1880002DEF73 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		D23543992A0E1880002DEF73 /* TabBarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 		D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryDetails.swift; sourceTree = "<group>"; };
 		D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineView.swift; sourceTree = "<group>"; };
 		D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAppStateManager.swift; sourceTree = "<group>"; };
 		D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProHomeView.swift; sourceTree = "<group>"; };
 		D237B5832A128B160032BA02 /* ProTimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineRow.swift; sourceTree = "<group>"; };
 		D23870112DCCDF210050DEF4 /* TimeScoutUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutUI; sourceTree = "<group>"; };
+		D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2410F092DE9BE3D00B16F84 /* TimeScoutData */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutData; sourceTree = "<group>"; };
 		D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
@@ -218,13 +180,8 @@
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		D2C12A892D22C2790093FB3F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D2C12A942D232E1E0093FB3F /* ProContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProContentView.swift; sourceTree = "<group>"; };
-		D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView_iOS.swift; sourceTree = "<group>"; };
-		D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page_iOS.swift; sourceTree = "<group>"; };
-		D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page.Data_iOS.swift; sourceTree = "<group>"; };
-		D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_iOS.swift; sourceTree = "<group>"; };
-		D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
+		D2C12A992D232EC00093FB3F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProAssets.xcassets; sourceTree = "<group>"; };
 		D2C12AD52D2358EB0093FB3F /* BasicAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BasicAssets.xcassets; sourceTree = "<group>"; };
 		D2C43F2A2A010402005CC925 /* TimeScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C43F462A01062B005CC925 /* Screen */,
+				D23C25AD2DE9FF5E00A24E7D /* BasicContentView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -332,6 +290,7 @@
 		D23543892A0E145A002DEF73 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D23C25AB2DE9F91100A24E7D /* UI */,
 				D2C43F452A010625005CC925 /* Services */,
 				D2AB94E72A0114B600A7A0CE /* Configuration */,
 			);
@@ -374,50 +333,13 @@
 			path = ActivityDetails;
 			sourceTree = "<group>";
 		};
-		D23543922A0E184D002DEF73 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				D23543962A0E1880002DEF73 /* Tab.swift */,
-				D23543932A0E1880002DEF73 /* Button */,
-				D23543972A0E1880002DEF73 /* TabBarView */,
-			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
-		D23543932A0E1880002DEF73 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				D23543942A0E1880002DEF73 /* TabBarButtonType.swift */,
-				D23543952A0E1880002DEF73 /* TabBarButtonView.swift */,
-			);
-			path = Button;
-			sourceTree = "<group>";
-		};
-		D23543972A0E1880002DEF73 /* TabBarView */ = {
-			isa = PBXGroup;
-			children = (
-				D23543982A0E1880002DEF73 /* TabBarView.swift */,
-				D23543992A0E1880002DEF73 /* TabBarShape.swift */,
-			);
-			path = TabBarView;
-			sourceTree = "<group>";
-		};
 		D23543A72A0E1ADB002DEF73 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				D23543B72A0E23BE002DEF73 /* Root */,
 				D23543B62A0E1F3F002DEF73 /* Screen */,
-				D23543B42A0E1F33002DEF73 /* Components */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		D23543B42A0E1F33002DEF73 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				D23543922A0E184D002DEF73 /* TabBar */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		D23543B62A0E1F3F002DEF73 /* Screen */ = {
@@ -439,6 +361,22 @@
 				D23543902A0E17EB002DEF73 /* ProMainView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		D23C25AB2DE9F91100A24E7D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D23C25AC2DE9F91F00A24E7D /* Onboarding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D23C25AC2DE9F91F00A24E7D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D2C12A992D232EC00093FB3F /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		D255C0D72A09465900713C0A /* Category */ = {
@@ -501,26 +439,6 @@
 				D2C12A892D22C2790093FB3F /* StoreKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2C12A932D232DC10093FB3F /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				D2C12A992D232EC00093FB3F /* OnboardingView_iOS.swift */,
-				D2C12AA12D232EF80093FB3F /* Page */,
-				D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		D2C12AA12D232EF80093FB3F /* Page */ = {
-			isa = PBXGroup;
-			children = (
-				D2C12A9E2D232EF80093FB3F /* OnboardingView.Page_iOS.swift */,
-				D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */,
-				D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */,
-			);
-			path = Page;
 			sourceTree = "<group>";
 		};
 		D2C43F212A010402005CC925 = {
@@ -626,8 +544,6 @@
 				D2C43F432A010611005CC925 /* Details */,
 				D2C43F422A01060A005CC925 /* List */,
 				D2C43F442A01061A005CC925 /* Add */,
-				D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */,
-				D2C12A932D232DC10093FB3F /* Onboarding */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -858,37 +774,29 @@
 				D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */,
 				D21C74C82D0B97760004E957 /* ProAppStateManager.swift in Sources */,
 				D21C74C92D0B97760004E957 /* CategoryDetailsView.swift in Sources */,
-				D21C74CB2D0B97760004E957 /* TabBarShape.swift in Sources */,
 				D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */,
-				D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */,
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
-				D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21C74DF2D0B97760004E957 /* ListView.swift in Sources */,
 				D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */,
-				D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
+				D23C25AF2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */,
-				D21C74ED2D0B97760004E957 /* TabBarButtonView.swift in Sources */,
-				D21C74EE2D0B97760004E957 /* TabBarButtonType.swift in Sources */,
 				D2410F112DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
 				D21C74EF2D0B97760004E957 /* ProTimelineView.swift in Sources */,
 				D21C74F32D0B97760004E957 /* ListRowView.swift in Sources */,
-				D2C12AC52D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
 				D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */,
-				D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */,
 				D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */,
-				D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12AC12D2351710093FB3F /* OnboardingView.swift in Sources */,
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
-				D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */,
 				D21C750D2D0B97760004E957 /* AddActivityView.swift in Sources */,
 				D21C750E2D0B97760004E957 /* CategoryDetailsRowView.swift in Sources */,
 				D21C750F2D0B97760004E957 /* ProCategoryGridItemView.swift in Sources */,
@@ -899,26 +807,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C12AA52D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
-				D2C12AA62D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
-				D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D21C75212D0B97A20004E957 /* ProAppStateManager.swift in Sources */,
 				D21C75222D0B97A20004E957 /* ListSectionTitle.swift in Sources */,
-				D21C75232D0B97A20004E957 /* TabBarButtonType.swift in Sources */,
 				D21C75252D0B97A20004E957 /* ProCategoryGrid.swift in Sources */,
-				D2C12A9C2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12A9C2D232EC00093FB3F /* OnboardingView.swift in Sources */,
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
 				D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */,
-				D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */,
 				D21C75362D0B97A20004E957 /* HomeView.swift in Sources */,
-				D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */,
 				D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */,
-				D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
+				D23C25B12DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75482D0B97A20004E957 /* ProActivityDetails.swift in Sources */,
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
@@ -926,11 +828,8 @@
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C75572D0B97A20004E957 /* SearchField.swift in Sources */,
 				D2410F0F2DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
-				D21C75582D0B97A20004E957 /* Tab.swift in Sources */,
 				D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */,
-				D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */,
 				D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */,
-				D21C755F2D0B97A20004E957 /* TabBarShape.swift in Sources */,
 				D21C75612D0B97A20004E957 /* ProHomeView.swift in Sources */,
 				D21C75632D0B97A20004E957 /* ProCategoryGridItemView.swift in Sources */,
 				D2C12A972D232E1E0093FB3F /* ProContentView.swift in Sources */,
@@ -944,26 +843,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C12AA22D232EF80093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
-				D2C12AA32D232EF80093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
-				D2C12AA42D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */,
 				D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */,
-				D235439A2A0E1880002DEF73 /* TabBarButtonType.swift in Sources */,
 				D26E08B62A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
-				D2C12A9A2D232EC00093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12A9A2D232EC00093FB3F /* OnboardingView.swift in Sources */,
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */,
-				D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D26E08B02A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */,
-				D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */,
 				D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
-				D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08B32A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
+				D23C25AE2DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D29C69572A13EF8B00358EDD /* ProActivityDetails.swift in Sources */,
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
@@ -971,11 +864,8 @@
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
 				D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */,
 				D2410F122DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
-				D235439C2A0E1880002DEF73 /* Tab.swift in Sources */,
 				D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */,
-				D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */,
 				D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */,
-				D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */,
 				D23543BB2A0E23F2002DEF73 /* ProHomeView.swift in Sources */,
 				D26E08BD2A0ECC0B0097608D /* ProCategoryGridItemView.swift in Sources */,
 				D2C12A962D232E1E0093FB3F /* ProContentView.swift in Sources */,
@@ -992,37 +882,29 @@
 				D2F6EF7A2A015AE000D7B4BE /* ListSectionTitle.swift in Sources */,
 				D224AE9B2A0E990A0024B6D3 /* ProAppStateManager.swift in Sources */,
 				D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */,
-				D224AEA22A0E993D0024B6D3 /* TabBarShape.swift in Sources */,
 				D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */,
-				D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */,
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,
-				D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D2C43F4B2A010DBB005CC925 /* ListView.swift in Sources */,
 				D2C43F2E2A010402005CC925 /* TimeScoutApp.swift in Sources */,
-				D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
+				D23C25B02DE9FF5E00A24E7D /* BasicContentView.swift in Sources */,
 				D26E08B52A0EC15E0097608D /* ProCategoryGrid.swift in Sources */,
-				D224AEA42A0E994B0024B6D3 /* TabBarButtonView.swift in Sources */,
-				D224AE9D2A0E99170024B6D3 /* TabBarButtonType.swift in Sources */,
 				D2410F102DE9D3BC00B16F84 /* AppSettings.swift in Sources */,
 				D224AEA32A0E99440024B6D3 /* ProTimelineView.swift in Sources */,
 				D2F6EF782A01530500D7B4BE /* ListRowView.swift in Sources */,
-				D2C12AC42D2351870093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */,
 				D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */,
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D2F6EF712A01507F00D7B4BE /* SearchField.swift in Sources */,
-				D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08AF2A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */,
-				D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
+				D2C12AC02D2351710093FB3F /* OnboardingView.swift in Sources */,
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
-				D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */,
 				D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */,
 				D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */,
 				D26E08BC2A0ECC0B0097608D /* ProCategoryGridItemView.swift in Sources */,

@@ -9,6 +9,7 @@
 import SwiftUI
 import TimeScoutUI
 import TimeScoutData
+import TimeScoutCore
 
 struct ProMainView: View {
     
@@ -56,9 +57,10 @@ struct ProMainView: View {
                 }
                 VStack {
                     Spacer()
-                    TabBarView() {
-                        appStateManager.isAddActivityShown = true
-                    }
+                    TabBarView(
+                        wasMainButtonPressed: $appStateManager.isAddActivityShown,
+                        selectedTab: $appStateManager.selectedTab
+                    )
                     .shadow(color: .black.opacity(0.3), radius: 3, y: -5)
                 }
                 .ignoresSafeArea(.all, edges: .bottom)
