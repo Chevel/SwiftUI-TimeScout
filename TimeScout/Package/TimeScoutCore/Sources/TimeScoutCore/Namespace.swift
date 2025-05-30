@@ -8,8 +8,8 @@
 
 import Foundation
 
-typealias EmptyClosure = (() -> Void)
+public typealias EmptyClosure = (() -> Void)
 
-protocol Unique {
+public protocol Unique {
     var id: String { get set }
 }
