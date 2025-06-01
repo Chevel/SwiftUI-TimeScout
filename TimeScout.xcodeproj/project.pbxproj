@@ -99,6 +99,12 @@
 		D2410F102DE9D3BC00B16F84 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */; };
 		D2410F112DE9D3BC00B16F84 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */; };
 		D2410F122DE9D3BC00B16F84 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2410F0E2DE9D3BC00B16F84 /* AppSettings.swift */; };
+		D24E1F8E2DEC73B6009F5BF3 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D24E1F8D2DEC73B6009F5BF3 /* TimeScoutCore */; };
+		D24E1F902DEC73B6009F5BF3 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D24E1F8F2DEC73B6009F5BF3 /* TimeScoutData */; };
+		D24E1F922DEC73B6009F5BF3 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D24E1F912DEC73B6009F5BF3 /* TimeScoutUI */; };
+		D24E1F942DEC73BC009F5BF3 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D24E1F932DEC73BC009F5BF3 /* TimeScoutCore */; };
+		D24E1F962DEC73BC009F5BF3 /* TimeScoutData in Frameworks */ = {isa = PBXBuildFile; productRef = D24E1F952DEC73BC009F5BF3 /* TimeScoutData */; };
+		D24E1F982DEC73BC009F5BF3 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D24E1F972DEC73BC009F5BF3 /* TimeScoutUI */; };
 		D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
@@ -224,6 +230,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24E1F962DEC73BC009F5BF3 /* TimeScoutData in Frameworks */,
+				D24E1F982DEC73BC009F5BF3 /* TimeScoutUI in Frameworks */,
+				D24E1F942DEC73BC009F5BF3 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +240,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24E1F902DEC73B6009F5BF3 /* TimeScoutData in Frameworks */,
+				D24E1F922DEC73B6009F5BF3 /* TimeScoutUI in Frameworks */,
+				D24E1F8E2DEC73B6009F5BF3 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +649,9 @@
 			);
 			name = TimeScoutLIFE;
 			packageProductDependencies = (
+				D24E1F932DEC73BC009F5BF3 /* TimeScoutCore */,
+				D24E1F952DEC73BC009F5BF3 /* TimeScoutData */,
+				D24E1F972DEC73BC009F5BF3 /* TimeScoutUI */,
 			);
 			productName = TimeScout;
 			productReference = D23543842A0E131C002DEF73 /* TimeScoutLIFE.app */;
@@ -656,6 +671,9 @@
 			);
 			name = TimeScout;
 			packageProductDependencies = (
+				D24E1F8D2DEC73B6009F5BF3 /* TimeScoutCore */,
+				D24E1F8F2DEC73B6009F5BF3 /* TimeScoutData */,
+				D24E1F912DEC73B6009F5BF3 /* TimeScoutUI */,
 			);
 			productName = TimeScout;
 			productReference = D2C43F2A2A010402005CC925 /* TimeScout.app */;
@@ -1442,6 +1460,30 @@
 		D2410F0C2DE9BEB600B16F84 /* TimeScoutData */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TimeScoutData;
+		};
+		D24E1F8D2DEC73B6009F5BF3 /* TimeScoutCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutCore;
+		};
+		D24E1F8F2DEC73B6009F5BF3 /* TimeScoutData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutData;
+		};
+		D24E1F912DEC73B6009F5BF3 /* TimeScoutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutUI;
+		};
+		D24E1F932DEC73BC009F5BF3 /* TimeScoutCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutCore;
+		};
+		D24E1F952DEC73BC009F5BF3 /* TimeScoutData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutData;
+		};
+		D24E1F972DEC73BC009F5BF3 /* TimeScoutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutUI;
 		};
 		D25B58532DCCB42900976E21 /* TimeScoutCore */ = {
 			isa = XCSwiftPackageProductDependency;
