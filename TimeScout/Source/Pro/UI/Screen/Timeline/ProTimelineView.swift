@@ -206,7 +206,7 @@ private extension ProTimelineView {
         do {
             try managedObjectContext.save()
         } catch {
-            _ = print("Error - Core Data 💾 - delete pro activity")
+            print("Error - Core Data 💾 - delete pro activity")
         }
     }
 }

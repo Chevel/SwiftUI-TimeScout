@@ -82,7 +82,7 @@ private extension ListView {
                 appStateManager.selectedCategory = items.first
             }
         } catch {
-            _ = print("Error - Core Data 💾 - delete time activity")
+            print("Error - Core Data 💾 - delete time activity")
         }
     }
 }

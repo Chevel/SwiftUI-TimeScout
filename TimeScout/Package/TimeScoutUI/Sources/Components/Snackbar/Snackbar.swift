@@ -120,21 +120,6 @@ public extension View {
     }
 }
 
-public extension View {
-
-//    func onGlobalFrameChange(_ onChange: @escaping (CGRect) -> Void) -> some View {
-//        background(GeometryReader { geometry in
-//            Color.clear.preference(key: FramePreferenceKey.self, value: geometry.frame(in: .global))
-//        })
-//        .onPreferenceChange(FramePreferenceKey.self, perform: onChange)
-//    }
-
-    func print(_ varargs: Any...) -> Self {
-        Swift.print(varargs)
-        return self
-    }
-}
-
 public struct FramePreferenceKey: PreferenceKey {
 
     public static let defaultValue = CGRect.zero
