@@ -18,35 +18,7 @@ struct SearchField: View {
         VStack {
             HStack {
                 withAnimation(.easeIn(duration: 0.25)) {
-                    TextField("", text: $searchText)
-                        .placeholder(when: searchText.isEmpty) {
-                            Text("search_filter_query_placeholder".translated())
-                                .foregroundColor(Color.Pallete.primary.opacity(0.5))
-                                .padding(.horizontal, 8)
-                        }
-                        .tint(Color.Pallete.primary)
-                        .padding(7)
-                        .padding(.horizontal, 25)
-                        .background(Color.white)
-                        .cornerRadius(8)
-                        .overlay(
-                            HStack {
-                                Image.SFSymbols.magnifyGlass
-                                    .scaledToFit()
-                                    .foregroundColor(Color.Pallete.primary)
-                                    .font(.system(size: 20, weight: .bold))
-                                    .padding(.leading, 4)
-                                    .frame(width: 30, height: 30)
-                                Spacer()
-                            }
-                        )
-                        .padding(.horizontal, 10)
-                        .onTapGesture(perform: {
-                            self.isEditing = true
-                        })
-                        .onChange(of: searchText) { _, newValue in
-                            textFieldDidChange?(searchText)
-                        }
+                    textFieldWrapperView
                 }
 
                 if isEditing {
@@ -65,6 +37,54 @@ struct SearchField: View {
                     }
                 }
             }
+        }
+    }
+}
+
+private extension SearchField {
+
+    var textField: some View {
+        TextField("", text: $searchText)
+            .placeholder(when: searchText.isEmpty) {
+                Text("search_filter_query_placeholder".translated())
+                    .foregroundColor(Color.Pallete.primary.opacity(0.5))
+                    .padding(.horizontal, 8)
+            }
+            .tint(Color.Pallete.primary)
+            .padding(7)
+            .padding(.horizontal, 25)
+            .background(Color.white)
+            .cornerRadius(8)
+            .overlay(
+                HStack {
+                    Image.SFSymbols.magnifyGlass
+                        .scaledToFit()
+                        .foregroundColor(Color.Pallete.primary)
+                        .font(.system(size: 20, weight: .bold))
+                        .padding(.leading, 4)
+                        .frame(width: 30, height: 30)
+                    Spacer()
+                }
+            )
+            .padding(.horizontal, 10)
+            .onTapGesture(perform: {
+                self.isEditing = true
+            })
+    }
+
+    @ViewBuilder
+    var textFieldWrapperView: some View {
+        if #available(iOS 17.0, *) {
+            textField
+                .onChange(of: searchText) { _, newValue in
+                    textFieldDidChange?(searchText)
+                }
+        } else {
+            // Fallback on earlier versions
+            textField
+                .onChange(of: searchText) { _ in
+                    textFieldDidChange?(searchText)
+                }
         }
     }
 }

@@ -31,7 +31,7 @@ struct TimeScoutApp: App {
             mainView
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
-        .onChange(of: scenePhase) { _, _ in
+        .onChange(of: scenePhase) { _ in
             let context = persistenceController.container.viewContext
             
             if context.hasChanges {
@@ -42,11 +42,8 @@ struct TimeScoutApp: App {
                 }
             }
         }
-        .onChange(of: scenePhase) { _ in
-            persistenceController.save()
-        }
     }
-    
+
     @ViewBuilder
     private var mainView: some View {
         switch AppSettings.target {
