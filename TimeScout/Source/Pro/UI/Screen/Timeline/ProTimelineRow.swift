@@ -155,8 +155,8 @@ struct ProTimelineRow: View {
 
 private extension ProTimelineRow {
 
-    static let swipeActionWidth: CGFloat = 60
-    static let swipeActionThreshold: CGFloat = 120
+    nonisolated static let swipeActionWidth: CGFloat = 60
+    nonisolated static let swipeActionThreshold: CGFloat = 120
     
     private var durationAsTime: String {
         let h = Time(seconds: activityDurationSeconds).displayHours

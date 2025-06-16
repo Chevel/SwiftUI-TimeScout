@@ -11,6 +11,7 @@ import Foundation
 import TimeScoutCore
 import TimeScoutData
 
+@MainActor
 class AppStateManager: NSObject, ObservableObject {
     
     // MARK: - Onboarding
@@ -27,12 +28,9 @@ class AppStateManager: NSObject, ObservableObject {
 
     @Published var isSnackbarPresented = false
     {
-        didSet {            
-            guard isSnackbarPresented else { return }
-
-            DispatchQueue.main.asyncAfter(deadline: .now().advanced(by: .seconds(2))) { [weak self] in
-                guard self?.isSnackbarPresented == true else { return }
-                self?.isSnackbarPresented = false
+        didSet {
+            Task {
+                await handleSnackbarToggle()
             }
         }
     }
@@ -72,4 +70,12 @@ class AppStateManager: NSObject, ObservableObject {
         }
     }
     
+    // MARK: - Helper
+    
+    private func handleSnackbarToggle() async {
+        if isSnackbarPresented {
+            try? await Task.sleep(nanoseconds: 2 * 1_000_000_000)
+            isSnackbarPresented = false
+        }
+    }
 }

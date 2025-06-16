@@ -82,7 +82,7 @@ private extension ListView {
                 appStateManager.selectedCategory = items.first
             }
         } catch {
-            print("Error - Core Data 💾 - delete time activity")
+            _ = print("Error - Core Data 💾 - delete time activity")
         }
     }
 }
@@ -204,7 +204,7 @@ private extension ListView {
                 .listRowBackground(Color.Pallete.primary)
                 .listRowInsets(.init(top: 0, leading: 8, bottom: 0, trailing: 16))
             }
-            .onChange(of: scrollTarget) { target in
+            .onChange(of: scrollTarget) { _, target in
                 if let target = target {
                     scrollTarget = nil
                     withAnimation {

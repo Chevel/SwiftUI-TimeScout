@@ -44,9 +44,9 @@ struct SearchField: View {
                         .onTapGesture(perform: {
                             self.isEditing = true
                         })
-                        .onChange(of: searchText, perform: { newValue in
+                        .onChange(of: searchText) { _, newValue in
                             textFieldDidChange?(searchText)
-                        })
+                        }
                 }
 
                 if isEditing {

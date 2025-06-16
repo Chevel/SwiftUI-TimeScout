@@ -76,6 +76,7 @@ struct AddActivityView: View {
     }
 
     private var confirmButton: some View {
+
         return CTAButton(configuration: .fallbackImage(content: Image.SFSymbols.checkmark)) {
             // entry exists
             if items.contains(where: { $0.name.lowercased() == input.lowercased() }) {
@@ -91,7 +92,7 @@ struct AddActivityView: View {
                 }
                 
                 // persist to disk
-                PersistenceController.shared.save()
+                try? managedObjectContext.save()
                 
                 // close sheet
                 appStateManager.closeAddActivity()

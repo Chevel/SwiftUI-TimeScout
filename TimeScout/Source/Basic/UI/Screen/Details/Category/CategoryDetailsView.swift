@@ -198,7 +198,7 @@ struct CategoryDetailsView: View {
         do {
             try managedObjectContext.save()
         } catch {
-            print("Error - Core Data 💾 - delete time activity")
+            _ = print("Error - Core Data 💾 - delete time activity")
         }
     }
 }

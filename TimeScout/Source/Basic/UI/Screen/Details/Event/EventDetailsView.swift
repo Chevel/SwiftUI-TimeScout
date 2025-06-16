@@ -17,7 +17,6 @@ struct EventDetailsView: View {
     @EnvironmentObject var appStateManager: AppStateManager
 
     @State private var editableDate = Date.now
-    @Environment(\.managedObjectContext) private var managedObjectContext
     @Environment(\.presentationMode) private var presentationMode
 
     // MARK: - View

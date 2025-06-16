@@ -21,7 +21,7 @@ struct TimeScoutApp: App {
     
     // MARK: - Core data
 
-    private let persistenceController = PersistenceController.shared
+    private let persistenceController = PersistenceController()
     @Environment(\.scenePhase) private var scenePhase
 
     // MARK: - View
@@ -29,6 +29,18 @@ struct TimeScoutApp: App {
     var body: some Scene {
         WindowGroup {
             mainView
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        }
+        .onChange(of: scenePhase) { _, _ in
+            let context = persistenceController.container.viewContext
+            
+            if context.hasChanges {
+                do {
+                    try context.save()
+                } catch {
+                    print("Error - Core Data 💾 - save")
+                }
+            }
         }
         .onChange(of: scenePhase) { _ in
             persistenceController.save()
@@ -41,12 +53,10 @@ struct TimeScoutApp: App {
         case .basic:
             BasicContentView()
                 .environmentObject(appStateManager)
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
 
         case .pro:
             ProContentView()
                 .environmentObject(proAppStateManager)
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

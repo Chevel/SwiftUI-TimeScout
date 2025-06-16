@@ -29,7 +29,9 @@ struct ProActivityDetails: View {
     
     @State private var existingNavTitle = ""
     
-    @Environment(\.managedObjectContext) private var managedObjectContext
+    @Environment(\.managedObjectContext)
+    private var managedObjectContext
+
     @Environment(\.dismiss) private var dismiss
 
     // MARK: - View
@@ -61,7 +63,7 @@ struct ProActivityDetails: View {
             editableDate = item.creationDate ?? .now
         }
         .onDisappear {
-            save()
+            update()
         }
     }
     
@@ -134,11 +136,10 @@ struct ProActivityDetails: View {
     
     // MARK: - Core data
     
-    private func save() {
+    private func update() {
         item.creationDate = editableDate
         item.durationSeconds = Double((hours*60*60) + (minutes*60) + seconds)
 
-        
         var existingData = [ProCategory: Bool]()
         // fill with existing selection
         item.categories.forEach {
@@ -162,7 +163,6 @@ struct ProActivityDetails: View {
          
         item.relationship = NSSet(array: dbCategories)
     }
-
 }
 
 // MARK: - Computed
@@ -178,19 +178,18 @@ private extension ProActivityDetails {
         guard let timestamp = item.creationDate else { return "" }
         return DateFormatter.timeOnlyDateFormatter.string(from: timestamp)
     }
-    
 }
 
 // MARK: - Computed
 
-import CoreData.NSManagedObjectContext
+//import CoreData.NSManagedObjectContext
 
-struct ProActivityDetails_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        return ProActivityDetails(item: ProTimeActivity.init(context: NSManagedObjectContext(.mainQueue)))
-            .environmentObject(ProAppStateManager())
-            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
-    }
-}
+//struct ProActivityDetails_Previews: PreviewProvider {
+//    
+//    static var previews: some View {
+//        return ProActivityDetails(item: ProTimeActivity.init(context: NSManagedObjectContext(.mainQueue)))
+//            .environmentObject(ProAppStateManager())
+//            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
+//    }
+//}
 
