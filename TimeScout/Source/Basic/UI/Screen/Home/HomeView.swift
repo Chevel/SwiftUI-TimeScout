@@ -14,8 +14,8 @@ import TimeScoutData
 import UIKit.UIImpactFeedbackGenerator
 
 struct HomeView: View {
-    @Environment(\.managedObjectContext)
-    private var managedObjectContext
+
+    @Environment(\.managedObjectContext) private var managedObjectContext
     
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \TimeCategory.name, ascending: true)],

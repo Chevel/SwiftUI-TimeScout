@@ -142,8 +142,7 @@ private extension ProActivityCard {
 
 private extension ProActivityCard {
    
-    static var defaultTimestamp: String { "00:00:00" }
-    
+    nonisolated static let defaultTimestamp = "00:00:00"
 }
 
 // MARK: - State

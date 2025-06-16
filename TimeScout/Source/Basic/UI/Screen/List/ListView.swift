@@ -165,56 +165,73 @@ private extension ListView {
 
     var listView: some View {
         ScrollViewReader { scrollProxy in
-            List {
-                // sections
-                ForEach(Array(letterSections.enumerated()), id: \.offset) { sectionIndex, letter in
-                    Section(header: sectionHeader(leftText: letter)) {
-                        // rows
-                        ForEach(Array(rows(for: letter).enumerated()), id: \.offset) { rowIndex, rowItem in
-                            listRow(for: rowItem, with: configuration)
-                                .swipeActions() {
-                                    if !isLocked(for: rowIndex, in: sectionIndex) {
-                                        Button {
-                                            withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeed.medium.rawValue)) {
-                                                delete(rowItem: rowItem)
-                                            }
-                                        } label: {
-                                            Label("", systemImage: "trash")
-                                        }
-                                        .tint(.red)
-                                    }
-                                }
-                                .disabled(isLocked(for: rowIndex, in: sectionIndex))
-                                .overlay {
-                                    if isLocked(for: rowIndex, in: sectionIndex) {
-                                        Color.black
-                                            .opacity(0.5)
-                                            .overlay {
-                                                Image.SFSymbols.Button.lock
-                                                    .resizable()
-                                                    .scaledToFit()
-                                                    .foregroundStyle(Color.Pallete.secondary)
-                                                    .frame(width: 30, height: 30)
-                                            }
-                                    }
-                                }
+            if #available(iOS 17.0, *) {
+                list
+                    .onChange(of: scrollTarget) { _, target in
+                        if let target = target {
+                            scrollTarget = nil
+                            withAnimation {
+                                scrollProxy.scrollTo(target, anchor: .topLeading)
+                            }
                         }
                     }
-                }
-                .listRowBackground(Color.Pallete.primary)
-                .listRowInsets(.init(top: 0, leading: 8, bottom: 0, trailing: 16))
-            }
-            .onChange(of: scrollTarget) { target in
-                if let target = target {
-                    scrollTarget = nil
-                    withAnimation {
-                        scrollProxy.scrollTo(target, anchor: .topLeading)
+            } else {
+                // Fallback on earlier versions
+                list
+                    .onChange(of: scrollTarget) { target in
+                        if let target = target {
+                            scrollTarget = nil
+                            withAnimation {
+                                scrollProxy.scrollTo(target, anchor: .topLeading)
+                            }
+                        }
                     }
-                }
             }
         }
         .background(Color.Pallete.primary)
         .edgesIgnoringSafeArea(.all)
+    }
+    
+    private var list: some View {
+        List {
+            // sections
+            ForEach(Array(letterSections.enumerated()), id: \.offset) { sectionIndex, letter in
+                Section(header: sectionHeader(leftText: letter)) {
+                    // rows
+                    ForEach(Array(rows(for: letter).enumerated()), id: \.offset) { rowIndex, rowItem in
+                        listRow(for: rowItem, with: configuration)
+                            .swipeActions() {
+                                if !isLocked(for: rowIndex, in: sectionIndex) {
+                                    Button {
+                                        withAnimation(.easeIn(duration: AppSettings.Constants.AnimationSpeed.medium.rawValue)) {
+                                            delete(rowItem: rowItem)
+                                        }
+                                    } label: {
+                                        Label("", systemImage: "trash")
+                                    }
+                                    .tint(.red)
+                                }
+                            }
+                            .disabled(isLocked(for: rowIndex, in: sectionIndex))
+                            .overlay {
+                                if isLocked(for: rowIndex, in: sectionIndex) {
+                                    Color.black
+                                        .opacity(0.5)
+                                        .overlay {
+                                            Image.SFSymbols.Button.lock
+                                                .resizable()
+                                                .scaledToFit()
+                                                .foregroundStyle(Color.Pallete.secondary)
+                                                .frame(width: 30, height: 30)
+                                        }
+                                }
+                            }
+                    }
+                }
+            }
+            .listRowBackground(Color.Pallete.primary)
+            .listRowInsets(.init(top: 0, leading: 8, bottom: 0, trailing: 16))
+        }
     }
     
     func sectionHeader(leftText: String) -> some View {

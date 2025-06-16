@@ -209,16 +209,15 @@ private extension ProTimelineView {
             print("Error - Core Data 💾 - delete pro activity")
         }
     }
-    
 }
 
 // MARK: - Preview
 
-struct ProTimelineView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProTimelineView()
-            .environmentObject(ProAppStateManager())
-            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
-
-    }
-}
+//struct ProTimelineView_Previews: PreviewProvider {
+//
+//    static var previews: some View {
+//        ProTimelineView()
+//            .environmentObject(ProAppStateManager())
+//            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
+//    }
+//}
