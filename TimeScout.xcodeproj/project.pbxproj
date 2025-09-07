@@ -357,8 +357,6 @@
 		D2C43F372A010403005CC925 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
 		D2C43F3A2A010403005CC925 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D2C43F4B2A010DBB005CC925 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
-		D2DD976D2E6E066800428932 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D2DD976C2E6E066800428932 /* Kingfisher */; };
-		D2DD976F2E6E07F100428932 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D2DD976E2E6E07F100428932 /* Kingfisher */; };
 		D2EEB3652A154A9A003126FC /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB3642A154A9A003126FC /* View+CornerRadius.swift */; };
 		D2EEB3662A154A9A003126FC /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB3642A154A9A003126FC /* View+CornerRadius.swift */; };
 		D2F43FCC2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC82DA9D05F00F9ABD9 /* TimeScout-Info.plist */; };
@@ -484,7 +482,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DD976F2E6E07F100428932 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +503,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DD976D2E6E066800428932 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1107,7 +1103,6 @@
 			);
 			name = "TimeScout-DEV";
 			packageProductDependencies = (
-				D2DD976E2E6E07F100428932 /* Kingfisher */,
 			);
 			productName = TimeScout;
 			productReference = D21C751A2D0B97760004E957 /* TimeScout-DEV.app */;
@@ -1165,7 +1160,6 @@
 			);
 			name = TimeScout;
 			packageProductDependencies = (
-				D2DD976C2E6E066800428932 /* Kingfisher */,
 			);
 			productName = TimeScout;
 			productReference = D2C43F2A2A010402005CC925 /* TimeScout.app */;
@@ -1212,7 +1206,6 @@
 			);
 			mainGroup = D2C43F212A010402005CC925;
 			packageReferences = (
-				D2DD976B2E6E066800428932 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = D2C43F2B2A010402005CC925 /* Products */;
 			projectDirPath = "";
@@ -2166,30 +2159,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D2DD976B2E6E066800428932 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.5.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D2DD976C2E6E066800428932 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D2DD976B2E6E066800428932 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		D2DD976E2E6E07F100428932 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D2DD976B2E6E066800428932 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */ = {
