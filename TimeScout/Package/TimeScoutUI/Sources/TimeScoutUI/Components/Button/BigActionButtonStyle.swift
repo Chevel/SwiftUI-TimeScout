@@ -8,11 +8,14 @@
 
 import SwiftUI
 
-struct BigActionButtonStyle: ButtonStyle {
+public struct BigActionButtonStyle: ButtonStyle {
     
-    let color: Color
+    private let color: Color
+    public init(color: Color) {
+        self.color = color
+    }
     
-    func makeBody(configuration: Self.Configuration) -> some View {
+    public func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .frame(width: 240, height: 50)
             .font(Font.Pallete.Button.medium)

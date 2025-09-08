@@ -8,11 +8,13 @@
 
 import SwiftUI
 
-struct AddButton: View {
+public struct AddButton: View {
     
     static let size = CGSize(width: 60, height: 60)
     
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         Circle()
             .frame(width: Self.size.width, height: Self.size.height)
             .foregroundColor(Color.Pallete.secondary)

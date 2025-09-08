@@ -8,11 +8,13 @@
 
 import SwiftUI
 
-struct CloseButtonView: View {
+public struct CloseButtonView: View {
     
     static let size = CGSize(width: 30, height: 30)
     
-    var body: some View {
+    public init() {}
+    
+    public var body: some View {
         Image.SFSymbols.close
             .foregroundColor(.white)
             .frame(width: Self.size.width, height: Self.size.height)
