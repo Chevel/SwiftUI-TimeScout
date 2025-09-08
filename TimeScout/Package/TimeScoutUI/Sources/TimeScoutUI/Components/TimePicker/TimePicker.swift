@@ -8,19 +8,27 @@
 
 import SwiftUI
 
-struct TimePicker: View {
-    @Binding var hourSelection: Int
-    @Binding var minuteSelection: Int
-    @Binding var secondsSelection: Int
+public struct TimePicker: View {
+
+    @Binding private var hourSelection: Int
+    @Binding private var minuteSelection: Int
+    @Binding private var secondsSelection: Int
     
     static private let maxHours = 23
     static private let maxMinutes = 59
     static private let maxSeconds = 59
+
     private let hours = [Int](0...Self.maxHours)
     private let minutes = [Int](0...Self.maxMinutes)
     private let seconds = [Int](0...Self.maxSeconds)
     
-    var body: some View {
+    public init(hourSelection: Binding<Int>, minuteSelection: Binding<Int>, secondsSelection: Binding<Int>) {
+        _hourSelection = hourSelection
+        _minuteSelection = minuteSelection
+        _secondsSelection = secondsSelection
+    }
+    
+    public var body: some View {
         GeometryReader { geometry in
             HStack(spacing: .zero) {
                 Picker(selection: $hourSelection, label: Text("")) {
@@ -64,11 +72,11 @@ struct TimePicker: View {
 
 // MARK: - Preview
 
-struct TimePicker_Previews: PreviewProvider {
-    static var previews: some View {
-        TimePicker(hourSelection: .constant(3),
-                   minuteSelection: .constant(1),
-                   secondsSelection: .constant(3)
-        )
-    }
-}
+//struct TimePicker_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TimePicker(hourSelection: .constant(3),
+//                   minuteSelection: .constant(1),
+//                   secondsSelection: .constant(3)
+//        )
+//    }
+//}
