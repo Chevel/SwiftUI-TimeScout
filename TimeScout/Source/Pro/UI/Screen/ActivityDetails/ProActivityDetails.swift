@@ -8,6 +8,7 @@
 
 import SwiftUI
 import TimeScoutUI
+import TimeScoutData
 
 struct ProActivityDetails: Presentable {
 
@@ -199,7 +200,7 @@ struct ProActivityDetails_Previews: PreviewProvider {
         return ProActivityDetails(item: ProTimeActivity.init(context: NSManagedObjectContext(.mainQueue)))
             .environmentObject(ProAppStateManager())
             .environmentObject(NavigationBarView.NavigationBarAccessible())
-            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
+            .environment(\.managedObjectContext, PersistenceController().container.viewContext)
 
     }
 }

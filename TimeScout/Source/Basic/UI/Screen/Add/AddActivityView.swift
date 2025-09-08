@@ -8,15 +8,19 @@
 
 import SwiftUI
 import TimeScoutUI
+import TimeScoutData
 
 struct AddActivityView: View {
-    
-    @State private var input = ""
-    @EnvironmentObject var appStateManager: AppStateManager
+
+    @EnvironmentObject private var appStateManager: AppStateManager
     @Environment(\.managedObjectContext) private var managedObjectContext
+
     @FetchRequest(sortDescriptors: [SortDescriptor(\.name)]) private var items: FetchedResults<TimeCategory>
-    @State private var isDuplicateEntrySnackbarShown = false
+    
     @FocusState private var isFocused: Bool
+
+    @State private var isDuplicateEntrySnackbarShown = false
+    @State private var input = ""
     
     // MARK: - View
     
@@ -90,7 +94,7 @@ struct AddActivityView: View {
                 }
                 
                 // persist to disk
-                PersistenceController.shared.save()
+                try? managedObjectContext.save()
                 
                 // close sheet
                 appStateManager.closeAddActivity()

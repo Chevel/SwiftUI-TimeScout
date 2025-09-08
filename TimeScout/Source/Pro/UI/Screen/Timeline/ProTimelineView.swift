@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutData
 
 struct ProTimelineView: Presentable {
     
@@ -219,7 +220,7 @@ struct ProTimelineView_Previews: PreviewProvider {
         ProTimelineView()
             .environmentObject(ProAppStateManager())
             .environmentObject( NavigationBarView.NavigationBarAccessible())
-            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
+            .environment(\.managedObjectContext, PersistenceController().container.viewContext)
 
     }
 }
