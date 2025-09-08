@@ -6,11 +6,12 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import SwiftUI
+import Foundation
 
 extension Color {
+
     func asUiColor() -> UIColor {
         return UIColor(self)
     }

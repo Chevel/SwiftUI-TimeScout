@@ -9,10 +9,9 @@
 import Foundation
 import SwiftUI
 
-extension View {
+public extension View {
 
     func hideNavigationView() -> some View {
         self.navigationTitle("").navigationBarHidden(true)
     }
-
 }
