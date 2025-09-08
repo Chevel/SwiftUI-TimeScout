@@ -403,6 +403,7 @@
 		D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UIColor.swift"; sourceTree = "<group>"; };
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
 		D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsSectionView.swift; sourceTree = "<group>"; };
+		D2546B052E6E1A5400615687 /* TimeScoutCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutCore; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
 		D25998942D23FF5F00559E93 /* UpsellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsellButton.swift; sourceTree = "<group>"; };
 		D26E08A82A0EA77F0097608D /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
@@ -732,6 +733,14 @@
 			path = NoStyle;
 			sourceTree = "<group>";
 		};
+		D2546B042E6E1A1800615687 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				D2546B052E6E1A5400615687 /* TimeScoutCore */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
 		D255C0D72A09465900713C0A /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -959,6 +968,7 @@
 		D2C43F2C2A010402005CC925 /* TimeScout */ = {
 			isa = PBXGroup;
 			children = (
+				D2546B042E6E1A1800615687 /* Package */,
 				D2F43FCA2DA9D05F00F9ABD9 /* Configuration */,
 				D2C43F492A010699005CC925 /* Resources */,
 				D2C43F402A0105FA005CC925 /* Source */,
