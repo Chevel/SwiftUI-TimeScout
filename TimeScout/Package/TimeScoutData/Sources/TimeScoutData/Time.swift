@@ -12,14 +12,14 @@ import TimeScoutCore
 public struct Time {
 
     /// xx:00:00
-    let displayHours: Int
+    public let displayHours: Int
     /// 00:xx:00
-    let displayMinutes: Int
+    public let displayMinutes: Int
     /// 00:00:xx
-    let displaySeconds: Int
+    public let displaySeconds: Int
 
     /// Full duration in seconds
-    let totalElapsedSeconds: TimeInterval
+    public let totalElapsedSeconds: TimeInterval
 
     // MARK: - Init
 
@@ -30,33 +30,32 @@ public struct Time {
         self.totalElapsedSeconds = seconds
     }
 
-    init(fromDate: Date) {
+    public init(fromDate: Date) {
         self.init(seconds: Date.now.timeIntervalSince(fromDate))
     }
 
     // MARK: - UI
 
     /// HH:MM:SS AM/PM
-    var displayString: String {
+    public var displayString: String {
         return String(format:"%02i:%02i:%02i", displayHours, displayMinutes, displaySeconds)
     }
-
 }
 
-extension Time {
+public extension Time {
     
     // MARK: - UI
-
+    
     static func sumTime(from activities: [ProTimeActivity]) -> Time {
         let numberOfSeconds = activities.compactMap({ $0.durationSeconds }).reduce(0, +)
         return Time(seconds: numberOfSeconds)
     }
-
+    
     static func sumHours(from activities: [ProTimeActivity]) -> Int {
         let numberOfSeconds = activities.compactMap({ $0.durationSeconds }).reduce(0, +)
         return Time(seconds: numberOfSeconds).displayHours
     }
-
+    
     static func todayHours(from activities: [ProTimeActivity]) -> Float {
         let sumOfSeconds = activities
             .filter {
@@ -71,11 +70,11 @@ extension Time {
     static func dailyHours(from activities: [ProTimeActivity]) -> Float {
         hours(for: .day, from: activities)
     }
-
+    
     static func weeklyHours(from activities: [ProTimeActivity]) -> Float {
         hours(for: .weekday, from: activities)
     }
-
+    
     /// Number of hours in comparisson to other categories
     /// Example:
     /// health = 3h
@@ -87,16 +86,19 @@ extension Time {
     static func score(categoryActivities: [ProTimeActivity], allActivities: [ProTimeActivity]) -> Float {
         let categorySeconds = Time(seconds: categoryActivities.compactMap({ $0.durationSeconds }).reduce(0, +)).totalElapsedSeconds
         let allSeconds = Time(seconds: allActivities.compactMap({ $0.durationSeconds }).reduce(0, +)).totalElapsedSeconds
-
+        
         guard allSeconds != 0 else {
             return 0
         }
         return Float(categorySeconds/allSeconds) * 100
     }
+}
+   
+private extension Time {
 
     // MARK: - Helper
 
-    private static func hours(for component: Calendar.Component, from activities: [ProTimeActivity]) -> Float {
+    static func hours(for component: Calendar.Component, from activities: [ProTimeActivity]) -> Float {
         let sortedDates = activities.sorted(by: {
             if let lhs = $0.creationDate, let rhs = $1.creationDate {
                 return lhs < rhs
@@ -120,7 +122,4 @@ extension Time {
         }
         return Float(numberOfSeconds / numberOfUnits / 3600)
     }
-
 }
-
-

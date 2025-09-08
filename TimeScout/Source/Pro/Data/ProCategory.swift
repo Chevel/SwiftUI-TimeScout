@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-enum ProCategory: Int, CaseIterable {
+public enum ProCategory: Int, CaseIterable {
 
     case health
     case emotion
@@ -32,7 +32,7 @@ enum ProCategory: Int, CaseIterable {
 
 extension ProCategory: Identifiable {
     
-    var id: Self { self }
+    public var id: Self { self }
 }
 
 extension ProCategory {

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TimeScoutData
 
 extension ProTimeActivity {
     
@@ -18,5 +19,4 @@ extension ProTimeActivity {
                 return ProCategory(rawValue: Int(type))
             }) ?? []
     }
-    
 }

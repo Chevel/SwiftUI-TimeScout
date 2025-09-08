@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutData
 
 @main
 struct TimeScoutApp: App {
@@ -19,7 +20,7 @@ struct TimeScoutApp: App {
     
     // MARK: - Core data
 
-    private let persistenceController = PersistenceController.shared
+    private let persistenceController = PersistenceController()
     @Environment(\.scenePhase) private var scenePhase
 
     // MARK: - View
@@ -27,9 +28,18 @@ struct TimeScoutApp: App {
     var body: some Scene {
         WindowGroup {
             mainView
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
         .onChange(of: scenePhase) { _ in
-            persistenceController.save()
+            let context = persistenceController.container.viewContext
+            
+            if context.hasChanges {
+                do {
+                    try context.save()
+                } catch {
+                    print("Error - Core Data 💾 - save")
+                }
+            }
         }
     }
     

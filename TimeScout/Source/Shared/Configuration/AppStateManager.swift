@@ -6,8 +6,9 @@
 //  Copyright © 2022 Matej Kokosinek. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
+import Foundation
+import TimeScoutData
 
 class AppStateManager: NSObject, ObservableObject {
     
@@ -69,5 +70,4 @@ class AppStateManager: NSObject, ObservableObject {
             UserDefaults.standard.synchronize()
         }
     }
-    
 }

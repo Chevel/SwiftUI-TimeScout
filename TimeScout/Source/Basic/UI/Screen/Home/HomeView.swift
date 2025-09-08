@@ -9,6 +9,7 @@
 import SwiftUI
 import CoreData
 import TimeScoutUI
+import TimeScoutData
 import UIKit.UIImpactFeedbackGenerator
 
 struct HomeView: View {

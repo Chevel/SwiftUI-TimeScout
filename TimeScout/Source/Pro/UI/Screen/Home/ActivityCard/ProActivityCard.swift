@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import TimeScoutData
 import UIKit.UIImpactFeedbackGenerator
 
 struct ProActivityCard: View {
