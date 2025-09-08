@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D202AAB02E6F2BD700D513CB /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202AAAF2E6F2BD700D513CB /* NavigationBarView.swift */; };
+		D202AAB12E6F2BD700D513CB /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202AAAF2E6F2BD700D513CB /* NavigationBarView.swift */; };
+		D202AAB22E6F2BD700D513CB /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202AAAF2E6F2BD700D513CB /* NavigationBarView.swift */; };
+		D202AAB32E6F2BD700D513CB /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202AAAF2E6F2BD700D513CB /* NavigationBarView.swift */; };
 		D21C74C42D0B97760004E957 /* ProTimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C42A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift */; };
 		D21C74C62D0B97760004E957 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D21C74C72D0B97760004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C22A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift */; };
@@ -49,14 +53,12 @@
 		D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
 		D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
-		D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D21C74FE2D0B97760004E957 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D21C74FF2D0B97760004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75002D0B97760004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2467E7D2A096347002B5572 /* ClearNavigationLinkStyle.swift */; };
 		D21C75042D0B97760004E957 /* TimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283ECF32A0596C600C2718E /* TimeCategory+CoreDataProperties.swift */; };
-		D21C75082D0B97760004E957 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
 		D21C750B2D0B97760004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */; };
 		D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
@@ -72,7 +74,6 @@
 		D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
-		D21C752A2D0B97A20004E957 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D21C752B2D0B97A20004E957 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB951A2A01423000A7A0CE /* MainButtonStyle.swift */; };
 		D21C752C2D0B97A20004E957 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
 		D21C752D2D0B97A20004E957 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
@@ -104,7 +105,6 @@
 		D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
-		D21C75542D0B97A20004E957 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D21C75552D0B97A20004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D32A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift */; };
 		D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */; };
 		D21C75572D0B97A20004E957 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
@@ -159,7 +159,6 @@
 		D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
 		D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
-		D235436C2A0E131C002DEF73 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF702A01507F00D7B4BE /* SearchField.swift */; };
 		D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
@@ -176,8 +175,6 @@
 		D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D235439E2A0E1880002DEF73 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543992A0E1880002DEF73 /* TabBarShape.swift */; };
 		D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
-		D23543AE2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
-		D23543AF2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */; };
 		D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D23543B32A0E1EC1002DEF73 /* ProAppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */; };
 		D23543BB2A0E23F2002DEF73 /* ProHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */; };
@@ -231,7 +228,6 @@
 		D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
-		D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FA2A011DE400A7A0CE /* ShareView.swift */; };
 		D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
@@ -296,6 +292,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D202AAAF2E6F2BD700D513CB /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		D21C751A2D0B97760004E957 /* TimeScout-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeScout-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeScoutPro-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeActivity+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -312,7 +309,6 @@
 		D23543982A0E1880002DEF73 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		D23543992A0E1880002DEF73 /* TabBarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 		D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryDetails.swift; sourceTree = "<group>"; };
-		D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineView.swift; sourceTree = "<group>"; };
 		D23543B22A0E1EC0002DEF73 /* ProAppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAppStateManager.swift; sourceTree = "<group>"; };
 		D23543BA2A0E23F2002DEF73 /* ProHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProHomeView.swift; sourceTree = "<group>"; };
@@ -342,7 +338,6 @@
 		D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonStyle.swift; sourceTree = "<group>"; };
 		D2AB94E32A01146F00A7A0CE /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
 		D2AB94F62A011CB400A7A0CE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
-		D2AB94FA2A011DE400A7A0CE /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
 		D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarStyle.swift; sourceTree = "<group>"; };
 		D2AB95082A0131A700A7A0CE /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
@@ -556,7 +551,6 @@
 		D23543A82A0E1AEB002DEF73 /* UI-elements */ = {
 			isa = PBXGroup;
 			children = (
-				D23543AC2A0E1B92002DEF73 /* ShareSheetView */,
 				D23543AB2A0E1B81002DEF73 /* Separator */,
 				D23543AA2A0E1B79002DEF73 /* NavigationBar */,
 				D2467E7C2A09633B002B5572 /* NoStyle */,
@@ -580,7 +574,7 @@
 			isa = PBXGroup;
 			children = (
 				D29C69582A13FCEF00358EDD /* Presentable.swift */,
-				D23543AD2A0E1BA9002DEF73 /* NavigationBarView.swift */,
+				D202AAAF2E6F2BD700D513CB /* NavigationBarView.swift */,
 			);
 			path = NavigationBar;
 			sourceTree = "<group>";
@@ -591,14 +585,6 @@
 				D21EDD492A0300E700E4C54F /* HorizontalSeparator.swift */,
 			);
 			path = Separator;
-			sourceTree = "<group>";
-		};
-		D23543AC2A0E1B92002DEF73 /* ShareSheetView */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB94FA2A011DE400A7A0CE /* ShareView.swift */,
-			);
-			path = ShareSheetView;
 			sourceTree = "<group>";
 		};
 		D23543B42A0E1F33002DEF73 /* Components */ = {
@@ -1151,6 +1137,7 @@
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
+				D202AAB02E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
 				D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
 				D21C74DB2D0B97760004E957 /* Time.swift in Sources */,
@@ -1182,7 +1169,6 @@
 				D21C74F72D0B97760004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C74F82D0B97760004E957 /* CategoryDetailsSectionView.swift in Sources */,
 				D21C74F92D0B97760004E957 /* ProTimelineRow.swift in Sources */,
-				D21C74FC2D0B97760004E957 /* ShareView.swift in Sources */,
 				D21C74FD2D0B97760004E957 /* SearchField.swift in Sources */,
 				D21C74FE2D0B97760004E957 /* AppSettings.swift in Sources */,
 				D2C12AC92D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
@@ -1191,7 +1177,6 @@
 				D21C75032D0B97760004E957 /* ClearNavigationLinkStyle.swift in Sources */,
 				D2C12AC12D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D21C75042D0B97760004E957 /* TimeCategory+CoreDataProperties.swift in Sources */,
-				D21C75082D0B97760004E957 /* NavigationBarView.swift in Sources */,
 				D21C750A2D0B97760004E957 /* ProHomeView.swift in Sources */,
 				D21C750B2D0B97760004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D21C750C2D0B97760004E957 /* TabBarView.swift in Sources */,
@@ -1216,7 +1201,6 @@
 				D21C75272D0B97A20004E957 /* AppStateManager.swift in Sources */,
 				D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */,
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
-				D21C752A2D0B97A20004E957 /* NavigationBarView.swift in Sources */,
 				D21C752B2D0B97A20004E957 /* MainButtonStyle.swift in Sources */,
 				D21C752C2D0B97A20004E957 /* Persistence.swift in Sources */,
 				D21C752D2D0B97A20004E957 /* CTAButtonStyle.swift in Sources */,
@@ -1232,6 +1216,7 @@
 				D21C75372D0B97A20004E957 /* Snackbar.swift in Sources */,
 				D21C753A2D0B97A20004E957 /* ProTimeCategory+CoreDataProperties.swift in Sources */,
 				D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */,
+				D202AAB12E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
 				D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */,
 				D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */,
@@ -1250,7 +1235,6 @@
 				D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */,
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
-				D21C75542D0B97A20004E957 /* ShareView.swift in Sources */,
 				D21C75552D0B97A20004E957 /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D21C75562D0B97A20004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D21C75572D0B97A20004E957 /* SearchField.swift in Sources */,
@@ -1287,7 +1271,6 @@
 				D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */,
 				D224AEAA2A0EA19E0024B6D3 /* ProCategory.swift in Sources */,
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
-				D23543AF2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */,
 				D23543532A0E131C002DEF73 /* MainButtonStyle.swift in Sources */,
 				D23543542A0E131C002DEF73 /* Persistence.swift in Sources */,
 				D23543552A0E131C002DEF73 /* CTAButtonStyle.swift in Sources */,
@@ -1303,6 +1286,7 @@
 				D235435D2A0E131C002DEF73 /* Snackbar.swift in Sources */,
 				D26E08CC2A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift in Sources */,
 				D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */,
+				D202AAB22E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
 				D224AEAD2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
 				D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08B32A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
@@ -1321,7 +1305,6 @@
 				D26E08CA2A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */,
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
-				D235436C2A0E131C002DEF73 /* ShareView.swift in Sources */,
 				D26E08D62A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D26E08D82A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D235436D2A0E131C002DEF73 /* SearchField.swift in Sources */,
@@ -1363,6 +1346,7 @@
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
+				D202AAB32E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
 				D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
 				D26E08A92A0EA77F0097608D /* Time.swift in Sources */,
@@ -1394,7 +1378,6 @@
 				D224AE9F2A0E99290024B6D3 /* ProCategoryDetails.swift in Sources */,
 				D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */,
 				D237B5842A128B160032BA02 /* ProTimelineRow.swift in Sources */,
-				D2AB94FB2A011DE400A7A0CE /* ShareView.swift in Sources */,
 				D2F6EF712A01507F00D7B4BE /* SearchField.swift in Sources */,
 				D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */,
 				D2C12AC82D2351960093FB3F /* Onboarding.Dots.swift in Sources */,
@@ -1403,7 +1386,6 @@
 				D2467E7E2A096347002B5572 /* ClearNavigationLinkStyle.swift in Sources */,
 				D2C12AC02D2351710093FB3F /* OnboardingView_iOS.swift in Sources */,
 				D283ECF52A0596C600C2718E /* TimeCategory+CoreDataProperties.swift in Sources */,
-				D23543AE2A0E1BA9002DEF73 /* NavigationBarView.swift in Sources */,
 				D224AEA02A0E99310024B6D3 /* ProHomeView.swift in Sources */,
 				D26E08D52A10E3150097608D /* ProTimeRunningActivity+CoreDataClass.swift in Sources */,
 				D224AEA12A0E99380024B6D3 /* TabBarView.swift in Sources */,

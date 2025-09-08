@@ -8,11 +8,14 @@
 
 import SwiftUI
 
-struct ShareView: View {
+public struct ShareView: View {
     
-    let linkURL: URL
+    private let linkURL: URL
+    public init(linkURL: URL) {
+        self.linkURL = linkURL
+    }
 
-    var body: some View {
+    public var body: some View {
         ShareLink(item: linkURL) {
             Image.SFSymbols.share
                 .scaledToFit()
@@ -28,7 +31,7 @@ struct ShareView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.blue
-            ShareView(linkURL: AppSettings.Constants.appStoreURL)
+            ShareView(linkURL: URL(string: "https://apps.apple.com/us/app/timescout/id1584949806")!)
         }
     }
 }
