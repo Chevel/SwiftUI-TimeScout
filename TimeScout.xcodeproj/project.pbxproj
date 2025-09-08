@@ -22,7 +22,6 @@
 		D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
 		D21C74D22D0B97760004E957 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D21C74D32D0B97760004E957 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95182A01422600A7A0CE /* MainButton.swift */; };
-		D21C74D42D0B97760004E957 /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 		D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
@@ -140,7 +139,6 @@
 		D21C75582D0B97A20004E957 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543962A0E1880002DEF73 /* Tab.swift */; };
 		D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
 		D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
-		D21C755B2D0B97A20004E957 /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 		D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543952A0E1880002DEF73 /* TabBarButtonView.swift */; };
 		D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */; };
 		D21C755E2D0B97A20004E957 /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94EC2A01167D00A7A0CE /* Image+SFSymbols.swift */; };
@@ -241,6 +239,7 @@
 		D2510FE02A0553D100ECEFAD /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FDF2A0553D100ECEFAD /* Color+UIColor.swift */; };
 		D2510FE22A055E9E00ECEFAD /* CategoryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */; };
 		D2510FE62A05608200ECEFAD /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
+		D2546B072E6F0E3500615687 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B062E6F0E3500615687 /* TimeScoutCore */; };
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D25998952D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
 		D25998962D23FF5F00559E93 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25998942D23FF5F00559E93 /* UpsellButton.swift */; };
@@ -371,8 +370,6 @@
 		D2F6EF7C2A01696200D7B4BE /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
 		D2F6EF7E2A0169BD00D7B4BE /* View+HideNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7D2A0169BD00D7B4BE /* View+HideNavigationView.swift */; };
 		D2F6EF802A01885400D7B4BE /* CharacterSet+Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7F2A01885400D7B4BE /* CharacterSet+Locale.swift */; };
-		D2F9BF532A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
-		D2F9BF542A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -475,7 +472,6 @@
 		D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsView.swift; sourceTree = "<group>"; };
 		D2F6EF7D2A0169BD00D7B4BE /* View+HideNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideNavigationView.swift"; sourceTree = "<group>"; };
 		D2F6EF7F2A01885400D7B4BE /* CharacterSet+Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterSet+Locale.swift"; sourceTree = "<group>"; };
-		D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+NumberOf.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +500,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2546B072E6F0E3500615687 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,7 +816,6 @@
 				D2F6EF7F2A01885400D7B4BE /* CharacterSet+Locale.swift */,
 				D21EDD472A02F3ED00E4C54F /* DateFormatter+ActivityDetails.swift */,
 				D283ECEC2A056CCF00C2718E /* Date+isToday.swift */,
-				D2F9BF522A1120EA00628B4D /* Calendar+NumberOf.swift */,
 				D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */,
 				D2C12A8E2D22C41B0093FB3F /* UIDevice+iPad.swift */,
 				D2C12AAB2D232FA30093FB3F /* UserDefaults+Key.swift */,
@@ -1170,6 +1166,7 @@
 			);
 			name = TimeScout;
 			packageProductDependencies = (
+				D2546B062E6F0E3500615687 /* TimeScoutCore */,
 			);
 			productName = TimeScout;
 			productReference = D2C43F2A2A010402005CC925 /* TimeScout.app */;
@@ -1306,7 +1303,6 @@
 				D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */,
 				D21C74D22D0B97760004E957 /* CTAButtonStyle.swift in Sources */,
 				D21C74D32D0B97760004E957 /* MainButton.swift in Sources */,
-				D21C74D42D0B97760004E957 /* Calendar+NumberOf.swift in Sources */,
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
@@ -1448,7 +1444,6 @@
 				D21C75582D0B97A20004E957 /* Tab.swift in Sources */,
 				D21C75592D0B97A20004E957 /* AppSettings.swift in Sources */,
 				D21C755A2D0B97A20004E957 /* ProMainView.swift in Sources */,
-				D21C755B2D0B97A20004E957 /* Calendar+NumberOf.swift in Sources */,
 				D21C755C2D0B97A20004E957 /* TabBarButtonView.swift in Sources */,
 				D21C755D2D0B97A20004E957 /* TimeScout.xcdatamodeld in Sources */,
 				D21C755E2D0B97A20004E957 /* Image+SFSymbols.swift in Sources */,
@@ -1541,7 +1536,6 @@
 				D235439C2A0E1880002DEF73 /* Tab.swift in Sources */,
 				D235436E2A0E131C002DEF73 /* AppSettings.swift in Sources */,
 				D23543912A0E17EB002DEF73 /* ProMainView.swift in Sources */,
-				D2F9BF542A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */,
 				D235439B2A0E1880002DEF73 /* TabBarButtonView.swift in Sources */,
 				D235436F2A0E131C002DEF73 /* TimeScout.xcdatamodeld in Sources */,
 				D23543702A0E131C002DEF73 /* Image+SFSymbols.swift in Sources */,
@@ -1584,7 +1578,6 @@
 				D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */,
 				D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */,
 				D2AB95192A01422600A7A0CE /* MainButton.swift in Sources */,
-				D2F9BF532A1120EA00628B4D /* Calendar+NumberOf.swift in Sources */,
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
@@ -2169,6 +2162,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2546B062E6F0E3500615687 /* TimeScoutCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeScoutCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D2C43F382A010403005CC925 /* TimeScout.xcdatamodeld */ = {

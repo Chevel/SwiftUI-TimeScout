@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TimeScoutCore
 
 struct Time {
 

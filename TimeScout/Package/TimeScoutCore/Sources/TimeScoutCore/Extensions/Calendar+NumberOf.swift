@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Calendar {
+public extension Calendar {
 
     func numberOf(unit: Component, between start: Date, and end: Date) -> Int {
         let fromDate = startOfDay(for: start)
@@ -17,5 +17,4 @@ extension Calendar {
 
         return numberOfDays.day ?? 0
     }
-
 }
