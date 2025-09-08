@@ -9,7 +9,7 @@
 import Foundation
 import TimeScoutCore
 
-struct Time {
+public struct Time {
 
     /// xx:00:00
     let displayHours: Int
@@ -23,7 +23,7 @@ struct Time {
 
     // MARK: - Init
 
-    init(seconds: TimeInterval) {
+    public init(seconds: TimeInterval) {
         self.displayHours = Int(seconds / 3600.0)
         self.displayMinutes = Int((seconds.truncatingRemainder(dividingBy: 3600)) / 60.0)
         self.displaySeconds = Int((seconds.truncatingRemainder(dividingBy: 3600)).truncatingRemainder(dividingBy: 60.0))

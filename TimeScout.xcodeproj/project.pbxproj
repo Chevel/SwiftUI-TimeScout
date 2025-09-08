@@ -25,7 +25,6 @@
 		D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
 		D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
-		D21C74DB2D0B97760004E957 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
 		D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
 		D21C74DF2D0B97760004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
@@ -84,7 +83,6 @@
 		D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
 		D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C22A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift */; };
 		D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
-		D21C754E2D0B97A20004E957 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
 		D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
 		D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
 		D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */; };
@@ -165,8 +163,6 @@
 		D2546B142E6F151000615687 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B132E6F151000615687 /* TimeScoutUI */; };
 		D2546B162E6F151400615687 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B152E6F151400615687 /* TimeScoutUI */; };
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
-		D26E08A92A0EA77F0097608D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
-		D26E08AA2A0EA77F0097608D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
 		D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D26E08AC2A0EBE6E0097608D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
@@ -282,7 +278,6 @@
 		D2546B052E6E1A5400615687 /* TimeScoutCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutCore; sourceTree = "<group>"; };
 		D2546B0E2E6F14C800615687 /* TimeScoutUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutUI; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
-		D26E08A82A0EA77F0097608D /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		D26E08AE2A0EC0010097608D /* ProAddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAddActivity.swift; sourceTree = "<group>"; };
 		D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryChart.swift; sourceTree = "<group>"; };
 		D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCategoryGrid.swift; sourceTree = "<group>"; };
@@ -297,6 +292,7 @@
 		D294729C2A0427D5008A8602 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D29C69552A13EF5800358EDD /* ProActivityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityDetails.swift; sourceTree = "<group>"; };
 		D29C69582A13FCEF00358EDD /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		D29EBA252E6F34D600824FA0 /* TimeScoutData */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutData; sourceTree = "<group>"; };
 		D2AB94F62A011CB400A7A0CE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		D2AB95082A0131A700A7A0CE /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
@@ -420,7 +416,6 @@
 		D23543892A0E145A002DEF73 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D26E08BA2A0EC4020097608D /* Data */,
 				D23543A82A0E1AEB002DEF73 /* UI-elements */,
 				D2AB94E02A0113FC00A7A0CE /* Extensions */,
 				D2C43F452A010625005CC925 /* Services */,
@@ -560,6 +555,7 @@
 		D2546B042E6E1A1800615687 /* Package */ = {
 			isa = PBXGroup;
 			children = (
+				D29EBA252E6F34D600824FA0 /* TimeScoutData */,
 				D2546B0E2E6F14C800615687 /* TimeScoutUI */,
 				D2546B052E6E1A5400615687 /* TimeScoutCore */,
 			);
@@ -582,14 +578,6 @@
 				D255C0D92A09467900713C0A /* EventDetailsView.swift */,
 			);
 			path = Event;
-			sourceTree = "<group>";
-		};
-		D26E08BA2A0EC4020097608D /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				D26E08A82A0EA77F0097608D /* Time.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 		D294729B2A0427C9008A8602 /* Launch */ = {
@@ -1035,7 +1023,6 @@
 				D202AAB02E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
 				D21C74D82D0B97760004E957 /* ProTimeActivity+Relationship.swift in Sources */,
 				D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */,
-				D21C74DB2D0B97760004E957 /* Time.swift in Sources */,
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */,
@@ -1112,7 +1099,6 @@
 				D21C754A2D0B97A20004E957 /* CategoryDetailsView.swift in Sources */,
 				D21C754B2D0B97A20004E957 /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D21C754C2D0B97A20004E957 /* TimeCategory+CoreDataClass.swift in Sources */,
-				D21C754E2D0B97A20004E957 /* Time.swift in Sources */,
 				D21C754F2D0B97A20004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D21C75502D0B97A20004E957 /* ListRowView.swift in Sources */,
 				D21C75522D0B97A20004E957 /* CategoryDetailsSectionView.swift in Sources */,
@@ -1173,7 +1159,6 @@
 				D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */,
 				D26E08C82A10E0740097608D /* ProTimeActivity+CoreDataProperties.swift in Sources */,
 				D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */,
-				D26E08AA2A0EA77F0097608D /* Time.swift in Sources */,
 				D26E08CA2A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,
 				D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */,
 				D235436A2A0E131C002DEF73 /* CategoryDetailsSectionView.swift in Sources */,
@@ -1217,7 +1202,6 @@
 				D202AAB32E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
 				D237B5872A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
 				D2C43F302A010402005CC925 /* HomeView.swift in Sources */,
-				D26E08A92A0EA77F0097608D /* Time.swift in Sources */,
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21EDD3B2A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift in Sources */,
