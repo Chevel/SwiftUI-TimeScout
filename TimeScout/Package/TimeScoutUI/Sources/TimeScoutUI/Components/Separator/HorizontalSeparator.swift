@@ -8,11 +8,14 @@
 
 import SwiftUI
 
-struct HorizontalSeparator: View {
+public struct HorizontalSeparator: View {
 
-    var customColor: Color = .white
+    private var customColor: Color
+    public init(customColor: Color = .white) {
+        self.customColor = customColor
+    }
     
-    var body: some View {
+    public var body: some View {
         RoundedRectangle(cornerRadius: 0.5)
             .frame(height: 1)
             .foregroundColor(customColor)
