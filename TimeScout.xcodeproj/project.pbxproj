@@ -231,7 +231,6 @@
 		D237B5832A128B160032BA02 /* ProTimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTimelineRow.swift; sourceTree = "<group>"; };
 		D2510FE12A055E9E00ECEFAD /* CategoryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRowView.swift; sourceTree = "<group>"; };
 		D2510FE52A05608200ECEFAD /* CategoryDetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsSectionView.swift; sourceTree = "<group>"; };
-		D2546B052E6E1A5400615687 /* TimeScoutCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutCore; sourceTree = "<group>"; };
 		D2546B0E2E6F14C800615687 /* TimeScoutUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutUI; sourceTree = "<group>"; };
 		D255C0D92A09467900713C0A /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
 		D26E08AE2A0EC0010097608D /* ProAddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAddActivity.swift; sourceTree = "<group>"; };
@@ -510,7 +509,6 @@
 			children = (
 				D29EBA252E6F34D600824FA0 /* TimeScoutData */,
 				D2546B0E2E6F14C800615687 /* TimeScoutUI */,
-				D2546B052E6E1A5400615687 /* TimeScoutCore */,
 			);
 			path = Package;
 			sourceTree = "<group>";
@@ -864,6 +862,7 @@
 			);
 			mainGroup = D2C43F212A010402005CC925;
 			packageReferences = (
+				D281E2432E6F4FCB007D62F2 /* XCRemoteSwiftPackageReference "TimeScoutCore" */,
 			);
 			productRefGroup = D2C43F2B2A010402005CC925 /* Products */;
 			projectDirPath = "";
@@ -1641,6 +1640,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D281E2432E6F4FCB007D62F2 /* XCRemoteSwiftPackageReference "TimeScoutCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Chevel/TimeScoutCore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		D2546B062E6F0E3500615687 /* TimeScoutCore */ = {

@@ -1,0 +1,15 @@
+{
+  "originHash" : "fb3ad8e790523d4a77a60dceb76e74426bce4d35a8aec7d3de765f85d31858db",
+  "pins" : [
+    {
+      "identity" : "timescoutcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Chevel/TimeScoutCore.git",
+      "state" : {
+        "revision" : "cd064306ca5be87e271c8bcc03007b9f1873f8b8",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

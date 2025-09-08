@@ -13,7 +13,7 @@ let package = Package(
             targets: ["TimeScoutData"]),
     ],
     dependencies: [
-        .package(name: "TimeScoutCore", path: "TimeScoutCore")
+        .package(url: "git@github.com:Chevel/TimeScoutCore.git", from: "1.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
