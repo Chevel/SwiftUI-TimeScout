@@ -96,7 +96,7 @@ struct AddActivityView: View {
                 appStateManager.closeAddActivity()
             }
         }
-        .buttonStyle(CTAButtonStyle())
+        .buttonStyle(CTAButton.CTAButtonStyle())
         .padding(.bottom, 16)
     }
 }

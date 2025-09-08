@@ -9,21 +9,32 @@
 import SwiftUI
 import TimeScoutCore
 
-struct SnackbarSuccess: View {
+public struct SnackbarSuccess: View {
 
-    let handler: EmptyClosure
-    var body: some View {
+    private let handler: EmptyClosure
+    
+    public init(handler: @escaping EmptyClosure) {
+        self.handler = handler
+    }
+    
+    public var body: some View {
         CTAButton(configuration: .text(content: "snackbar_event_saved".translated(), font: Font.Pallete.snackbar), buttonPressedAction: handler)
             .buttonStyle(SnackbarStyleInfo())
     }
 
 }
 
-struct SnackbarAlert: View {
+public struct SnackbarAlert: View {
     
-    let title: String
-    let handler: EmptyClosure
-    var body: some View {
+    private let title: String
+    private let handler: EmptyClosure
+    
+    public init(title: String, handler: @escaping EmptyClosure) {
+        self.title = title
+        self.handler = handler
+    }
+    
+    public var body: some View {
         CTAButton(configuration: .text(content: title, font: Font.Pallete.snackbar), buttonPressedAction: handler)
             .buttonStyle(SnackbarStyleAlert())
     }
@@ -50,7 +61,8 @@ struct SnackbarAlert_Previews: PreviewProvider {
 
 // MARK: -
 
-struct Popup<T: View>: ViewModifier {
+public struct Popup<T: View>: ViewModifier {
+
     let popup: T
     let alignment: Alignment
     let direction: Direction
@@ -63,7 +75,7 @@ struct Popup<T: View>: ViewModifier {
         self.popup = content
     }
 
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         content
             .overlay(popupContent())
     }
@@ -80,10 +92,14 @@ struct Popup<T: View>: ViewModifier {
     }
 }
 
-extension Popup {
+// MARK: - Direction
+
+public extension Popup {
+
     enum Direction {
         case top, bottom
 
+        @MainActor
         func offset(popupFrame: CGRect) -> CGFloat {
             switch self {
             case .top:
@@ -97,7 +113,10 @@ extension Popup {
     }
 }
 
-extension View {
+// MARK: - API
+
+public extension View {
+
     func popup<T: View>(
         isPresented: Binding<Bool>,
         alignment: Alignment = .center,
@@ -108,7 +127,10 @@ extension View {
     }
 }
 
+// MARK: - Helper
+
 private extension View {
+
     func onGlobalFrameChange(_ onChange: @escaping (CGRect) -> Void) -> some View {
         background(GeometryReader { geometry in
             Color.clear.preference(key: FramePreferenceKey.self, value: geometry.frame(in: .global))
@@ -123,6 +145,7 @@ private extension View {
 }
 
 private struct FramePreferenceKey: PreferenceKey {
+
     static let defaultValue = CGRect.zero
     static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
         value = nextValue()

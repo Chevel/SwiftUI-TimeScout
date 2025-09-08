@@ -88,7 +88,7 @@ struct ProAddActivity: View {
             appStateManager.startTimer()
             beginNewActivity(with: selectedCategories)
         }
-        .buttonStyle(CTAButtonStyle())
+        .buttonStyle(CTAButton.CTAButtonStyle())
         .padding(.bottom, 16)
     }
     

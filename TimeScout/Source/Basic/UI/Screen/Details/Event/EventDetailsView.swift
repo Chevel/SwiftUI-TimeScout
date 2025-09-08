@@ -88,7 +88,7 @@ struct EventDetailsView: View {
         return CTAButton(configuration: .fallbackImage(content: Image.SFSymbols.checkmark)) {
             save()
         }
-        .buttonStyle(CTAButtonStyle())
+        .buttonStyle(CTAButton.CTAButtonStyle())
         .padding(.bottom, 16)
     }
     

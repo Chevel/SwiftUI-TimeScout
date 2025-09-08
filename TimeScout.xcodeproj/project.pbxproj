@@ -20,7 +20,6 @@
 		D21C74CD2D0B97760004E957 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D21C74CF2D0B97760004E957 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
 		D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
-		D21C74D22D0B97760004E957 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543902A0E17EB002DEF73 /* ProMainView.swift */; };
 		D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
@@ -28,13 +27,10 @@
 		D21C74DA2D0B97760004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D21C74DB2D0B97760004E957 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08A82A0EA77F0097608D /* Time.swift */; };
 		D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
-		D21C74DE2D0B97760004E957 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D21C74DF2D0B97760004E957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
-		D21C74E12D0B97760004E957 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D21C74E32D0B97760004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08D42A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift */; };
 		D21C74E42D0B97760004E957 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
-		D21C74E52D0B97760004E957 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D21C74E82D0B97760004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C32A10E0740097608D /* ProTimeCategory+CoreDataClass.swift */; };
 		D21C74EC2D0B97760004E957 /* ProCategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B42A0EC15E0097608D /* ProCategoryGrid.swift */; };
@@ -70,21 +66,17 @@
 		D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEA82A0EA19E0024B6D3 /* ProCategory.swift */; };
 		D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543A12A0E19E5002DEF73 /* ProCategoryDetails.swift */; };
 		D21C752C2D0B97A20004E957 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
-		D21C752D2D0B97A20004E957 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D21C752E2D0B97A20004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C12A10E0740097608D /* ProTimeActivity+CoreDataClass.swift */; };
 		D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5832A128B160032BA02 /* ProTimelineRow.swift */; };
 		D21C75322D0B97A20004E957 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
-		D21C75332D0B97A20004E957 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08AE2A0EC0010097608D /* ProAddActivity.swift */; };
 		D21C75362D0B97A20004E957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
-		D21C75372D0B97A20004E957 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D21C753A2D0B97A20004E957 /* ProTimeCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08C42A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift */; };
 		D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543982A0E1880002DEF73 /* TabBarView.swift */; };
 		D21C753D2D0B97A20004E957 /* ProActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224AEAB2A0EA41D0024B6D3 /* ProActivityCard.swift */; };
 		D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E08B12A0EC14D0097608D /* ProCategoryChart.swift */; };
 		D21C753F2D0B97A20004E957 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
-		D21C75402D0B97A20004E957 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23543B02A0E1DD9002DEF73 /* ProTimelineView.swift */; };
 		D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5862A1299840032BA02 /* ProTimeActivity+Relationship.swift */; };
@@ -133,13 +125,9 @@
 		D235434E2A0E131C002DEF73 /* ListSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF792A015AE000D7B4BE /* ListSectionTitle.swift */; };
 		D23543522A0E131C002DEF73 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D23543542A0E131C002DEF73 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F362A010403005CC925 /* Persistence.swift */; };
-		D23543552A0E131C002DEF73 /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
 		D23543592A0E131C002DEF73 /* TimeActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD372A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift */; };
-		D235435A2A0E131C002DEF73 /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
-		D235435D2A0E131C002DEF73 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
 		D235435F2A0E131C002DEF73 /* TimeActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AB0A2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift */; };
-		D23543602A0E131C002DEF73 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
 		D23543662A0E131C002DEF73 /* TimeCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EDD392A02EC4500E4C54F /* TimeCategory+CoreDataClass.swift */; };
 		D23543682A0E131C002DEF73 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF772A01530500D7B4BE /* ListRowView.swift */; };
@@ -208,11 +196,7 @@
 		D29C69572A13EF8B00358EDD /* ProActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69552A13EF5800358EDD /* ProActivityDetails.swift */; };
 		D29C69592A13FCEF00358EDD /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69582A13FCEF00358EDD /* Presentable.swift */; };
 		D29C695A2A13FCEF00358EDD /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C69582A13FCEF00358EDD /* Presentable.swift */; };
-		D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */; };
-		D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94E32A01146F00A7A0CE /* CTAButton.swift */; };
 		D2AB94F72A011CB400A7A0CE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94F62A011CB400A7A0CE /* AppSettings.swift */; };
-		D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */; };
-		D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */; };
 		D2AB95092A0131A700A7A0CE /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB95082A0131A700A7A0CE /* AppStateManager.swift */; };
 		D2AB950B2A01337800A7A0CE /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB950A2A01337800A7A0CE /* AddActivityView.swift */; };
 		D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A942D232E1E0093FB3F /* ProContentView.swift */; };
@@ -313,11 +297,7 @@
 		D294729C2A0427D5008A8602 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D29C69552A13EF5800358EDD /* ProActivityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProActivityDetails.swift; sourceTree = "<group>"; };
 		D29C69582A13FCEF00358EDD /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
-		D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonStyle.swift; sourceTree = "<group>"; };
-		D2AB94E32A01146F00A7A0CE /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
 		D2AB94F62A011CB400A7A0CE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
-		D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
-		D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarStyle.swift; sourceTree = "<group>"; };
 		D2AB95082A0131A700A7A0CE /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		D2AB950A2A01337800A7A0CE /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		D2C12A892D22C2790093FB3F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -527,8 +507,6 @@
 			isa = PBXGroup;
 			children = (
 				D23543AA2A0E1B79002DEF73 /* NavigationBar */,
-				D2AB94FD2A0124BA00A7A0CE /* Snackbar */,
-				D2AB94FC2A0124B100A7A0CE /* CTA */,
 			);
 			path = "UI-elements";
 			sourceTree = "<group>";
@@ -670,24 +648,6 @@
 				D2AB94F62A011CB400A7A0CE /* AppSettings.swift */,
 			);
 			path = System;
-			sourceTree = "<group>";
-		};
-		D2AB94FC2A0124B100A7A0CE /* CTA */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB94DE2A0113EA00A7A0CE /* CTAButtonStyle.swift */,
-				D2AB94E32A01146F00A7A0CE /* CTAButton.swift */,
-			);
-			path = CTA;
-			sourceTree = "<group>";
-		};
-		D2AB94FD2A0124BA00A7A0CE /* Snackbar */ = {
-			isa = PBXGroup;
-			children = (
-				D2AB94FE2A0124C500A7A0CE /* Snackbar.swift */,
-				D2AB95002A01291900A7A0CE /* SnackbarStyle.swift */,
-			);
-			path = Snackbar;
 			sourceTree = "<group>";
 		};
 		D2C12A762D22C0B60093FB3F /* Frameworks */ = {
@@ -1069,7 +1029,6 @@
 				D2C12ABF2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C74CF2D0B97760004E957 /* Persistence.swift in Sources */,
 				D21C74D12D0B97760004E957 /* ProActivityDetails.swift in Sources */,
-				D21C74D22D0B97760004E957 /* CTAButtonStyle.swift in Sources */,
 				D21C74D52D0B97760004E957 /* ProMainView.swift in Sources */,
 				D21C74D62D0B97760004E957 /* ProCategoryChart.swift in Sources */,
 				D21C74D72D0B97760004E957 /* ProActivityCard.swift in Sources */,
@@ -1080,13 +1039,10 @@
 				D2C12A982D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC32D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21C74DC2D0B97760004E957 /* TimeActivity+CoreDataClass.swift in Sources */,
-				D21C74DE2D0B97760004E957 /* SnackbarStyle.swift in Sources */,
 				D21C74DF2D0B97760004E957 /* ListView.swift in Sources */,
 				D21C74E02D0B97760004E957 /* TimeScoutApp.swift in Sources */,
-				D21C74E12D0B97760004E957 /* Snackbar.swift in Sources */,
 				D21C74E32D0B97760004E957 /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D21C74E42D0B97760004E957 /* TimeActivity+CoreDataProperties.swift in Sources */,
-				D21C74E52D0B97760004E957 /* CTAButton.swift in Sources */,
 				D2C12AC72D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D21C74E62D0B97760004E957 /* EventDetailsView.swift in Sources */,
 				D21C74E82D0B97760004E957 /* ProTimeCategory+CoreDataClass.swift in Sources */,
@@ -1135,16 +1091,13 @@
 				D21C75282D0B97A20004E957 /* ProCategory.swift in Sources */,
 				D21C75292D0B97A20004E957 /* ProCategoryDetails.swift in Sources */,
 				D21C752C2D0B97A20004E957 /* Persistence.swift in Sources */,
-				D21C752D2D0B97A20004E957 /* CTAButtonStyle.swift in Sources */,
 				D21C752E2D0B97A20004E957 /* ProTimeActivity+CoreDataClass.swift in Sources */,
 				D21C752F2D0B97A20004E957 /* ProTimelineRow.swift in Sources */,
 				D21C75322D0B97A20004E957 /* TimeActivity+CoreDataClass.swift in Sources */,
-				D21C75332D0B97A20004E957 /* SnackbarStyle.swift in Sources */,
 				D21C75342D0B97A20004E957 /* TimeScoutApp.swift in Sources */,
 				D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D21C75352D0B97A20004E957 /* ProAddActivity.swift in Sources */,
 				D21C75362D0B97A20004E957 /* HomeView.swift in Sources */,
-				D21C75372D0B97A20004E957 /* Snackbar.swift in Sources */,
 				D21C753A2D0B97A20004E957 /* ProTimeCategory+CoreDataProperties.swift in Sources */,
 				D21C753B2D0B97A20004E957 /* TabBarView.swift in Sources */,
 				D202AAB12E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
@@ -1152,7 +1105,6 @@
 				D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D21C753E2D0B97A20004E957 /* ProCategoryChart.swift in Sources */,
 				D21C753F2D0B97A20004E957 /* TimeActivity+CoreDataProperties.swift in Sources */,
-				D21C75402D0B97A20004E957 /* CTAButton.swift in Sources */,
 				D21C75412D0B97A20004E957 /* EventDetailsView.swift in Sources */,
 				D21C75452D0B97A20004E957 /* ProTimelineView.swift in Sources */,
 				D21C75472D0B97A20004E957 /* ProTimeActivity+Relationship.swift in Sources */,
@@ -1200,16 +1152,13 @@
 				D224AEAA2A0EA19E0024B6D3 /* ProCategory.swift in Sources */,
 				D23543A32A0E19E7002DEF73 /* ProCategoryDetails.swift in Sources */,
 				D23543542A0E131C002DEF73 /* Persistence.swift in Sources */,
-				D23543552A0E131C002DEF73 /* CTAButtonStyle.swift in Sources */,
 				D26E08C62A10E0740097608D /* ProTimeActivity+CoreDataClass.swift in Sources */,
 				D237B5852A128B160032BA02 /* ProTimelineRow.swift in Sources */,
 				D23543592A0E131C002DEF73 /* TimeActivity+CoreDataClass.swift in Sources */,
-				D235435A2A0E131C002DEF73 /* SnackbarStyle.swift in Sources */,
 				D235435C2A0E131C002DEF73 /* TimeScoutApp.swift in Sources */,
 				D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D26E08B02A0EC0010097608D /* ProAddActivity.swift in Sources */,
 				D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */,
-				D235435D2A0E131C002DEF73 /* Snackbar.swift in Sources */,
 				D26E08CC2A10E0740097608D /* ProTimeCategory+CoreDataProperties.swift in Sources */,
 				D235439D2A0E1880002DEF73 /* TabBarView.swift in Sources */,
 				D202AAB22E6F2BD700D513CB /* NavigationBarView.swift in Sources */,
@@ -1217,7 +1166,6 @@
 				D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */,
 				D26E08B32A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D235435F2A0E131C002DEF73 /* TimeActivity+CoreDataProperties.swift in Sources */,
-				D23543602A0E131C002DEF73 /* CTAButton.swift in Sources */,
 				D23543612A0E131C002DEF73 /* EventDetailsView.swift in Sources */,
 				D23543B12A0E1DD9002DEF73 /* ProTimelineView.swift in Sources */,
 				D237B5882A1299840032BA02 /* ProTimeActivity+Relationship.swift in Sources */,
@@ -1263,7 +1211,6 @@
 				D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */,
 				D2C43F372A010403005CC925 /* Persistence.swift in Sources */,
 				D29C69562A13EF5800358EDD /* ProActivityDetails.swift in Sources */,
-				D2AB94DF2A0113EA00A7A0CE /* CTAButtonStyle.swift in Sources */,
 				D224AE9E2A0E99230024B6D3 /* ProMainView.swift in Sources */,
 				D26E08B22A0EC14D0097608D /* ProCategoryChart.swift in Sources */,
 				D224AEAC2A0EA41D0024B6D3 /* ProActivityCard.swift in Sources */,
@@ -1274,13 +1221,10 @@
 				D2C12A952D232E1E0093FB3F /* ProContentView.swift in Sources */,
 				D2C12AC22D23517E0093FB3F /* OnboardingView.Page_iOS.swift in Sources */,
 				D21EDD3B2A02EC4500E4C54F /* TimeActivity+CoreDataClass.swift in Sources */,
-				D2AB95012A01291900A7A0CE /* SnackbarStyle.swift in Sources */,
 				D2C43F4B2A010DBB005CC925 /* ListView.swift in Sources */,
 				D2C43F2E2A010402005CC925 /* TimeScoutApp.swift in Sources */,
-				D2AB94FF2A0124C500A7A0CE /* Snackbar.swift in Sources */,
 				D26E08D72A10E3150097608D /* ProTimeRunningActivity+CoreDataProperties.swift in Sources */,
 				D231AB0B2A05977B00465D2A /* TimeActivity+CoreDataProperties.swift in Sources */,
-				D2AB94E42A01146F00A7A0CE /* CTAButton.swift in Sources */,
 				D2C12AC62D2351900093FB3F /* OnboardingView.PageView_iOS.swift in Sources */,
 				D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */,
 				D26E08C92A10E0740097608D /* ProTimeCategory+CoreDataClass.swift in Sources */,

@@ -106,7 +106,7 @@ private extension HomeView {
         return CTAButton(configuration: buttonConfiguration) {
             appStateManager.isItemSelectionShown = true
         }
-        .buttonStyle(CTAButtonStyle())
+        .buttonStyle(CTAButton.CTAButtonStyle())
         .padding(.bottom, 16)
     }
     
