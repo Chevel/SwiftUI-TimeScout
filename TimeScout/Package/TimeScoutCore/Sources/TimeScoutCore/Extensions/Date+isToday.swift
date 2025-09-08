@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     
     var isTodayOnCalendar: Bool {
         let dateToCheck = Calendar.current.dateComponents([.year, .month, .day], from: self)
@@ -25,5 +25,4 @@ extension Date {
         let currentDate = Calendar.current.dateComponents([.year, .month, .day], from: Date())
         return dateToCheck.year == currentDate.year && dateToCheck.month == currentDate.month
     }
-
 }

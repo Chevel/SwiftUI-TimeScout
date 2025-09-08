@@ -8,7 +8,8 @@
 
 import Foundation
 
-extension CharacterSet {
+public extension CharacterSet {
+
     func characters() -> [Character] {
         // A Unicode scalar is any Unicode code point in the range U+0000 to U+D7FF inclusive or U+E000 to U+10FFFF inclusive.
         return codePoints().compactMap { UnicodeScalar($0) }.map { Character($0) }
