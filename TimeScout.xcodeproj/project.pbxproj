@@ -201,6 +201,7 @@
 		D2C4BFFA2E6F39F2003D9819 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4BFF82E6F39F2003D9819 /* ProTimeActivity+Relationship.swift */; };
 		D2C4BFFB2E6F39F2003D9819 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4BFF82E6F39F2003D9819 /* ProTimeActivity+Relationship.swift */; };
 		D2C4BFFC2E6F39F2003D9819 /* ProTimeActivity+Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4BFF82E6F39F2003D9819 /* ProTimeActivity+Relationship.swift */; };
+		D2D9F3612E6FDD2500132C55 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D2D9F3602E6FDD2500132C55 /* TimeScoutCore */; };
 		D2F43FCC2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC82DA9D05F00F9ABD9 /* TimeScout-Info.plist */; };
 		D2F43FCE2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC82DA9D05F00F9ABD9 /* TimeScout-Info.plist */; };
 		D2F43FCF2DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F43FC92DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist */; };
@@ -309,6 +310,7 @@
 				D2546B162E6F151400615687 /* TimeScoutUI in Frameworks */,
 				D2546B072E6F0E3500615687 /* TimeScoutCore in Frameworks */,
 				D2C4BFF72E6F399A003D9819 /* TimeScoutData in Frameworks */,
+				D2D9F3612E6FDD2500132C55 /* TimeScoutCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,6 +818,7 @@
 				D2546B062E6F0E3500615687 /* TimeScoutCore */,
 				D2546B152E6F151400615687 /* TimeScoutUI */,
 				D2C4BFF62E6F399A003D9819 /* TimeScoutData */,
+				D2D9F3602E6FDD2500132C55 /* TimeScoutCore */,
 			);
 			productName = TimeScout;
 			productReference = D2C43F2A2A010402005CC925 /* TimeScout.app */;
@@ -862,7 +865,7 @@
 			);
 			mainGroup = D2C43F212A010402005CC925;
 			packageReferences = (
-				D281E2432E6F4FCB007D62F2 /* XCRemoteSwiftPackageReference "TimeScoutCore" */,
+				D2D9F35F2E6FDD2500132C55 /* XCRemoteSwiftPackageReference "TimeScoutCore" */,
 			);
 			productRefGroup = D2C43F2B2A010402005CC925 /* Products */;
 			projectDirPath = "";
@@ -1642,9 +1645,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D281E2432E6F4FCB007D62F2 /* XCRemoteSwiftPackageReference "TimeScoutCore" */ = {
+		D2D9F35F2E6FDD2500132C55 /* XCRemoteSwiftPackageReference "TimeScoutCore" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Chevel/TimeScoutCore.git";
+			repositoryURL = "git@github.com:Chevel/TimeScoutCore.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
@@ -1700,6 +1703,11 @@
 		D2C4BFF62E6F399A003D9819 /* TimeScoutData */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TimeScoutData;
+		};
+		D2D9F3602E6FDD2500132C55 /* TimeScoutCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2D9F35F2E6FDD2500132C55 /* XCRemoteSwiftPackageReference "TimeScoutCore" */;
+			productName = TimeScoutCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 
