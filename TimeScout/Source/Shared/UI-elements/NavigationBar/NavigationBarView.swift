@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import TimeScoutUI
+import TimeUI
 import TimeScoutCore
 
 struct NavigationBarView: View {

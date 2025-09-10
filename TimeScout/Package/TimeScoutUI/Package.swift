@@ -11,8 +11,11 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "TimeScoutUI",
-            targets: ["TimeScoutUI"]
+            name: "TimeScoutUIProduct1",
+            targets: [
+                "TimeUI",
+                "FancyUI"
+            ]
         ),
     ],
     dependencies: [
@@ -22,14 +25,20 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "TimeScoutUI",
+            name: "TimeUI",
+            dependencies: [
+                "TimeScoutCore"
+            ]
+        ),
+        .target(
+            name: "FancyUI",
             dependencies: [
                 "TimeScoutCore"
             ]
         ),
         .testTarget(
             name: "TimeScoutUITests",
-            dependencies: ["TimeScoutUI"]
+            dependencies: ["TimeUI"]
         ),
     ]
 )

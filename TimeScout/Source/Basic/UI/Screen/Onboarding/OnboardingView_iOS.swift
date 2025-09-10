@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import TimeScoutUI
+import TimeUI
 
 struct OnboardingView: View {
 

@@ -8,7 +8,7 @@
 
 import SwiftUI
 import CoreData
-import TimeScoutUI
+import TimeUI
 import TimeScoutData
 
 struct ListView: View {

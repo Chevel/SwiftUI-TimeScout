@@ -8,7 +8,7 @@
 
 import SwiftUI
 import Foundation
-import TimeScoutUI
+import TimeUI
 import TimeScoutCore
 
 struct CategoryDetailsRowView: View {

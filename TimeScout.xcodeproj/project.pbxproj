@@ -124,11 +124,11 @@
 		D2546B092E6F121600615687 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B082E6F121600615687 /* TimeScoutCore */; };
 		D2546B0B2E6F121900615687 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B0A2E6F121900615687 /* TimeScoutCore */; };
 		D2546B0D2E6F121D00615687 /* TimeScoutCore in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B0C2E6F121D00615687 /* TimeScoutCore */; };
-		D2546B102E6F150700615687 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B0F2E6F150700615687 /* TimeScoutUI */; };
-		D2546B122E6F150C00615687 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B112E6F150C00615687 /* TimeScoutUI */; };
-		D2546B142E6F151000615687 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B132E6F151000615687 /* TimeScoutUI */; };
-		D2546B162E6F151400615687 /* TimeScoutUI in Frameworks */ = {isa = PBXBuildFile; productRef = D2546B152E6F151400615687 /* TimeScoutUI */; };
 		D255C0DA2A09467900713C0A /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255C0D92A09467900713C0A /* EventDetailsView.swift */; };
+		D25D3D942E71CEC900085C4B /* TimeScoutUIProduct1 in Frameworks */ = {isa = PBXBuildFile; productRef = D25D3D932E71CEC900085C4B /* TimeScoutUIProduct1 */; };
+		D25D3D962E71CECE00085C4B /* TimeScoutUIProduct1 in Frameworks */ = {isa = PBXBuildFile; productRef = D25D3D952E71CECE00085C4B /* TimeScoutUIProduct1 */; };
+		D25D3D982E71CED500085C4B /* TimeScoutUIProduct1 in Frameworks */ = {isa = PBXBuildFile; productRef = D25D3D972E71CED500085C4B /* TimeScoutUIProduct1 */; };
+		D25D3D9A2E71CEE000085C4B /* TimeScoutUIProduct1 in Frameworks */ = {isa = PBXBuildFile; productRef = D25D3D992E71CEE000085C4B /* TimeScoutUIProduct1 */; };
 		D26E08AB2A0EBE6B0097608D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D26E08AC2A0EBE6E0097608D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F4A2A010DBB005CC925 /* ListView.swift */; };
 		D26E08AD2A0EBE710097608D /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6EF7B2A01696200D7B4BE /* CategoryDetailsView.swift */; };
@@ -275,9 +275,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2546B142E6F151000615687 /* TimeScoutUI in Frameworks */,
 				D2546B092E6F121600615687 /* TimeScoutCore in Frameworks */,
 				D2C4BFF52E6F3996003D9819 /* TimeScoutData in Frameworks */,
+				D25D3D962E71CECE00085C4B /* TimeScoutUIProduct1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +285,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2546B102E6F150700615687 /* TimeScoutUI in Frameworks */,
 				D2546B0D2E6F121D00615687 /* TimeScoutCore in Frameworks */,
 				D2C4BFF12E6F398E003D9819 /* TimeScoutData in Frameworks */,
+				D25D3D9A2E71CEE000085C4B /* TimeScoutUIProduct1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +295,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2546B122E6F150C00615687 /* TimeScoutUI in Frameworks */,
 				D2546B0B2E6F121900615687 /* TimeScoutCore in Frameworks */,
 				D2C4BFF32E6F3992003D9819 /* TimeScoutData in Frameworks */,
+				D25D3D982E71CED500085C4B /* TimeScoutUIProduct1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +305,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2546B162E6F151400615687 /* TimeScoutUI in Frameworks */,
+				D25D3D942E71CEC900085C4B /* TimeScoutUIProduct1 in Frameworks */,
 				D2546B072E6F0E3500615687 /* TimeScoutCore in Frameworks */,
 				D2C4BFF72E6F399A003D9819 /* TimeScoutData in Frameworks */,
 				D2D9F3612E6FDD2500132C55 /* TimeScoutCore in Frameworks */,
@@ -748,8 +748,8 @@
 			name = "TimeScout-DEV";
 			packageProductDependencies = (
 				D2546B082E6F121600615687 /* TimeScoutCore */,
-				D2546B132E6F151000615687 /* TimeScoutUI */,
 				D2C4BFF42E6F3996003D9819 /* TimeScoutData */,
+				D25D3D952E71CECE00085C4B /* TimeScoutUIProduct1 */,
 			);
 			productName = TimeScout;
 			productReference = D21C751A2D0B97760004E957 /* TimeScout-DEV.app */;
@@ -770,8 +770,8 @@
 			name = "TimeScoutPro-DEV";
 			packageProductDependencies = (
 				D2546B0C2E6F121D00615687 /* TimeScoutCore */,
-				D2546B0F2E6F150700615687 /* TimeScoutUI */,
 				D2C4BFF02E6F398E003D9819 /* TimeScoutData */,
+				D25D3D992E71CEE000085C4B /* TimeScoutUIProduct1 */,
 			);
 			productName = TimeScout;
 			productReference = D21C75772D0B97A20004E957 /* TimeScoutPro-DEV.app */;
@@ -792,8 +792,8 @@
 			name = TimeScoutLIFE;
 			packageProductDependencies = (
 				D2546B0A2E6F121900615687 /* TimeScoutCore */,
-				D2546B112E6F150C00615687 /* TimeScoutUI */,
 				D2C4BFF22E6F3992003D9819 /* TimeScoutData */,
+				D25D3D972E71CED500085C4B /* TimeScoutUIProduct1 */,
 			);
 			productName = TimeScout;
 			productReference = D23543842A0E131C002DEF73 /* TimeScoutLIFE.app */;
@@ -814,9 +814,9 @@
 			name = TimeScout;
 			packageProductDependencies = (
 				D2546B062E6F0E3500615687 /* TimeScoutCore */,
-				D2546B152E6F151400615687 /* TimeScoutUI */,
 				D2C4BFF62E6F399A003D9819 /* TimeScoutData */,
 				D2D9F3602E6FDD2500132C55 /* TimeScoutCore */,
+				D25D3D932E71CEC900085C4B /* TimeScoutUIProduct1 */,
 			);
 			productName = TimeScout;
 			productReference = D2C43F2A2A010402005CC925 /* TimeScout.app */;
@@ -1668,21 +1668,21 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = TimeScoutCore;
 		};
-		D2546B0F2E6F150700615687 /* TimeScoutUI */ = {
+		D25D3D932E71CEC900085C4B /* TimeScoutUIProduct1 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TimeScoutUI;
+			productName = TimeScoutUIProduct1;
 		};
-		D2546B112E6F150C00615687 /* TimeScoutUI */ = {
+		D25D3D952E71CECE00085C4B /* TimeScoutUIProduct1 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TimeScoutUI;
+			productName = TimeScoutUIProduct1;
 		};
-		D2546B132E6F151000615687 /* TimeScoutUI */ = {
+		D25D3D972E71CED500085C4B /* TimeScoutUIProduct1 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TimeScoutUI;
+			productName = TimeScoutUIProduct1;
 		};
-		D2546B152E6F151400615687 /* TimeScoutUI */ = {
+		D25D3D992E71CEE000085C4B /* TimeScoutUIProduct1 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TimeScoutUI;
+			productName = TimeScoutUIProduct1;
 		};
 		D2C4BFF02E6F398E003D9819 /* TimeScoutData */ = {
 			isa = XCSwiftPackageProductDependency;
