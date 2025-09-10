@@ -1,14 +1,8 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-      "shouldTranslate" : false
-    },
-    "%lld" : {
-      "shouldTranslate" : false
-    },
     "activity_card_subtitle_empty" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -116,7 +110,7 @@
     },
     "activity_card_title" : {
       "comment" : "MARK: - Activity card",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -223,7 +217,7 @@
       }
     },
     "add_activity_form_placeholder" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -331,7 +325,7 @@
     },
     "add_activity_form_title" : {
       "comment" : "MARK: - Add activity",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -545,7 +539,7 @@
       }
     },
     "category_brain_power" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -652,7 +646,7 @@
       }
     },
     "category_details_daily" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -759,7 +753,7 @@
       }
     },
     "category_details_focus" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -866,7 +860,7 @@
       }
     },
     "category_details_month" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -974,7 +968,7 @@
     },
     "category_details_today" : {
       "comment" : "MARK: - DetailsMARK: - Category details",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1081,7 +1075,7 @@
       }
     },
     "category_details_total" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1188,7 +1182,7 @@
       }
     },
     "category_details_weekly" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1295,7 +1289,7 @@
       }
     },
     "category_emotion" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1402,7 +1396,7 @@
       }
     },
     "category_family" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1509,7 +1503,7 @@
       }
     },
     "category_friends" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1616,7 +1610,7 @@
       }
     },
     "category_fun" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1724,7 +1718,7 @@
     },
     "category_health" : {
       "comment" : "MARK: - Categories",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1831,7 +1825,7 @@
       }
     },
     "category_money" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1938,7 +1932,7 @@
       }
     },
     "category_spouse" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2045,7 +2039,7 @@
       }
     },
     "category_work" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2152,6 +2146,7 @@
       }
     },
     "chart_pie_center_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2259,7 +2254,7 @@
     },
     "charts_title" : {
       "comment" : "MARK: - Charts",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2367,7 +2362,7 @@
     },
     "event_details_date" : {
       "comment" : "MARK: - Event details",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2475,7 +2470,7 @@
     },
     "general_cancel" : {
       "comment" : "MARK: - Common",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2582,7 +2577,7 @@
       }
     },
     "general_done" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2689,6 +2684,7 @@
       }
     },
     "general_no_data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2795,6 +2791,7 @@
       }
     },
     "onboarding_basic_page_1_message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2901,6 +2898,7 @@
       }
     },
     "onboarding_basic_page_1_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3007,6 +3005,7 @@
       }
     },
     "onboarding_basic_page_2_message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3113,6 +3112,7 @@
       }
     },
     "onboarding_basic_page_2_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3219,6 +3219,7 @@
       }
     },
     "onboarding_basic_page_3_message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3325,6 +3326,7 @@
       }
     },
     "onboarding_basic_page_3_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3431,6 +3433,7 @@
       }
     },
     "onboarding_button_continue" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3537,6 +3540,7 @@
       }
     },
     "onboarding_page_1_message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3643,6 +3647,7 @@
       }
     },
     "onboarding_page_1_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3749,6 +3754,7 @@
       }
     },
     "onboarding_page_2_message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3855,6 +3861,7 @@
       }
     },
     "onboarding_page_2_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3961,6 +3968,7 @@
       }
     },
     "onboarding_page_3_message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4067,6 +4075,7 @@
       }
     },
     "onboarding_page_3_title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4173,7 +4182,7 @@
       }
     },
     "pro_event_details_date" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4280,7 +4289,7 @@
       }
     },
     "pro_event_details_duration" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4388,7 +4397,7 @@
     },
     "search_filter_query_placeholder" : {
       "comment" : "MARK: - List",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4496,7 +4505,7 @@
     },
     "snackbar_error_duplicate" : {
       "comment" : "MARK: - Snackbar",
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {

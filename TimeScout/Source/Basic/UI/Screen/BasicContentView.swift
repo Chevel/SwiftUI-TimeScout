@@ -15,23 +15,23 @@ struct BasicContentView: View {
     private let pages: [OnboardingView.Page] = [
         .info(.init(
             image: Image("onboarding-1", bundle: .timeScoutResources),
-            title: NSLocalizedString("onboarding_basic_page_1_title", comment: ""),
+            title: NSLocalizedString("onboarding_basic_page_1_title", bundle: .timeScoutLanguageResources, comment: ""),
             description: nil,
-            subTitle: NSLocalizedString("onboarding_basic_page_1_message", comment: ""),
+            subTitle: NSLocalizedString("onboarding_basic_page_1_message", bundle: .timeScoutLanguageResources, comment: ""),
             isLast: false
         )),
         .info(.init(
             image: Image("onboarding-2", bundle: .timeScoutResources),
-            title: NSLocalizedString("onboarding_basic_page_2_title", comment: ""),
+            title: NSLocalizedString("onboarding_basic_page_2_title", bundle: .timeScoutLanguageResources, comment: ""),
             description: nil,
-            subTitle: NSLocalizedString("onboarding_basic_page_2_message", comment: ""),
+            subTitle: NSLocalizedString("onboarding_basic_page_2_message", bundle: .timeScoutLanguageResources, comment: ""),
             isLast: false
         )),
         .info(.init(
             image: Image("onboarding-3", bundle: .timeScoutResources),
-            title: NSLocalizedString("onboarding_basic_page_3_title", comment: ""),
+            title: NSLocalizedString("onboarding_basic_page_3_title", bundle: .timeScoutLanguageResources, comment: ""),
             description: nil,
-            subTitle: NSLocalizedString("onboarding_basic_page_3_message", comment: ""),
+            subTitle: NSLocalizedString("onboarding_basic_page_3_message", bundle: .timeScoutLanguageResources, comment: ""),
             isLast: true
         ))
     ]

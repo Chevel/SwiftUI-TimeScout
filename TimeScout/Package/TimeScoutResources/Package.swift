@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "TimeScoutResources",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v16)
     ],
@@ -14,7 +15,8 @@ let package = Package(
             name: "TimeScoutResources",
             targets: [
                 "TimeScoutResources",
-                "TimeScoutProResources"
+                "TimeScoutProResources",
+                "TimeScoutLanguageResources"
             ]
         )
     ],
@@ -26,6 +28,9 @@ let package = Package(
         ),
         .target(
             name: "TimeScoutProResources"
+        ),
+        .target(
+            name: "TimeScoutLanguageResources"
         )
     ]
 )

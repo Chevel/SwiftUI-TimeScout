@@ -67,7 +67,7 @@ private extension OnboardingView {
         }, label: {
             HStack {
                 Spacer()
-                Text("onboarding_button_continue")
+                Text("onboarding_button_continue", bundle: .timeScoutLanguageResources)
                     .font(Font.Pallete.Button.medium)
                     .padding(.all, 16)
                     .foregroundColor(Color.white)

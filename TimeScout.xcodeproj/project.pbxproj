@@ -166,10 +166,6 @@
 		D2C12AA72D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */; };
 		D2C12AA92D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
 		D2C12AAA2D232F070093FB3F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */; };
-		D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
-		D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
-		D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
-		D2C12ABA2D233E290093FB3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AB62D233E290093FB3F /* Localizable.xcstrings */; };
 		D2C12ABC2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
 		D2C12ABD2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
 		D2C12ABE2D23503A0093FB3F /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */; };
@@ -252,7 +248,6 @@
 		D2C12A9F2D232EF80093FB3F /* OnboardingView.Page.Data_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page.Data_iOS.swift; sourceTree = "<group>"; };
 		D2C12AA02D232EF80093FB3F /* OnboardingView.PageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_iOS.swift; sourceTree = "<group>"; };
 		D2C12AA82D232F070093FB3F /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
-		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2C43F2A2A010402005CC925 /* TimeScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeScoutApp.swift; sourceTree = "<group>"; };
@@ -720,7 +715,6 @@
 			isa = PBXGroup;
 			children = (
 				D2C43F312A010403005CC925 /* Assets.xcassets */,
-				D2C12AB62D233E290093FB3F /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -891,7 +885,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21C75132D0B97760004E957 /* Preview Assets.xcassets in Resources */,
-				D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2F43FCC2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */,
 				D2C12ACF2D2358A50093FB3F /* Assets.xcassets in Resources */,
 				D21C75152D0B97760004E957 /* Launch Screen.storyboard in Resources */,
@@ -904,7 +897,6 @@
 			files = (
 				D21C75702D0B97A20004E957 /* Preview Assets.xcassets in Resources */,
 				D2F43FCF2DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */,
-				D2C12ABA2D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2C12ACD2D2358490093FB3F /* Assets.xcassets in Resources */,
 				D21C75722D0B97A20004E957 /* Launch Screen.storyboard in Resources */,
 			);
@@ -916,7 +908,6 @@
 			files = (
 				D235437D2A0E131C002DEF73 /* Preview Assets.xcassets in Resources */,
 				D2F43FD12DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist in Resources */,
-				D2C12AB92D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2C12ACC2D2358490093FB3F /* Assets.xcassets in Resources */,
 				D235437F2A0E131C002DEF73 /* Launch Screen.storyboard in Resources */,
 			);
@@ -927,7 +918,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C43F352A010403005CC925 /* Preview Assets.xcassets in Resources */,
-				D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2F43FCE2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */,
 				D2C12ACE2D2358A50093FB3F /* Assets.xcassets in Resources */,
 				D294729D2A0427D5008A8602 /* Launch Screen.storyboard in Resources */,
