@@ -186,8 +186,6 @@
 		D2C12ACF2D2358A50093FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F312A010403005CC925 /* Assets.xcassets */; };
 		D2C12AD22D2358C00093FB3F /* ProAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */; };
 		D2C12AD32D2358C00093FB3F /* ProAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */; };
-		D2C12AD72D2358EB0093FB3F /* BasicAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AD52D2358EB0093FB3F /* BasicAssets.xcassets */; };
-		D2C12AD92D2358EB0093FB3F /* BasicAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C12AD52D2358EB0093FB3F /* BasicAssets.xcassets */; };
 		D2C43F2E2A010402005CC925 /* TimeScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */; };
 		D2C43F302A010402005CC925 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F2F2A010402005CC925 /* HomeView.swift */; };
 		D2C43F352A010403005CC925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C43F342A010403005CC925 /* Preview Assets.xcassets */; };
@@ -255,7 +253,6 @@
 		D2C12AB62D233E290093FB3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D2C12ABB2D23503A0093FB3F /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProAssets.xcassets; sourceTree = "<group>"; };
-		D2C12AD52D2358EB0093FB3F /* BasicAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BasicAssets.xcassets; sourceTree = "<group>"; };
 		D2C43F2A2A010402005CC925 /* TimeScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C43F2D2A010402005CC925 /* TimeScoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeScoutApp.swift; sourceTree = "<group>"; };
 		D2C43F2F2A010402005CC925 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -264,6 +261,7 @@
 		D2C43F392A010403005CC925 /* TimeScout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeScout.xcdatamodel; sourceTree = "<group>"; };
 		D2C43F4A2A010DBB005CC925 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		D2C4BFF82E6F39F2003D9819 /* ProTimeActivity+Relationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProTimeActivity+Relationship.swift"; sourceTree = "<group>"; };
+		D2D9F3622E71558400132C55 /* TimeScoutResources */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TimeScoutResources; sourceTree = "<group>"; };
 		D2F43FC82DA9D05F00F9ABD9 /* TimeScout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeScout-Info.plist"; sourceTree = "<group>"; };
 		D2F43FC92DA9D05F00F9ABD9 /* TimeScoutPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeScoutPro-Info.plist"; sourceTree = "<group>"; };
 		D2F6EF702A01507F00D7B4BE /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
@@ -511,6 +509,7 @@
 			children = (
 				D29EBA252E6F34D600824FA0 /* TimeScoutData */,
 				D2546B0E2E6F14C800615687 /* TimeScoutUI */,
+				D2D9F3622E71558400132C55 /* TimeScoutResources */,
 			);
 			path = Package;
 			sourceTree = "<group>";
@@ -718,7 +717,6 @@
 				D2C43F312A010403005CC925 /* Assets.xcassets */,
 				D2C12AB62D233E290093FB3F /* Localizable.xcstrings */,
 				D2C12AD02D2358C00093FB3F /* ProAssets.xcassets */,
-				D2C12AD52D2358EB0093FB3F /* BasicAssets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -887,7 +885,6 @@
 				D21C75132D0B97760004E957 /* Preview Assets.xcassets in Resources */,
 				D2C12AB82D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2F43FCC2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */,
-				D2C12AD92D2358EB0093FB3F /* BasicAssets.xcassets in Resources */,
 				D2C12ACF2D2358A50093FB3F /* Assets.xcassets in Resources */,
 				D21C75152D0B97760004E957 /* Launch Screen.storyboard in Resources */,
 			);
@@ -926,7 +923,6 @@
 				D2C43F352A010403005CC925 /* Preview Assets.xcassets in Resources */,
 				D2C12AB72D233E290093FB3F /* Localizable.xcstrings in Resources */,
 				D2F43FCE2DA9D05F00F9ABD9 /* TimeScout-Info.plist in Resources */,
-				D2C12AD72D2358EB0093FB3F /* BasicAssets.xcassets in Resources */,
 				D2C12ACE2D2358A50093FB3F /* Assets.xcassets in Resources */,
 				D294729D2A0427D5008A8602 /* Launch Screen.storyboard in Resources */,
 			);
