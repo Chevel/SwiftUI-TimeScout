@@ -8,6 +8,7 @@
 
 import SwiftUI
 import TimeUI
+import TimeScoutLanguageResources
 
 struct OnboardingView: View {
 

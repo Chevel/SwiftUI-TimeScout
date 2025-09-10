@@ -8,6 +8,7 @@
 
 import SwiftUI
 import TimeScoutCore
+import TimeScoutLanguageResources
 
 public struct SnackbarSuccess: View {
 
