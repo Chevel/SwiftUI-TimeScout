@@ -7,27 +7,28 @@
 //
 
 import SwiftUI
+import TimeScoutProResources
 
 struct ProContentView: View {
 
     @EnvironmentObject private var appStateManager: ProAppStateManager
     private let pages: [OnboardingView.Page] = [
         .info(.init(
-            image: Image("onboarding-1"),
+            image: Image("onboarding-1", bundle: .timeScoutProResources),
             title: NSLocalizedString("onboarding_page_1_title", comment: ""),
             description: nil,
             subTitle: NSLocalizedString("onboarding_page_1_message", comment: ""),
             isLast: false
         )),
         .info(.init(
-            image: Image("onboarding-2"),
+            image: Image("onboarding-2", bundle: .timeScoutProResources),
             title: NSLocalizedString("onboarding_page_2_title", comment: ""),
             description: nil,
             subTitle: NSLocalizedString("onboarding_page_2_message", comment: ""),
             isLast: false
         )),
         .info(.init(
-            image: Image("onboarding-3"),
+            image: Image("onboarding-3", bundle: .timeScoutProResources),
             title: NSLocalizedString("onboarding_page_3_title", comment: ""),
             description: nil,
             subTitle: NSLocalizedString("onboarding_page_3_message", comment: ""),
