@@ -10,6 +10,12 @@ let package = Package(
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
+        .executable(
+            name: "TimeScoutUIExec",
+            targets: [
+                "Executable",
+            ]
+        ),
         .library(
             name: "TimeScoutUIProduct1",
             targets: [
@@ -29,6 +35,9 @@ let package = Package(
             dependencies: [
                 "TimeScoutCore"
             ]
+        ),
+        .executableTarget(
+            name: "Executable"
         ),
         .target(
             name: "FancyUI",
